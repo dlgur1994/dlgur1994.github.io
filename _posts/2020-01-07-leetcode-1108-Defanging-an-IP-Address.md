@@ -18,4 +18,4 @@ class Solution:
 
 Check out the [my GitHub repo][hyuk-gh] for more info on the code. If you have questions, you can leave a reply on this post.
 
-[hyuk-gh]:   http://github.com/dlgur1994/studyalgorithms/leetcode/1108defanginganipaddress.py
+[hyuk-gh]:   https://github.com/dlgur1994/StudyAlgorithms/blob/master/leetcode/1108%20Defanging%20an%20IP%20Address.py
