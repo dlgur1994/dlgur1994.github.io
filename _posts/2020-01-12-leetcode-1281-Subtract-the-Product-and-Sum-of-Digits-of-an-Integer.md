@@ -5,8 +5,11 @@ categories: leetcode solution
 --- 
 1. What's new
     a. def subtractProductAndSum(self, n: int) -> int:
+    
     b. how to use class
+    
     c. how to declare a list 
+    
     d. difference in the runtime
     
 2. Code
