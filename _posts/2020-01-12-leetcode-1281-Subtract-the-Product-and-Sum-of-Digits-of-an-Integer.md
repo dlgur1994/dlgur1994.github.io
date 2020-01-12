@@ -4,7 +4,7 @@ date: 2020-01-12 2:53:28 -0400
 categories: leetcode solution
 ---
 
-​```python
+​```
     
     class Solution:
     def subtractProductAndSum(self, n: int) -> int:
