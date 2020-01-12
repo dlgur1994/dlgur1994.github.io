@@ -5,6 +5,7 @@ categories: leetcode solution
 ---
 
 ​```python
+    
     class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         lenOfNum = len(str(n))
