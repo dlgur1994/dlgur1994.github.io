@@ -2,10 +2,7 @@
 title: "leetcode 1281 Subtract the Product and Sum of Digits of an Integer.py"
 date: 2020-01-12 2:53:28 -0400
 categories: leetcode solution
----
-
-​```
-    
+--- 
     class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         lenOfNum = len(str(n))
@@ -22,7 +19,6 @@ categories: leetcode solution
             i = i+1
 
         return product-sum
-​```
 
 Check out the [my GitHub repo][hyuk-gh] for more info on the code. If you have questions, you can leave a reply on this post.
 
