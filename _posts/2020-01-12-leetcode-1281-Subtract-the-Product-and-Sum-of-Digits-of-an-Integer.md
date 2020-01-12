@@ -5,7 +5,7 @@ categories: leetcode solution
 ---
 
 ​```python
-class Solution:
+    class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         lenOfNum = len(str(n))
         arr = [None] * lenOfNum
