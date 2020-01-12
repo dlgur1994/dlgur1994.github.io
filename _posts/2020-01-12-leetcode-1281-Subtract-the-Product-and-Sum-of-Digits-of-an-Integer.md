@@ -9,6 +9,7 @@ categories: leetcode solution
     c. how to declare a list 
     
 2. Code
+
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         lenOfNum = len(str(n))
