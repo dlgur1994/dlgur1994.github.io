@@ -9,11 +9,10 @@ categories: leetcode solution
     c. how to declare a list 
     
 2. Code
-    class Solution:
+class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         lenOfNum = len(str(n))
         arr = [None] * lenOfNum
-
         i=0
         product = 1
         sum = 0
@@ -23,7 +22,6 @@ categories: leetcode solution
             product *= arr[i]
             sum += arr[i]
             i = i+1
-
         return product-sum
 
 Check out the [my GitHub repo][hyuk-gh] for more info on the code. If you have questions, you can leave a reply on this post.
