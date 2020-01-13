@@ -8,6 +8,7 @@ categories: leetcode solution
     b. how to use class
     c. how to declare a list 
     d. difference in the runtime   
+
 ### 2. Code
 '''
 class Solution:
