@@ -5,8 +5,8 @@ categories: leetcode solution
 ---
 
 ### 1. What's new
-    a. function "replace"
-    b. function "join"
+    a. replace() method
+    b. join() method
 
 ### 2. Code
 ```python
