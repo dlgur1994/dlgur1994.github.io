@@ -9,10 +9,10 @@ categories: leetcode solution
     c. how to declare a list 
     d. difference in the runtime   
 ### 2. Code
-'''python
+​```python
 s = 5
 print s
-'''
+​```
 
 Check out the [my GitHub repo][hyuk-gh] for more info on the code. If you have questions, you can leave a reply on this post.  
 
