@@ -12,20 +12,8 @@ categories: leetcode solution
 ### 2. Code
 
 '''python
-class Solution:
-    def subtractProductAndSum(self, n: int) -> int:
-        lenOfNum = len(str(n))
-        arr = [None] * lenOfNum
-        i=0
-        product = 1
-        sum = 0
-        for _ in range(0,lenOfNum):
-            arr[i] = int(n%10)
-            n = n/10
-            product *= arr[i]
-            sum += arr[i]
-            i = i+1
-        return product-sum
+s = 5
+print s
 '''
 
 Check out the [my GitHub repo][hyuk-gh] for more info on the code. If you have questions, you can leave a reply on this post.  
