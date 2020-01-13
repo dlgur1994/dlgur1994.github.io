@@ -9,7 +9,7 @@ categories: leetcode solution
     1. how to declare a list 
     1. difference in the runtime
     
-## 1. Code
+## 2. Code
 '''
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
