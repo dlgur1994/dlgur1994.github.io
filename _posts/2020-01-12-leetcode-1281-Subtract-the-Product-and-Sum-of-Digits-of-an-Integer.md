@@ -3,6 +3,7 @@ title: "leetcode 1281 Subtract the Product and Sum of Digits of an Integer.py"
 date: 2020-01-12 2:53:28 -0400
 categories: leetcode solution
 --- 
+
 ### 1. What's new
     a. def subtractProductAndSum(self, n: int) -> int:
     b. how to use class
