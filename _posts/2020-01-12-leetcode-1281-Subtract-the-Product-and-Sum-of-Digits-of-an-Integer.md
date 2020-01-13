@@ -10,7 +10,8 @@ categories: leetcode solution
     d. difference in the runtime   
 
 ### 2. Code
-'''python  
+
+'''python
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         lenOfNum = len(str(n))
