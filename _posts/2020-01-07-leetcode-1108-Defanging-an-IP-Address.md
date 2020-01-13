@@ -3,14 +3,12 @@ title: "leetcode 1108 Defanging-an-IP-Address.py"
 date: 2020-01-07 23:55:28 -0400
 categories: leetcode solution
 ---
-
 ```python
 class Solution:  
     def defangIPaddr(self, address: str) -> str:  
         return address.replace(".","[.]")  
 ```
 ---
-
 ```python
 class Solution:  
     def defangIPaddr(self, address: str) -> str:  
