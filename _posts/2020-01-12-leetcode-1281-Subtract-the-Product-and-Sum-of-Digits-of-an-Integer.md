@@ -4,15 +4,12 @@ date: 2020-01-12 2:53:28 -0400
 categories: leetcode solution
 --- 
 1. What's new
-    a. def subtractProductAndSum(self, n: int) -> int:
+    1. def subtractProductAndSum(self, n: int) -> int:
+    1. how to use class
+    1. how to declare a list 
+    1. difference in the runtime
     
-    b. how to use class
-    
-    c. how to declare a list 
-    
-    d. difference in the runtime
-    
-2. Code
+1. Code
 '''
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
