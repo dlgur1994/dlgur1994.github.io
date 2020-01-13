@@ -4,6 +4,11 @@ date: 2020-01-07 23:55:28 -0400
 categories: leetcode solution
 ---
 
+### 1. What's new
+    a. function "replace"
+    b. function "join"
+
+### 2. Code
 ```python
 class Solution:  
     def defangIPaddr(self, address: str) -> str:  
