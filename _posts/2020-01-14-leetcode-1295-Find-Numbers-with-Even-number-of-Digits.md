@@ -5,7 +5,7 @@ categories: leetcode solution
 --- 
 
 ### 1. What's new
-    a. numInputs = list(map(str,read().rstrip('\n').split(',')))
+    a. rstrip() method
 
 ### 2. Code
 ```python
