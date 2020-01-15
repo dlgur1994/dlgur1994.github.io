@@ -5,11 +5,11 @@ categories: leetcode solution
 ---
 
 ### 1. What's new
-    ##### a. replace() method
+##### a. replace() method
               When I want to replace one with another in a string, I can use replace() method.
               ex) sample.replace("from", "to")  
               cf) I can use '' or ""
-    ##### b. join() method
+##### b. join() method
               This method divides the sample into "from" and combines it into "to" instead of "from".
               ex) "to".join(sample.split("from"))    
               cf) I can use '' or ""
