@@ -9,7 +9,7 @@ categories: leetcode solution
               When I want to replace one with another in a string, I can use replace() method.
               ex) sample.replace("from", "to")  
               cf) I can use '' or ""
-##### &nbsp;&nbsp;&nbsp;&nbsp;b. join() method
+##### &nbsp;&nbsp;&nbsp;&nbsp;b. join() method  
               This method divides the sample into "from" and combines it into "to" instead of "from".
               ex) "to".join(sample.split("from"))    
               cf) I can use '' or ""
