@@ -14,6 +14,8 @@ categories: leetcode solution
               This method divides the sample into "from" and combines it into "to" instead of "from".
               ex) "to".join(sample.split("from"))    
               cf) I can use '' or ""
+
+
 ### 2. Code
 ```python
 class Solution:  
