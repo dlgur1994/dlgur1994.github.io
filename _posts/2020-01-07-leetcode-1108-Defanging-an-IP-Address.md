@@ -32,6 +32,9 @@ class Solution:
         return "[.]".join(address.split('.'))  
 ```
 
+## 4. Result
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runtime : 20 ms(96.04%), Memory usage : 12.7 MB(100.00%)
+
 Check out the [my GitHub repo][hyuk-gh] for more info on the code. If you have questions, you can leave a reply on this post.
 
 [hyuk-gh]:   https://github.com/dlgur1994/StudyAlgorithms/tree/master/leetcode
