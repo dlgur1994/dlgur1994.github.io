@@ -33,7 +33,7 @@ class Solution:
 ```
 
 ## 4. Result
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runtime : 20 ms(96.04%), Memory usage : 12.7 MB(100.00%)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runtime : 20 ms(96.04%), Memory usage : 12.7 MB(100.00%)  
 
 
 
