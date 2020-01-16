@@ -7,13 +7,13 @@ categories: leetcode solution
 ## 1. What I learned
 ### &nbsp;&nbsp;&nbsp;&nbsp;a. replace() method
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When I want to replace one with another in a string, I can use replace() method.  
-ex) sample.replace("from", "to")  
-cf) I can use '' or ""
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) sample.replace("from", "to")  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cf) I can use '' or ""
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;b. join() method
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This method divides the sample into "from" and combines it into "to" instead of "from".  
-ex) "to".join(sample.split("from"))  
-cf) I can use '' or ""
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) "to".join(sample.split("from"))  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cf) I can use '' or ""
 
 ## 2. How I sloved
 &nbsp;&nbsp;&nbsp;&nbsp;All I have to do is replacing "." with "[.]". So there are two ways. One is to replace, the other is to divide into ".", and then combines everything by adding "[.]".
