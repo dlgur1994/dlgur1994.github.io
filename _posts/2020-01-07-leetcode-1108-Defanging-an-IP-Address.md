@@ -16,7 +16,7 @@ categories: leetcode solution
               cf) I can use '' or ""
 
 ### 2. How I sloved
-&nbsp;&nbsp;&nbsp;&nbsp;All I have to do is replacing "." with "[.]". So there are two ways. One is to replace, the other is to divide into ".", and then combines everything by adding "[.]". 
+##### &nbsp;&nbsp;&nbsp;&nbsp;All I have to do is replacing "." with "[.]". So there are two ways. One is to replace, the other is to divide into ".", and then combines everything by adding "[.]". 
 
 ### 3. Code
 ```python
