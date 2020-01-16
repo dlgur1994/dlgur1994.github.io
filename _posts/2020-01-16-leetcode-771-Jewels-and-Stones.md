@@ -16,7 +16,7 @@ for e in 'Hello'
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;b. count() method
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This method counts 'keyword' in 'target'.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) 'target'.count('keyword')
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) 'target'.count('keyword')  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cf) I can use either ' ' or " "
 
 ## 2. How I sloved
