@@ -19,6 +19,19 @@ for e in 'Hello'
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) 'target'.count('keyword')  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cf) I can use either ' ' or " "
 
+### &nbsp;&nbsp;&nbsp;&nbsp;c. map() method
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This method executes 'function' in 'target'.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) map('function', 'target')  
+
+### &nbsp;&nbsp;&nbsp;&nbsp;c. sum() method
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This adds everything in ().  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex)  
+```python
+list = [1,2,3]
+print (sum(list))
+```  
+--> 6 is printed.
+
 ## 2. How I sloved
 &nbsp;&nbsp;&nbsp;&nbsp;I have to count the number of each character of J in S. So I use a 'for loop'. The number of repetitions of 'for loop' was the number of characters in J. And for each loop, the frequency of each charater in S was added.
 
@@ -34,9 +47,9 @@ class Solution:
 ---
 
 ```python
-class Solution:  
-    def defangIPaddr(self, address: str) -> str:  
-        return "[.]".join(address.split('.'))  
+class Solution:
+    def numJewelsInStones(self, J: str, S: str) -> int:
+        return sum(map(J.count, S))
 ```
 
 ## 4. Result
