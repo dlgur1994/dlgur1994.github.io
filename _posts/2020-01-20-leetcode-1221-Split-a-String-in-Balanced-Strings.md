@@ -6,7 +6,7 @@ categories: leetcode solution
 
 ## 1. What I learned
 ### &nbsp;&nbsp;&nbsp;&nbsp;"command" if "condition" else "B"
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"command" will be executed if "condition" is met. In the other case "B" will be executed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"command" will be executed if "condition" is met. In the other case "B" will be executed.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) num += 1 if c == 'L' else -1  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if c == 'L', num += 1, but if c != 'L', num += -1
 
