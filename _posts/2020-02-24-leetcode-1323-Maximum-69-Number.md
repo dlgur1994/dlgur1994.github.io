@@ -23,7 +23,7 @@ categories: leetcode solution
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if numList2[i] == 6, numList2[i] = 9, but if numList2[i] != 6, numList2[i] = 6
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;e. temp = int("".join(map(str,numList2))) 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It changes a list of numbers to a string, and then changes the string to a number.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It changes a list of numbers to a string, and then changes the string to a number.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) numList2 = [1,2,3,4] --> temp = 1234  
 
 ## 2. How I sloved
