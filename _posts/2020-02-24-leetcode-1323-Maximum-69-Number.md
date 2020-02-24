@@ -6,11 +6,11 @@ categories: leetcode solution
 
 ## 1. What I learned
 ### &nbsp;&nbsp;&nbsp;&nbsp;a. numList = [int(x) for x in str(num)]  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It changes 'num' which is a number to a string list. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It changes 'num' which is a number to a string list.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when num=9923, numList = [9,9,2,3]
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;b. numList = list(map(int, str(num))) 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It changes 'num' which is a number to a string list. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It changes 'num' which is a number to a string list.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when num=9923, numList = [9,9,2,3]
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;c. numList2 = numList[:] 
