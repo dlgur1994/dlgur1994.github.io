@@ -26,8 +26,7 @@ categories: leetcode solution
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) numList2 = [1,2,3,4] --> temp = 1234  
 
 ## 2. How I sloved
-&nbsp;&nbsp;&nbsp;&nbsp;I have to find the maximum value by switching from 6 to 9 or 9 to 6 in the number.  
-First, I get a number and then change it to a list and create a list copied through shallow copying. And by switching 6 and 9 for each digit, the maximum value was saved. I also maintained the number that was first entered through shallow copying each loop. After turning the loop, I returned the maximum value.
+&nbsp;&nbsp;&nbsp;&nbsp;I have to find the maximum value by switching from 6 to 9 or 9 to 6 in the number. First, I get a number and then change it to a list and create a list copied through shallow copying. And by switching 6 and 9 for each digit, the maximum value was saved. I also maintained the number that was first entered through shallow copying each loop. After turning the loop, I returned the maximum value.
 
 ## 3. Code
 ```python
