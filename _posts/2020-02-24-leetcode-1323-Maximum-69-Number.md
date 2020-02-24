@@ -16,8 +16,8 @@ categories: leetcode solution
 ### &nbsp;&nbsp;&nbsp;&nbsp;c. numList2 = numList[:] 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'[:]' is a shallow copy operation. It copies only the values in the list and does not copy the addresses
 
-### &nbsp;&nbsp;&nbsp;&nbsp;d. numList2[i]=9 if numList2[i]==6 else 6 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a 'ternary operator'. Once the conditional expression is satisfied, the first expression is the result. Otherwise, the last expression becomes the result.
+### &nbsp;&nbsp;&nbsp;&nbsp;d. numList2[i]=9 if numList2[i]==6 else 6  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is a 'ternary operator'. Once the conditional expression is satisfied, the first expression is the result. Otherwise, the last expression becomes the result.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) numList2[i]=9 if numList2[i]==6 else 6  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if numList2[i] == 6, numList2[i] = 9, but if numList2[i] != 6, numList2[i] = 6
 
