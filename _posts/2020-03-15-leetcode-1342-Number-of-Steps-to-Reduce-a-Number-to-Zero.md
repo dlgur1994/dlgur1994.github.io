@@ -6,7 +6,7 @@ categories: leetcode solution
 
 ## 1. What I learned
 ### &nbsp;&nbsp;&nbsp;&nbsp;'/=' vs '//='
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'/' is dividing the first operand by the second and the result always has type float. '//' is a division, rounded to the next smallest whole number. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'/' is dividing the first operand by the second and the result always has type float. '//' is a division, rounded to the next smallest whole number.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) 5/2 = 2.5   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) 5//2 = 2
 
