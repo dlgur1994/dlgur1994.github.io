@@ -5,7 +5,7 @@ categories: leetcode solution
 ---
 
 ## 1. What I learned
-### &nbsp;&nbsp;&nbsp;&nbsp;
+### &nbsp;&nbsp;&nbsp;&nbsp;Find frequency
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When we get the frequency of numbers, it is sometimes more efficient to list the range of numbers presented in the problem, and to increase the value of the element in which each number is indexed.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) Find the frequency of each element of [4,1,1,2].   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sol) --> [0,2,1,0,1]
