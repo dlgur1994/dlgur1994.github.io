@@ -23,6 +23,12 @@ class Solution:
         return ''.join([chr(ord(c)+32) if c.isupper() else c for c in str])
 ```
 
+```python
+class Solution:
+    def toLowerCase(self, str: str) -> str:
+        return str.lower()
+```
+
 ## 4. Result
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runtime : 16 ms(99.52%), Memory usage : 12.9 MB(100.00%)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Runtime can be different by a system even if it is a same code.)
