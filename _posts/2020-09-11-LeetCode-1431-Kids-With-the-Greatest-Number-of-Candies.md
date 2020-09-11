@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 1431_Kids_With_the_Greatest_Number_of_Candies.py"
+title: "LeetCode 1431 Kids With the Greatest Number of Candies.py"
 date: 2020-09-11 17:29:28 -0400
 categories: LeetCode solution
 ---
