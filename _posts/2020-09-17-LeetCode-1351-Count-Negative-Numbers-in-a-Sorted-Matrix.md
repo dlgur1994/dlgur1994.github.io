@@ -7,11 +7,11 @@ categories: LeetCode solution
 ## 1. What I learned
 ### &nbsp;&nbsp;&nbsp;&nbsp;a. Way to change STIRNG to TWO DIMENSIONAL LIST  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-'''python
+```python
 INPUT_STRING = [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]
 input_matrix = INPUT_STRING.rstrip().lstrip('[[').rstrip(']]').split('],[')  
 refined_matrix = [[int(e) for e in row.split(',') ]for row in input_matrix]
-'''
+```
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;b. method index(' ')  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'LIST.index(ELEMENT)' returns the index number of ELEMENT from LIST.  
