@@ -16,6 +16,7 @@ plainwhite:
   tagline: CS Student. Developer.
   date_format: "%b %-d, %Y"
   sitemap: true
+  dark_mode: true
   portfolio_image: "assets/portfolio2.png"
 
   # generate social links in footer
