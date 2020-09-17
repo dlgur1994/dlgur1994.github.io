@@ -6,7 +6,6 @@ categories: LeetCode solution
 
 ## 1. What I learned
 ### &nbsp;&nbsp;&nbsp;&nbsp;a. Way to change STIRNG to TWO DIMENSIONAL LIST
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ```python
 INPUT_STRING = [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]
 input_matrix = INPUT_STRING.rstrip().lstrip('[[').rstrip(']]').split('],[')  
