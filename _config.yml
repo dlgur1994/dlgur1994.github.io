@@ -15,7 +15,8 @@ plainwhite:
   name: Brian Hyuk Lee
   tagline: CS Student. Developer.
   date_format: "%b %-d, %Y"
-  sitemap: true # set to true to generate sitemap.xml content
+  sitemap: true
+  portfolio_image: "assets/portfolio2.png"
 
   # generate social links in footer
   social_links:
