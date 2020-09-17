@@ -17,7 +17,7 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true
   dark_mode: true
-  portfolio_image: "assets/portfolio2.png"
+  portfolio_image: "assets/portfolio.png"
 
   # generate social links in footer
   social_links:
