@@ -6,7 +6,7 @@ date: 2020-09-18 17:03:28 -0400
 
 ## 1. What I learned
 ### &nbsp;&nbsp;&nbsp;&nbsp;a. Swap
-&nbsp;&nbsp;&nbsp;&nbsp;If you want to exchange two numbers, write as follows.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to exchange two numbers, write as follows.
 ```python
 a,b = b,a
 ```
