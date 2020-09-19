@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 832 Flipping an Image.py"
+title: "LeetCode 0832 Flipping an Image.py"
 categories: LeetCode solution
 date: 2020-09-18 17:03:28 -0400
 ---
