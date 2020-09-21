@@ -45,7 +45,6 @@ class Solution:
 
         return output
 ```
-
 ```python
 # my first version, but took too much time
 # class Solution:
