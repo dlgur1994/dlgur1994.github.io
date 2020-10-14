@@ -1,7 +1,7 @@
 ---
-title: "leetcode 1108 Defanging-an-IP-Address.py"
+title: "LeetCode 1108 Defanging an IP Address.py"
 date: 2020-01-07 23:55:28 -0400
-categories: leetcode solution
+categories: LeetCode solution
 ---
 
 ## 1. What I learned
@@ -38,4 +38,4 @@ class Solution:
 
 #### Check out the [my GitHub repo][hyuk-gh] for more info on the code. If you have questions, you can leave a reply on this post.
 
-[hyuk-gh]:   https://github.com/dlgur1994/StudyAlgorithms/tree/master/leetcode
+[hyuk-gh]:   https://github.com/dlgur1994/StudyAlgorithms/
