@@ -8,7 +8,6 @@ date: 2020-10-15 16:52:28 -0400
 #### &nbsp;&nbsp;&nbsp;&nbsp;a. deque
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the same as the queue, but popleft() can be used in the deque. The time it takes to popleft() is much shorter than pop().
 #### &nbsp;&nbsp;&nbsp;&nbsp;b. extend vs append
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ```python
 list1 = ['A','B']
 list2 = ['C']
