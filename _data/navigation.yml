@@ -1,10 +1,8 @@
 - title: About
   url: /pages/about/
-- title: Years
-  url: /pages/years/
 - title: Categories
   url: /pages/categories/
-- title: FAQ
-  url: /pages/faq/
+- title: Years
+  url: /pages/years/
 - title: Docs
   url: /pages/docs/
