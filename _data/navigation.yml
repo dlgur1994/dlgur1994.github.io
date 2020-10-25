@@ -1,14 +1,14 @@
 - title: About
-  url: /about/
+  url: /pages/about/
 - title: Years
-  url: /years/
+  url: /pages/years/
 - title: Categories
-  url: /categories/
+  url: /pages/categories/
 - title: Tags
-  url: /tags/
+  url: /pages/tags/
 - title: More
   sublinks:
     - title: FAQ
-      url: /faq/
+      url: /pages/faq/
     - title: Docs
-      url: /docs/
+      url: /pages/docs/
