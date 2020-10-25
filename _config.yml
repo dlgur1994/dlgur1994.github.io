@@ -1,65 +1,43 @@
-title: Brian Hyuk Lee
-author: Brian
-email: sydbne17@gamil.com
-description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-show_excerpts: true # set to true to show excerpts on the homepage
-
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-sass:
-  sass_dir: _sass
-plainwhite:
-  name: Brian Hyuk Lee
-  tagline: CS Student. Developer.
-  date_format: "%b %-d, %Y"
-  sitemap: true
-  dark_mode: true
-  portfolio_image: "assets/portfolio.png"
-
-  # generate social links in footer
-  social_links:
-    instagram: hyuk.b.l17
-    github:  dlgur1994
-    linkedIn: in/hyuk-lee-11a574183
-    rss: rss
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
-
-# Build settings
-#theme: plainwhite
+title: Hamilton
+description: A minimal and beautiful Jekyll theme best for writing and note-taking.
+author: Shangzhi Huang
+avatar: /logo.png
+email: ngzhio@gmail.com
 
 plugins:
   - jekyll-seo-tag
-#  - jekyll-feed
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
 
-remote_theme : thelehhman/plainwhite-jekyll
-url: "dlgur1994.github.io"
-baseurl: ""
+paginate: 10
 
-# comments
-discus_shortname: dlgur1994
+# Uncomment the below line and set the tracking ID for enabling Google Analytics
+# 
+# google_analytics: 
+
+# Uncomment the below lines and set the Disqus shortname for enabling Disqus
+# 
+# disqus:
+
+# Jekyll
+# ======
+exclude:
+  - scripts/
+  - README.md
+  - jekyll-theme-hamilton.gemspec
+
+# Jekyll SEO Tag (Optional)
+# =========================
+twitter:
+  username: ngzhio
+  card: summary
+logo: logo.png
+social:
+  name: Shangzhi Huang
+  links:
+    - https://twitter.com/ngzhio
+    - https://www.facebook.com/ngzhio
+    - https://github.com/ngzhio
+google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
+lang: en
