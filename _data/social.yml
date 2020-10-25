@@ -1,6 +1,9 @@
-- title: Twitter
-  url: https://twitter.com/ngzhio
-  icon: fab fa-twitter
+- title: LinkedIn
+  url: https://www.linkedin.com/in/brian-hyuk-lee-
+  icon: fab fa-linkedIn
 - title: GitHub
-  url: https://github.com/ngzhio/jekyll-theme-hamilton
+  url: https://github.com/dlgur1994
   icon: fab fa-github
+- title: Instagram
+  url: https://www.instagram.com/hyuk.b.l17
+  icon: Instagram
