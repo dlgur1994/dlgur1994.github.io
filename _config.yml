@@ -29,15 +29,12 @@ exclude:
 
 # Jekyll SEO Tag (Optional)
 # =========================
-# twitter:
-#   username: ngzhio
-#   card: summary
-logo: logo.png
+logo: /assets/portfolio.png
 social:
   name: Brian
   links:
-    - https://twitter.com/ngzhio
-    - https://www.facebook.com/ngzhio
+    - https://www.linkedin.com/in/brian-hyuk-lee-
     - https://github.com/ngzhio
+    - https://www.instagram.com/hyuk.b.l17
 # google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
 lang: en
