@@ -4,15 +4,15 @@ title: About
 permalink: /pages/about/
 ---
 
-#1. EDUCATION
-###Handong University, Pohang, Republic of Korea (Mar 2014 ~ Feb 2020)
-###Purdue University, West lafayette, Indiana, United Stated (Sep 2019 ~ Dec 2019)
-####Global education program sponsored by Korean Government (IITP, Institute for Information & communication Technology Planning & evaluation)
-###GPA: 3.71 / 4.5
-###Relevant Coursework: Algorithms Analysis, C Programming Language, Capstone Design, Computer Architecture, Computer Networking, Database System, Data Structures, Discrete mathematics, Field Research & Development, Introduction to Software Engineering, Java Programming Language, Logic Design, Mobile App Design, Objective Oriented Design Pattern, On-the-Job Training, Operating System, Open Source Software, Programming Language Theory, Software Engineering, Special Topics on System Development, System Security(Songsil), Wireless Networking(Purdue), The Internet of Things(Purdue)
+# 1. EDUCATION
+### Handong University, Pohang, Republic of Korea (Mar 2014 ~ Feb 2020)
+### Purdue University, West lafayette, Indiana, United Stated (Sep 2019 ~ Dec 2019)
+#### Global education program sponsored by Korean Government (IITP, Institute for Information & communication Technology Planning & evaluation)
+### GPA: 3.71 / 4.5
+### Relevant Coursework: Algorithms Analysis, C Programming Language, Capstone Design, Computer Architecture, Computer Networking, Database System, Data Structures, Discrete mathematics, Field Research & Development, Introduction to Software Engineering, Java Programming Language, Logic Design, Mobile App Design, Objective Oriented Design Pattern, On-the-Job Training, Operating System, Open Source Software, Programming Language Theory, Software Engineering, Special Topics on System Development, System Security(Songsil), Wireless Networking(Purdue), The Internet of Things(Purdue)
 
-#2. Experience
-##Project
+# 2. Experience
+## Project
 ###Smart Farm project (Purdue univ, Indiana, Sep 2019 ~ Dec 2019, Anthony Smith(Computer and information Technology))
 ####Wireless networking using APRS and LoRa, Automatic irrigation system
 ###An AI Speech Recognition Application for the Articulation Disorder (Handong univ, Apr 2018 ~ May 2019)
