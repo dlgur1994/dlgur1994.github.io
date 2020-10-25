@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0001 Two Sum.py"
-categories: LeetCode Solution Hash Array
+categories: LeetCode Solution Array
 date: 2020-10-25 15:00:28 -0400
 ---
 ### 1. How I sloved
