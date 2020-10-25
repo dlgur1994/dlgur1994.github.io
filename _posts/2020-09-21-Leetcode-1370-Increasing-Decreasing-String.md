@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 1370 Increasing Decreasing String.py"
-categories: LeetCode solution
+categories: LeetCode
 date: 2020-09-21 17:17:28 -0400
 ---
 

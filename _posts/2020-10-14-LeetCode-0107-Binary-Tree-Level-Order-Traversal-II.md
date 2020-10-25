@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0107 Binary Tree Level Order Traversal II.py"
-categories: LeetCode solution
+categories: LeetCode
 date: 2020-10-14 15:48:28 -0400
 ---
 

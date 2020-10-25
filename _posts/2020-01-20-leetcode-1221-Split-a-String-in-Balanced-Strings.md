@@ -1,7 +1,7 @@
 ---
-title: "leetcode 1221 Split a String in Balanced Strings.py"
+title: "LeetCode 1221 Split a String in Balanced Strings.py"
 date: 2020-01-20 23:55:28 -0400
-categories: leetcode solution
+categories: LeetCode
 ---
 
 ## 1. What I learned
@@ -11,10 +11,10 @@ categories: leetcode solution
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if c == 'L', num += 1, but if c != 'L', num += -1
 
 ## 2. How I sloved
-&nbsp;&nbsp;&nbsp;&nbsp;I have to count the number of pairs of 'L' and 'R'. 
-I set 'first' as the first letter of s. 
-If the next letter of 's' is same as 'first', I add one to 'numOfSame'. 
-In the opposite case I subtract one from 'numOfSame'. 
+&nbsp;&nbsp;&nbsp;&nbsp;I have to count the number of pairs of 'L' and 'R'.
+I set 'first' as the first letter of s.
+If the next letter of 's' is same as 'first', I add one to 'numOfSame'.
+In the opposite case I subtract one from 'numOfSame'.
 And if 'numOfSame' is 0, meaning 'L' and 'R' are balanced, I add one to 'numOfBal'.
 I do it 'len(s)-1' times over through for loop.
 

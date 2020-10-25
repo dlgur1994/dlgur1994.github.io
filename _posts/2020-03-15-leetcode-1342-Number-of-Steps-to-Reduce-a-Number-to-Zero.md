@@ -1,7 +1,7 @@
 ---
-title: "leetcode 1342 Number of Steps to Reduce a Number to Zero.py"
+title: "LeetCode 1342 Number of Steps to Reduce a Number to Zero.py"
 date: 2020-03-15 23:55:28 -0400
-categories: leetcode solution
+categories: LeetCode
 ---
 
 ## 1. What I learned

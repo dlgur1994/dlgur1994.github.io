@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0797 All Paths From Source to Target.py"
-categories: LeetCode solution
+categories: LeetCode
 date: 2020-10-11 14:21:28 -0400
 ---
 

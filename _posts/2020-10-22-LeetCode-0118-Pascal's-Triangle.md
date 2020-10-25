@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0118 Pascal's Triangle.py"
-categories: LeetCode Solution Array
+categories: LeetCode Array
 date: 2020-10-22 16:18:28 -0400
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0088 Merge Sorted Array.py"
-categories: LeetCode Solution Array
+categories: LeetCod Array
 date: 2020-10-22 23:33:28 -0400
 ---
 

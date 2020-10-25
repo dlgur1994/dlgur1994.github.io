@@ -1,11 +1,11 @@
 ---
 title: "LeetCode 1480 Running Sum of 1d Array.py"
 date: 2020-09-11 17:49:28 -0400
-categories: LeetCode solution
+categories: LeetCode
 ---
 
 ## 1. How I sloved
-&nbsp;&nbsp;&nbsp;&nbsp;I made a variable named 'sum', add it with each element of 'nums' and returned the sum of each element and 'sum'. 
+&nbsp;&nbsp;&nbsp;&nbsp;I made a variable named 'sum', add it with each element of 'nums' and returned the sum of each element and 'sum'.
 
 ## 2. Code
 ```python

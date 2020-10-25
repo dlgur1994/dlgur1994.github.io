@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 1299 Replace Elements with Greatest Element on Right Side.py"
-categories: LeetCode solution
+categories: LeetCode
 date: 2020-09-22 17:09:28 -0400
 ---
 ## 1. How I sloved

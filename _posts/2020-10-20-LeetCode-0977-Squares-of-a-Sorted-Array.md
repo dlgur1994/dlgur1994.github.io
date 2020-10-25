@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0977 Squares of a Sorted Array.py"
-categories: LeetCode solution Array
+categories: LeetCode Array
 date: 2020-10-20 17:48:28 -0400
 ---
 #### 1. How I sloved

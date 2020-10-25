@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 1313 Decompress Run-Length Encoded List.py"
 date: 2020-03-17 23:26:28 -0400
-categories: LeetCode solution
+categories: LeetCode
 ---
 
 ## 1. What I learned
@@ -19,7 +19,7 @@ class Solution:
     def decompressRLElist(self, nums):
         result = []
         for i in range(0,len(nums)//2):
-            result += [nums[2*i+1]] * nums[2*i] 
+            result += [nums[2*i+1]] * nums[2*i]
         return result
 ```
 

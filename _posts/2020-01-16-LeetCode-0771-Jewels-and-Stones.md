@@ -1,7 +1,7 @@
 ---
-title: "leetcode 771 Jewels and Stones.py"
+title: "LeetCode 0771 Jewels and Stones.py"
 date: 2020-01-16 18:59:28 -0400
-categories: leetcode solution
+categories: LeetCode
 ---
 
 ## 1. What I learned

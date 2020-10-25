@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0811 Subdomain Visit Count.py"
-categories: LeetCode Solution HashTable
+categories: LeetCode HashTable
 date: 2020-10-25 14:04:28 -0400
 comments: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0509 Fibonacci Number.py"
-categories: LeetCode solution Array
+categories: LeetCode Array
 date: 2020-10-21 11:02:28 -0400
 ---
 

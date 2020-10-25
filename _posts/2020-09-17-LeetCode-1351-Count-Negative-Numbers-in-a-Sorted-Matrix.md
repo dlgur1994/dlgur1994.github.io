@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 1351 Count Negative Numbers in a Sorted Matrix.py"
-categories: LeetCode solution
+categories: LeetCode
 date: 2020-09-17 22:52:28 -0400
 ---
 

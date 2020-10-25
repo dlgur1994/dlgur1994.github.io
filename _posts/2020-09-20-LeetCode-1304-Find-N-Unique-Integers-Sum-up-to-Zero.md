@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 1304 Find N Unique Integers Sum up to Zero.py"
-categories: LeetCode solution
+categories: LeetCode
 date: 2020-09-20 00:30:28 -0400
 ---
 

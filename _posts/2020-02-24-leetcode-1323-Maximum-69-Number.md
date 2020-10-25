@@ -1,7 +1,7 @@
 ---
-title: "leetcode 1323 Maximum 69 Number.py"
+title: "LeetCode 1323 Maximum 69 Number.py"
 date: 2020-02-24 22:52:28 -0400
-categories: leetcode solution
+categories: LeetCode
 ---
 
 ## 1. What I learned
@@ -9,11 +9,11 @@ categories: leetcode solution
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It changes 'num' which is a number to a string list.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when num=9923, numList = [9,9,2,3]
 
-### &nbsp;&nbsp;&nbsp;&nbsp;b. numList = list(map(int, str(num))) 
+### &nbsp;&nbsp;&nbsp;&nbsp;b. numList = list(map(int, str(num)))
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It changes 'num' which is a number to a string list.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when num=9923, numList = [9,9,2,3]
 
-### &nbsp;&nbsp;&nbsp;&nbsp;c. numList2 = numList[:] 
+### &nbsp;&nbsp;&nbsp;&nbsp;c. numList2 = numList[:]
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'[:]' is a shallow copy operation. It copies only the values in the list and does not copy the addresses
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;d. numList2[i]=9 if numList2[i]==6 else 6  
@@ -22,7 +22,7 @@ categories: leetcode solution
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) numList2[i]=9 if numList2[i]==6 else 6  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if numList2[i] == 6, numList2[i] = 9, but if numList2[i] != 6, numList2[i] = 6
 
-### &nbsp;&nbsp;&nbsp;&nbsp;e. temp = int("".join(map(str,numList2))) 
+### &nbsp;&nbsp;&nbsp;&nbsp;e. temp = int("".join(map(str,numList2)))
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It changes a list of numbers to a string, and then changes the string to a number.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ex) numList2 = [1,2,3,4] --> temp = 1234  
 

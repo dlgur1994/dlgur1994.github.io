@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0104 Maximum Depth of Binary Tree.py"
-categories: LeetCode solution
+categories: LeetCode
 date: 2020-10-04 14:18:28 -0400
 ---
 

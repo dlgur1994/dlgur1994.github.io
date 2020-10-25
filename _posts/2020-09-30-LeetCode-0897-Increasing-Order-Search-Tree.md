@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0897 Increasing Order Search Tree.py"
-categories: LeetCode solution
+categories: LeetCode
 date: 2020-09-30 22:14:28 -0400
 ---
 
@@ -23,7 +23,7 @@ print LIST
 ```
 
 ## 2. How I sloved
-&nbsp;&nbsp;&nbsp;&nbsp;I used DFS to arrange the elements in ascending order. Then I made a BST using the sorted list. That BST stretched only to the right. 
+&nbsp;&nbsp;&nbsp;&nbsp;I used DFS to arrange the elements in ascending order. Then I made a BST using the sorted list. That BST stretched only to the right.
 
 ## 3. Code
 ```python
