@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /pages/about/
 ---
+
 #1. EDUCATION
 ###Handong University, Pohang, Republic of Korea (Mar 2014 ~ Feb 2020)
 ###Purdue University, West lafayette, Indiana, United Stated (Sep 2019 ~ Dec 2019)
