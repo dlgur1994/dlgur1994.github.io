@@ -1,5 +1,5 @@
 ---
-title: "LeetCode 01811 Subdomain Visit Count.py"
+title: "LeetCode 0811 Subdomain Visit Count.py"
 categories: LeetCode Solution HashTable
 date: 2020-10-25 14:04:28 -0400
 ---
