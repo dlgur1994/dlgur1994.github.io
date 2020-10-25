@@ -60,3 +60,6 @@ plugins:
 remote_theme : thelehhman/plainwhite-jekyll
 url: "dlgur1994.github.io"
 baseurl: ""
+
+# comments
+discus_shortname: dlgur1994-github-io
