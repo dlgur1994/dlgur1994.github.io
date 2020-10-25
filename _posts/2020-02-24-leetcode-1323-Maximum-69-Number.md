@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 1323 Maximum 69 Number.py"
 date: 2020-02-24 22:52:28 -0400
-categories: LeetCode
+categories: LeetCode Math
 ---
 
 ## 1. What I learned

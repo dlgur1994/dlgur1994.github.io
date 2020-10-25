@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 1374 Generate a String With Characters That Have Odd Counts.py"
-categories: LeetCode
 date: 2020-09-20 14:49:28 -0400
+categories: LeetCode String
 ---
 
 ## 1. How I sloved

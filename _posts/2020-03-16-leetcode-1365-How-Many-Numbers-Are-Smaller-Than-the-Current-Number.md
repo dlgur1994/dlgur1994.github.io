@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 1365 How Many Numbers Are Smaller Than the Current Number.py"
 date: 2020-03-16 23:26:28 -0400
-categories: LeetCode
+categories: LeetCode Array HashTable
 ---
 
 ## 1. What I learned

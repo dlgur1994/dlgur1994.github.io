@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 0771 Jewels and Stones.py"
 date: 2020-01-16 18:59:28 -0400
-categories: LeetCode
+categories: LeetCode HashTable
 ---
 
 ## 1. What I learned

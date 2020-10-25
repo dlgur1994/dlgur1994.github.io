@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 1370 Increasing Decreasing String.py"
-categories: LeetCode
 date: 2020-09-21 17:17:28 -0400
+categories: LeetCode String Sort
 ---
 
 ## 1. What I learned

@@ -1,7 +1,7 @@
 ---
 title: "Data Structure Recursion Hanoi.py"
 date: 2020-08-09 22:27:28 -0400
-categories: DataStructure
+categories: DataStructure Recursion
 ---
 
 ## 1. Descriptions

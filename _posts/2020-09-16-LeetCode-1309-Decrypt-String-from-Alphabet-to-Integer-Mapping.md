@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 1309 Decrypt String from Alphabet to Integer Mapping.py"
 date: 2020-09-16 16:51:28 -0400
-categories: LeetCode
+categories: LeetCode String
 ---
 
 ## 1. What I learned

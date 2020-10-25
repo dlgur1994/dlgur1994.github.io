@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 0709 To Lower Case.py"
 date: 2020-03-18 23:26:28 -0400
-categories: LeetCode
+categories: LeetCode String
 ---
 
 ## 1. What I learned

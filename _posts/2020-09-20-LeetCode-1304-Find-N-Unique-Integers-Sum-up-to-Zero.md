@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 1304 Find N Unique Integers Sum up to Zero.py"
-categories: LeetCode
 date: 2020-09-20 00:30:28 -0400
+categories: LeetCode Array
 ---
 
 ## 1. How I sloved

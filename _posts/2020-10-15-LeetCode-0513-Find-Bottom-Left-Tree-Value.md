@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 0513 Find Bottom Left Tree Value.py"
-categories: LeetCode BFS
 date: 2020-10-15 16:52:28 -0400
+categories: LeetCode Tree DFS BFS
 ---
 
 ### 1. What I learned

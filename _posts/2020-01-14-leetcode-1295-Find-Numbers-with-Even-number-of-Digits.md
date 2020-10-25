@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 1295 Find Numbers with Even Number of Digits.py"
 date: 2020-01-14 11:53:28 -0400
-categories: LeetCode
+categories: LeetCode Array
 ---
 
 ### 1. What's new

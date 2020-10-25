@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 0905 Sort Array By Parity.py"
-categories: LeetCode
 date: 2020-09-25 17:21:28 -0400
+categories: LeetCode Array
 ---
 
 ## 1. What I learned

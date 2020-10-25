@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 0832 Flipping an Image.py"
-categories: LeetCode
 date: 2020-09-18 17:03:28 -0400
+categories: LeetCode Array
 ---
 
 ## 1. What I learned
