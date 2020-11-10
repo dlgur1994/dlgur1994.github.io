@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 0013 Roman to Integer.py"
-categories: LeetCode Array TwoPointers
+categories: LeetCode Math String
 date: 2020-11-10 17:30:28 -0400
 comments: true
 ---
