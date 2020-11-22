@@ -1,7 +1,7 @@
 ---
-title: "LeetCode 1025 Divisor Game.py"
+title: "LeetCode 0121 Best Time to Buy and Sell Stock.py"
 categories: LeetCode Math DynamicProgramming
-date: 2020-11-22 14:12:28 -0400
+date: 2020-11-22 14:39:28 -0400
 ---
 
 #### 1. How I sloved
