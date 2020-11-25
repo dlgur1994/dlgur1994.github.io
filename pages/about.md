@@ -4,21 +4,21 @@ title: About
 permalink: /pages/about/
 ---
 ## 1. EDUCATION
-2014 Mar ~ Present Handong University, Pohang, Republic of Korea
-  B.A. expected in Computer Science (GPA 3.71/4.5)
-  School of Computer Science and Electrical Engineering
-  Member, Basketball Team ‘Hoops’
-  Member, Computer Science Club ‘Sisun’
+2014 Mar ~ Present **Handong University, Pohang, Republic of Korea**<br/>
+  B.A. expected in Computer Science (GPA 3.71/4.5)<br/>
+  School of Computer Science and Electrical Engineering<br/>
+  Member, Basketball Team ‘Hoops’<br/>
+  Member, Computer Science Club ‘Sisun’<br/>
 
-2019 Sep ~ 2019 Dec Purdue University, West lafayette, IN
-  Department of Computer and Information Technology
-  Global Education Program sponsored by Korean Government
-  Project: Comparison of LoRa and APRS for Smart Farm
-  Audited Wireless Networking, The Internet of Things
+2019 Sep ~ 2019 Dec **Purdue University, West lafayette, IN**<br/>
+  Department of Computer and Information Technology<br/>
+  Global Education Program sponsored by Korean Government<br/>
+  Project: Comparison of LoRa and APRS for Smart Farm<br/>
+  Audited Wireless Networking, The Internet of Things<br/>
 
-2020 Mar ~ 2020 Jun Soongsil University, Seoul, Republic of Korea
-  School of Software
-  Exchange Program
+2020 Mar ~ 2020 Jun **Soongsil University, Seoul, Republic of Korea**<br/>
+  School of Software<br/>
+  Exchange Program<br/>
   Took System Security
 
 ## 2. Experience
