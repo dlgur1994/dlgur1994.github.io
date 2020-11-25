@@ -4,11 +4,22 @@ title: About
 permalink: /pages/about/
 ---
 ## 1. EDUCATION
-* Handong University, Pohang, Republic of Korea (Mar 2014 ~ Feb 2020)
-* Purdue University, West lafayette, Indiana, United Stated (Sep 2019 ~ Dec 2019)
-  - Global education program sponsored by Korean Government (IITP, Institute for Information & communication Technology Planning & evaluation)
-* GPA: 3.71 / 4.5
-* Relevant Coursework: Algorithms Analysis, C Programming Language, Capstone Design, Computer Architecture, Computer Networking, Database System, Data Structures, Discrete mathematics, Introduction to Software Engineering, Java Programming Language, Logic Design, Mobile App Design, Objective Oriented Design Pattern, Operating System, Open Source Software, Programming Language Theory, Software Engineering, System Security(Soongsil), Wireless Networking(Purdue), The Internet of Things(Purdue)
+2014 Mar ~ Present Handong University, Pohang, Republic of Korea
+  B.A. expected in Computer Science (GPA 3.71/4.5)
+  School of Computer Science and Electrical Engineering
+  Member, Basketball Team ‘Hoops’
+  Member, Computer Science Club ‘Sisun’
+
+2019 Sep ~ 2019 Dec Purdue University, West lafayette, IN
+  Department of Computer and Information Technology
+  Global Education Program sponsored by Korean Government
+  Project: Comparison of LoRa and APRS for Smart Farm
+  Audited Wireless Networking, The Internet of Things
+
+2020 Mar ~ 2020 Jun Soongsil University, Seoul, Republic of Korea
+  School of Software
+  Exchange Program
+  Took System Security
 
 ## 2. Experience
 * Project
