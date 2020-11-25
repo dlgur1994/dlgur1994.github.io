@@ -23,16 +23,29 @@
         <a class="contact-info u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
       </li>
     {%- endif %}
-    {% if site.location -%}
+    {% if site.github -%}
       <li>
-        <i class="sidebar-icon fas fa-location-arrow"></i>
-        <a class="contact-info u-location" href="https://www.google.com/maps/search/{{ site.location }}">{{ site.location }}</a>
+        <i class="sidebar-icon fas fa-github"></i>
+        <a class="contact-info u-email" href="mailto:{{ site.github }}">{{ site.email }}</a>
       </li>
     {%- endif %}
+    {% if site.linkedin -%}
+      <li>
+        <i class="sidebar-icon fas fa-linkedin"></i>
+        <a class="contact-info u-email" href="mailto:{{ site.linkedin }}">{{ site.email }}</a>
+      </li>
+    {%- endif %}
+    {% if site.instagram -%}
+      <li>
+        <i class="sidebar-icon fas fa-instagram"></i>
+        <a class="contact-info u-email" href="mailto:{{ site.instagram }}">{{ site.email }}</a>
+      </li>
+    {%- endif %}
+
   </ul>
 </div>
 
-{% if site.data.social -%}
+<!-- {% if site.data.social -%}
   <div class="sidebar-section">
     <ul class="social-icons">
       {% for social in site.data.social -%}
@@ -42,4 +55,4 @@
       {%- endfor %}
     </ul>
   </div>
-{%- endif %}
+{%- endif %} -->
