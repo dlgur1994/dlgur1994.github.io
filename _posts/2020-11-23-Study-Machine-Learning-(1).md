@@ -9,12 +9,14 @@ categories: Study MachineLearning AI DeepLearning
 Artificial intelligence, machine learning, and deep learning are used a lot, but they are often used inaccurately and their boundaries are blurred. So before I start, I would like to briefly explore their relationship. It's hard to understand the concepts from the beginning, so I hope you remember this picture first.  
 ![capture1](https://user-images.githubusercontent.com/38805855/100973006-2271ce80-357d-11eb-943d-4a848cb4ec92.PNG){: width="30%" height="30%"}
 
+
 ### 1. What is Artificial Intelligence?
 Artificial intelligence (AI) is a system or program to mimic human intelligence. And AI is divided into strong AI and weak AI.  
 Strong AI: Artificial intelligence with strong performance that is no different from a person's ability, but it cannot be made yet.  
 ex) "Jarvis" from "Iron Man"  
 Weak AI: Artificial intelligence that performs operations in specific areas  
 ex) driving assistance system, "Siri" from 'Apple'
+
 
 ### 2. What is Machine Learning?
 Machine learning requires humans to process data first, machines learn it themselves. And machine learning models modify rules by itself.  
@@ -41,9 +43,10 @@ ex) 1.5x + 0.1 = y
     (weight and intercept are model parameters)
 ```
 
+
 ### 3. What is Deep Learning?
 Deep learning is an artificial neural network to solve complex problems without data processing by humans. The term Deep Learning derives from the appearance of multiple layers of artificial neural networks. It is called mixed with artificial neural network and deep learning, but hardly distinguishes terms. Deep learning looks like a neuron in the brain that receives input and transmits it to the output, but deep learning is different from how the actual brain works. And deep learning handles data that is difficult for machine learning to process better.  
 cf) Machine learning is more suitable for structured data such as database, record file, Excel, and csv. And deep learning is more suitable for unstructured data related to recognition, such as images, images, voices, sounds, text, translations, etc.
 
-#### Referred to "정직하게 코딩하며 배우는 딥러닝 입문".
-#### If you have questions, you can leave a reply on this post.
+
+#### Referred to "정직하게 코딩하며 배우는 딥러닝 입문"<br/>If you have questions, you can leave a reply on this post.
