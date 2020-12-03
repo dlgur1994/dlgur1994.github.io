@@ -1,12 +1,12 @@
 ---
-title: "Machine Learning Study (1)"
+title: "AI? Machine Learning? Deep Learning?"
 date: 2020-11-23 16:50:28 -0400
 categories: Study MachineLearning AI DeepLearning
 ---
 
 ## Chap1. About Artificial Intelligence
 ### 0. The Relationship Between Artificial Intelligence and Machine Learning and Deep Learning
-Artificial intelligence, machine learning, and deep learning are used a lot, but they are often used inaccurately and their boundaries are blurred. So before I start, I would like to briefly explore their relationship. It's hard to understand the concepts from the beginning, so I hope you remember this picture first.  
+Artificial intelligence, machine learning, and deep learning are used a lot, but they are often used inaccurately and their boundaries are blurred. So before I start, I would like to briefly explore their relationship. It's hard to understand the concepts from the beginning, so I hope you remember this picture first. Artificial intelligence is in the largest range, machine learning is in it, and deep learning is in machine learning.  
 ![capture1](https://user-images.githubusercontent.com/38805855/100973006-2271ce80-357d-11eb-943d-4a848cb4ec92.PNG){: width="30%" height="30%"}
 <br/>
 
@@ -26,7 +26,7 @@ Model: programs created through training
 Input: this is a problem that the model has to solve, and most of the time, it is data.  
 Target: the answer that the model should find out  
 Supervised Learning: It uses training data with targets, i.e. data with correct answers.  
-_ex) Classification, Regression_  
+_ex) classification, regression_  
 Unsupervised Learning: It uses training data without targets, which means that the model makes the correct answer on its own.  
 _ex) clustering_  
 Reinforcement Learning: It trains agents with machine learning algorithms. The trained agents perform actions optimized for a particular environment and receive rewards and current status. The agent's goal is to be rewarded as much as possible  
@@ -42,7 +42,6 @@ ex) 1.5x + 0.1 = y
     0.1: intercept
     (weight and intercept are model parameters)
 ```
-<br/>
 
 ### 3. What is Deep Learning?
 Deep learning is an artificial neural network to solve complex problems without data processing by humans. The term Deep Learning derives from the appearance of multiple layers of artificial neural networks. It is called mixed with artificial neural network and deep learning, but hardly distinguishes terms. Deep learning looks like a neuron in the brain that receives input and transmits it to the output, but deep learning is different from how the actual brain works. And deep learning handles data that is difficult for machine learning to process better.  
