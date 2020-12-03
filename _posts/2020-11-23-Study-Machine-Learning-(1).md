@@ -12,10 +12,10 @@ Artificial intelligence, machine learning, and deep learning are used a lot, but
 
 ### 1. What is Artificial Intelligence?
 Artificial intelligence (AI) is a system or program to mimic human intelligence. And AI is divided into strong AI and weak AI.  
-Strong AI: Artificial intelligence with strong performance that is no different from a person's ability, but it cannot be made yet.  
-* ex) "Jarvis" from "Iron Man"  
-Weak AI: Artificial intelligence that performs operations in specific areas  
-* ex) driving assistance system, "Siri" from 'Apple'  
+Strong AI: Artificial intelligence with strong performance that is no different from a person's ability, but it cannot be made yet.
+* ex) "Jarvis" from "Iron Man"<br/>
+Weak AI: Artificial intelligence that performs operations in specific areas
+* ex) driving assistance system, "Siri" from 'Apple'<br/>
 <br/>
 
 ### 2. What is Machine Learning?
