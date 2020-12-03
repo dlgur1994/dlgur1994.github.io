@@ -6,8 +6,8 @@ categories: Study MachineLearning AI DeepLearning
 
 ## Chap1. About Artificial Intelligence
 ### 0. The Relationship Between Artificial Intelligence and Machine Learning and Deep Learning
-Artificial intelligence, machine learning, and deep learning are used a lot, but they are often used inaccurately and their boundaries are blurred. So before I start, I would like to briefly explore their relationship. It's hard to understand the concepts from the beginning, so I hope you remember this picture first.
-![capture1](https://user-images.githubusercontent.com/38805855/100973006-2271ce80-357d-11eb-943d-4a848cb4ec92.PNG)
+Artificial intelligence, machine learning, and deep learning are used a lot, but they are often used inaccurately and their boundaries are blurred. So before I start, I would like to briefly explore their relationship. It's hard to understand the concepts from the beginning, so I hope you remember this picture first.  
+![capture1](https://user-images.githubusercontent.com/38805855/100973006-2271ce80-357d-11eb-943d-4a848cb4ec92.PNG){: width="50%" height="50%"}
 
 ### 1. What is Artificial Intelligence?
 Artificial intelligence (AI) is a system or program to mimic human intelligence. And AI is divided into strong AI and weak AI.  
