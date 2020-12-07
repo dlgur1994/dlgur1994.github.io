@@ -1,16 +1,19 @@
 ---
 title: "Fundamentals of Machine Learning"
-date: 2020-12-03 16:48:28 -0400
+date: 2020-12-04 15:50:28 -0400
 categories: Study AI MachineLearning DeepLearning
 ---
 
-## Chap1. About Artificial Intelligence
-### 0. The Relationship Between Artificial Intelligence and Machine Learning and Deep Learning
-Artificial intelligence, machine learning, and deep learning are used a lot, but they are often used inaccurately and their boundaries are blurred. So before I start, I would like to briefly explore their relationship. It's hard to understand the concepts from the beginning, so I hope you remember this picture first. Artificial intelligence is in the largest range, machine learning is in it, and deep learning is in machine learning.  
-![capture1](https://user-images.githubusercontent.com/38805855/100973006-2271ce80-357d-11eb-943d-4a848cb4ec92.PNG){: width="30%" height="30%"}
+### 1. 선형 회귀
+선형 회귀는 기울기와 절편을 찾아낸다. 기울기와 절편이 잘 만들어졌다면 이는 선형 회귀로 만든 모델이 된다.
+  y = ax + b
+  a: slope
+  b: intercept
 <br/>
 
-### 1. What is Artificial Intelligence?
+### 2. 데이터 준비
+
+
 Artificial intelligence (AI) is a system or program to mimic human intelligence. And AI is divided into strong AI and weak AI.  
 Strong AI: Artificial intelligence with strong performance that is no different from a person's ability, but it cannot be made yet.
 _ex) "Jarvis" from "Iron Man"_  
