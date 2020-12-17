@@ -4,15 +4,31 @@ date: 2020-12-04 15:50:28 -0400
 categories: Study AI MachineLearning DeepLearning
 ---
 
-### 1. 선형 회귀
+### 1. 데이터
+표에서 row는 sample, column은 feature (independent variable, explanatory variable)이다.
+DATA_NAME.data 로 feature 접근, DATA_NAME.target 으로 sample 접근
+
+### 2. 선형 회귀
 선형 회귀는 기울기와 절편을 찾아낸다. 기울기와 절편이 잘 만들어졌다면 이는 선형 회귀로 만든 모델이 된다.
   y = ax + b
   a: slope
   b: intercept
+
+  y^ = wx + b
+  w: weight
+  b: intercept
 <br/>
 
-### 2. 데이터 준비
+### 3. 경사 하강법
+  w와 b를 찾는법
+  1. 무작위로 w와 b를 선택
+  2. 샘플 하나를 선택하여 y^ 계산
+  3. y^와 y 비교
+  4. y^오 y가 더 가까워지도록 w, b 조정
+  5. 모든 샘플에 대해 2~4번 반복
 
+### 4. 역전파
+  
 
 Artificial intelligence (AI) is a system or program to mimic human intelligence. And AI is divided into strong AI and weak AI.  
 Strong AI: Artificial intelligence with strong performance that is no different from a person's ability, but it cannot be made yet.
