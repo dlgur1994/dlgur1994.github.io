@@ -5,7 +5,20 @@ date: 2021-02-02 23:28:28 -0400
 comments: true
 ---
 
-### 1. Code
+## 1. What I learned
+### &nbsp;&nbsp;&nbsp;&nbsp;defaultdict(int)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you declare defaultdict(int), an integer is automatically given as a value if you do not give a value of a key.   
+```python
+from collections import defaultdict
+d = defaultdict(int)
+d['a']
+d['b']
+d['c'] = 'wow'
+print(d)
+# defaultdict(<class 'int'>, {'a': 0, 'b': 0, 'c': 'wow'})
+```
+
+### 2. Code
 ```python
 class Solution:
     def partitionLabels(self, S: str) -> List[int]:
@@ -22,7 +35,7 @@ class Solution:
         return ans[1:] # The first element of ans is zero, so return the remaining element except it.
 ```
 
-### 2. Result
+### 3. Result
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runtime : 32 ms(95.98%), Memory usage : 14 MB(94.63%)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Runtime can be different by a system even if it is a same code.)
 
