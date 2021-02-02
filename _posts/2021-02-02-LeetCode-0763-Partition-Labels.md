@@ -5,8 +5,8 @@ date: 2021-02-02 23:28:28 -0400
 comments: true
 ---
 
-## 1. What I learned
-### &nbsp;&nbsp;&nbsp;&nbsp;defaultdict(int)
+### 1. What I learned
+#### &nbsp;&nbsp;&nbsp;&nbsp;defaultdict(int)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you declare defaultdict(int), an integer is automatically given as a value if you do not give a value of a key.   
 ```python
 from collections import defaultdict
