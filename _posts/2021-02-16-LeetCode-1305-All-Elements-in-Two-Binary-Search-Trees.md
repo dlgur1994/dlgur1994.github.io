@@ -1,7 +1,7 @@
 ---
 title: "LeetCode 1305 All Elements in Two Binary Search Trees"
 categories: LeetCode Python Sort Tree
-date: 2021-02-16 14:44:28 -0400
+date: 2021-02-16 14:48:28 -0400
 comments: true
 ---
 
@@ -27,7 +27,7 @@ class Solution:
 ```
 
 ### 2. Result
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runtime : 288 ms(100.00%), Memory usage : 21.6 MB(60.89%)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runtime : 288 ms(100.00%), Memory usage : 21.6 MB(60.89%)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Runtime can be different by a system even if it is a same code.)
 
 #### Check out the [my GitHub repo][hyuk-gh] for more info on the code. If you have questions, you can leave a reply on this post.
