@@ -1,11 +1,11 @@
 ---
-title: "Data Structure Recursion Hanoi.py"
+title: "Recursion (Tower of Hanoi).py"
 date: 2020-08-09 22:27:28 -0400
-categories: DataStructure Recursion
+categories: DataStructures Recursion
 ---
 
 ## 1. Descriptions
-### &nbsp;&nbsp;&nbsp;&nbsp;a. Hanoi Tower?  
+### &nbsp;&nbsp;&nbsp;&nbsp;a. Tower of Hanoi?  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Tower of Hanoi (also called the Tower of Brahma or Lucas' Tower and sometimes pluralized as Towers) is a mathematical game or puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod. The puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top, thus making a conical shape. The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules.
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;b. Rules?  
