@@ -1,5 +1,5 @@
 ---
-title: "Data Structures Merge Sort"
+title: "Merge Sort"
 categories: DataStructures Python MergeSort
 date: 2021-03-03 23:47:28 -0400
 comments: true
