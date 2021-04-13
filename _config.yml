@@ -29,6 +29,7 @@ plainwhite:
     github:  dlgur1994
     linkedIn: in/brian-hyuk-lee-
     instagram: hyuk.b.l17
+    email: sydbne17@gmail.com
     #rss: rss
     #dribbble: jekyll
     #flickr:   jekyll
@@ -38,6 +39,7 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
+    
     # Mastodon instances
     # mastodon:
     # - username: jekyll
@@ -55,10 +57,3 @@ theme: plainwhite
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
-
-# Math equation
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
