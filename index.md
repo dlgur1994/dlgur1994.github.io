@@ -1,3 +1,4 @@
 ---
-layout: home
+# layout: home
+layout: default
 ---
