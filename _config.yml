@@ -1,3 +1,4 @@
+#Site settings
 title: Brian Hyuk Lee
 author: Brian
 email: sydbne17@gmail.com
@@ -6,7 +7,6 @@ description: > # this means to ignore newlines until "show_exerpts:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 show_excerpts: true # set to true to show excerpts on the homepage
-
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
@@ -39,7 +39,6 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
-    
     # Mastodon instances
     # mastodon:
     # - username: jekyll
