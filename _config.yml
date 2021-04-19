@@ -45,6 +45,7 @@ plainwhite:
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com
+  disqus_shortname: dlgur1994-github-io
 
 # this and add the path to the pages in order as they should show up
 header_pages:
