@@ -93,7 +93,7 @@ plainwhite:
       url: "/resume"
 ```
 
-**Mobile**
+**Mobile**  
 By default, Plainwhite places the sidebar (logo, name, tagline etc.) above the content on mobile (narrow screens).
 To condense it (moving some things to the bottom of the page and making the rest smaller) so it takes up less space, add the following to your `_config.yml`:
 ```yaml
