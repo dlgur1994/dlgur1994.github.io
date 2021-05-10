@@ -6,8 +6,8 @@ comments: true
 ---
 
 ### 1. What I learned
-#### &nbsp;&nbsp;&nbsp;&nbsp;How to print a message in C++
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'iostream' header file was added first to print the message. I used 'std:cout < "MESSAGE"' to print messages, and used 'using namespace std' to reduce repeated use of 'std:'.  
+#### &nbsp;&nbsp;&nbsp;&nbsp;How to get multiple inputs at once
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Write 'cin >> A >> B >> C' when multiple inputs are received on a single space-separated line.  
 
 ### 2. Code
 ```cpp
