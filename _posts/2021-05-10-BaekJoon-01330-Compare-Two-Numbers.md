@@ -1,5 +1,5 @@
 ---
-title: "BaekJoon 1330 Compare Two Numbers"
+title: "BaekJoon 01330 Compare Two Numbers"
 categories: BaekJoon C++ Implementation Math
 date: 2021-05-10 19:56:28 -0400
 comments: true

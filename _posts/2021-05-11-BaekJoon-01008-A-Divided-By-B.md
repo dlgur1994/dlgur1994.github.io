@@ -1,5 +1,5 @@
 ---
-title: "BaekJoon 1008 A Devided By B"
+title: "BaekJoon 01008 A Devided By B"
 categories: BaekJoon C++ Implementation Math
 date: 2021-05-11 11:44:28 -0400
 comments: true
