@@ -1,5 +1,5 @@
 ---
-title: "BaekJoon 14681_Choose_a_Quadrant"
+title: "BaekJoon 14681 Choose a Quadrant"
 categories: BaekJoon C++ Geometry Implementation Math
 date: 2021-05-13 22:53:28 -0400
 comments: true
