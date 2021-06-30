@@ -36,6 +36,7 @@ int main(void) {
     }
     return 0;
 }
+```
 
 ### 3. Result
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Runtime : 64 ms, Memory usage : 2776 KB  
