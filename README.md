@@ -1,152 +1,189 @@
-# plainwhite  
-Simplistic jekyll portfolio-style theme for writers.
+# Hamilton <!-- omit in toc -->
 
-**Demo**: [samarsault.com](https://samarsault.com)
-![plainwhite theme preview](/screenshot.png)
+A minimal and beautiful Jekyll theme best for writing and note-taking.
 
-## Installation on Github Pages  
-Add this line to your site's `_config.yml`:
-```yaml
-remote_theme: samarsault/plainwhite-jekyll
+The original purpose of this theme is to be a replacement of the default Jekyll theme -- [Minima](https://github.com/jekyll/minima). Hamilton is an enhancement of Minima but still, keep in minimal.
+
+Please check out the [demo](https://ngzhio.github.io/jekyll-theme-hamilton/).
+
+| Skins | Displays |
+| ----- | -------- |
+| Daylight | ![screenshot](screenshot.png) |
+| Sunrise/Sunset | ![screenshot](screenshot-sunrise.png) |
+| Midnight | ![screenshot](screenshot-midnight.png) |
+
+## Features <!-- omit in toc -->
+
+- [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag)
+- [Jekyll Feed](https://github.com/jekyll/jekyll-feed)
+- [Jekyll Sitemap](https://github.com/jekyll/jekyll-sitemap)
+- [Google Analytics](https://analytics.google.com/)
+- [MathJax](https://www.mathjax.org/)
+- [Disqus](https://disqus.com/)
+- [Font Awesome](https://fontawesome.com/)
+- TOC
+- Customizable head
+- Configurable page navigation
+- Customizable styles and skins
+- Archive pages implemented in pure Liquid
+
+## Table of Contents <!-- omit in toc -->
+
+- [Installation](#installation)
+- [Configuration](#configuration)
+  - [Optional Parameters](#optional-parameters)
+- [Archive Pages](#archive-pages)
+- [MathJax](#mathjax)
+- [TOC](#toc)
+- [Customization](#customization)
+  - [Metadata](#metadata)
+  - [Navigation](#navigation)
+  - [Social Media](#social-media)
+  - [Skins](#skins)
+  - [More Customized Styles](#more-customized-styles)
+- [License](#license)
+
+## Installation
+
+You can choose one of the following methods to install Hamilton:
+
+- Directly specify the `jekyll-theme-hamilton` gem.
+
+    1. Add `gem 'jekyll-theme-hamilton'` into your `Gemfile`.
+    2. Add the below lines into your `_config.yml`.
+
+        ```yml
+        plugins:
+          - jekyll-theme-hamilton
+        ```
+
+- If your site is hosted on GitHub Pages, you can use [`jekyll-remote-theme`](https://github.com/benbalter/jekyll-remote-theme) to import the master branch of Hamilton.
+
+    1. Add `gem 'jekyll-remote-theme'` into your `Gemfile`.
+    2. Add the below lines into your `_config.yml`.
+
+        ```yml
+        plugins:
+          - jekyll-remote-theme
+
+        remote_theme: ngzhio/jekyll-theme-hamilton
+        ```
+
+## Configuration
+
+After installation, you can run `jekyll serve` to check out your site, but before that, *make sure* the below **required parameters** are configured in your `_config.yml`.
+
+| Parameters | Types | Specifications |
+|:---------- |:----- |:-------------- |
+| `title`    | string | The site title |
+| `disqus`   | string | The Disqus shortname; Unless you don't want to enable the comments system, you must specify this parameter. It is used in the production environment. |
+| `google_analytics` | string | The Google Analytics tracking ID; It is used in the production environment. |
+
+### Optional Parameters
+
+| Parameters | Types | Specifications |
+|:---------- |:----- |:-------------- |
+| `author`   | string | The name of the author of the site; It would be showed in the copyright statement. |
+| `avatar`   | string | The avatar of the author of the site. |
+| `email`    | string | The email of the author of the site. |
+| `location` | string | The current living location of the author of the site. |
+| `skin`     | string | The skin name. See more information on the [Customization](#customization) section. |
+| `lang`     | string | The language of the site; The default value is `en`. |
+| `paginate` | int    | The number of posts on each page. |
+| `date_format` | string | The date format; The default value is `%b %-d, %Y`. |
+| `subscribe` | boolean | Show the subsribe feed button. |
+
+## Archive Pages
+
+Hamilton implements some archive templates in pure Liquid. For example, if you want to create a category archive page, set the below parameters on that page:
+
+```yml
+---
+layout: archive-taxonomies
+type: categories
+---
 ```
 
-## Installation  
-Add this line to your Jekyll site's `Gemfile`:
-```ruby
-gem "plainwhite"
-```
-And add this line to your Jekyll site's `_config.yml`:
-```yaml
-theme: plainwhite
-```
-And then execute:
-    $ bundle
-Or install it yourself as:
-    $ gem install plainwhite
+Or a tag archive page:
 
-## Usage  
-The "plainwhite" key in \_config.yml is used to customize the theme data.
-```yaml
-plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
-  date_format: "%b %-d, %Y"
-  social_links:
-    twitter: samarsault
-    github: samarsault
-    linkedIn: in/samarsault # format: locale/username
+```yml
+layout: archive-taxonomies
+type: tags
 ```
 
-**Updating Placeholder Image**  
-The placeholder portfolio image can be replaced by the desired image by placing it as `assets/portfolio.png` in your jekyll website, or by changing the following line in `_config.yaml`
-```yaml
-plainwhite:
-  portfolio_image:  "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
-```
-To use a different image for dark mode, e.g. with different colors that work better in dark mode, add a `portfolio_image_dark` entry in addition to the `portfolio_image`.
-```yaml
-plainwhite:
-  portfolio_image:      "assets/portfolio.png"
-  portfolio_image_dark: "assets/portfolio_dark.png"
+Or archive by years:
+
+```yml
+layout: archive-years
 ```
 
-**Comments (Disqus)**  
-Comments on posts can be enabled by specifying your disqus_shortname under plainwhite in `_config.yml`. For example,
-```yaml
-plainwhite:
-  disqus_shortname: games
+## MathJax
+
+You can enable MathJax on each post or page, just set `math: true` on that page.
+
+## TOC
+
+If you want to show the Table of Contents of a post or page on the left sidebar, just set `toc: true` on that page.
+
+## Customization
+
+### Metadata
+
+You can create a file `_includes/custom-head.html` in your repository, and add any metadata into that page, e.g. favicons.
+
+### Navigation
+
+You can create a file `_data/navigation.yml` to configure links to some pages. For example,
+
+```yml
+- title: About
+  url: /about/
+- title: Categories
+  url: /categories/
+- title: Tags
+  url: /tags/
 ```
 
-**Google Analytics**  
-It can be enabled by specifying your analytics id under plainwhite in `_config.yml`
-```yaml
-plainwhite:
-  analytics_id: "< YOUR ID >"
+The navigation bar also supports dropdown submenus:
+
+```yml
+- title: About
+  url: /about/
+- title: Categories
+  url: /categories/
+- title: Tags
+  url: /tags/
+- title: More
+  sublinks:
+    - title: FAQ
+      url: /faq/
+    - title: Docs
+      url: /docs/
 ```
 
-**Sitemap**  
-It can be toggled by the following line to under plainwhite in `_config.yml`
-```yaml
-plainwhite:
-  sitemap: true
+### Social Media
+
+You can create a file `_data/social.yml` to configure links to your social media. For example,
+
+```yml
+- title: Twitter
+  url: https://twitter.com/ngzhio
+  icon: fab fa-twitter
+- title: GitHub
+  url: https://github.com/ngzhio/jekyll-theme-hamilton
+  icon: fab fa-github
 ```
 
-**Excerpts**  
-Excerpts can be enabled by adding the following line to your `_config.yml`
-```yaml
-show_excerpts: true
-```
+### Skins
 
-**Layouts**  
-- Home
-- Page
-- Post
+You can select a skin by setting `skin` in `_config.yml`. The built-in skins include `daylight`, `midnight`, `sunrise`, and `sunset`. If you don't specify any skin, Hamilton would dynamically select one in these built-in skins according to different hours in a day.
 
-**Navigation**  
-Navigation can be enabled by adding the following line to your `_config.yml`
-```yaml
-plainwhite:
-  navigation:
-    - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
-```
+You can also customize a new skin, for example, a skin called `solarized`. You need to copy [`_sass/hamilton/skins/daylight.scss`](_sass/hamilton/skins/daylight.scss) into your repository and then rename it to `solarized.scss`, and adjust some colors in that file. Finally, specify `skin: solarized` in `_config.yml`.
 
-**Mobile**  
-By default, Plainwhite places the sidebar (logo, name, tagline etc.) above the content on mobile (narrow screens).
-To condense it (moving some things to the bottom of the page and making the rest smaller) so it takes up less space, add the following to your `_config.yml`:
-```yaml
-plainwhite:
-  condensed_mobile:
-    - home
-    - post
-    - page
-```
-This chooses which layouts (types of page) should be condensed on mobile screens. E.g. if you want everything but the landing page to be condensed, remove `home` from the list. This option does not affect rendering on wider screens.
+### More Customized Styles
 
-**Dark mode**  
-Dark mode can be enabled by setting the `dark_mode` flag in your `_config.yml`
-The website will check the OS preferred color scheme and set the theme accordingly, the preference will then be saved in a cookie
-```yaml
-plainwhite:
-  dark_mode: true
-```
-![plainwhite dark theme previe](/dark.png)
+If you want to create more CSS styles in your site, creating a file `_sass/hamilton/custom-styles.scss`, and putting your code in there, Hamilton would automatically refer to them.
 
-**Multiline tagline**  
-Tagline can be multiline in this way
-```yaml
-plainwhite:
-  tagline: |
-  First Line. 
+## License
 
-  Second Line. 
-
-  Third Line.
-```
-
-**Search-bar**  
-Search-bar can be enabled by adding the following line to `config.yml`
-```yaml
-plainwhite:
-  search: true
-```
-Search is powered by [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search) Jekyll plugin. A `search.json` containing post meta and contents will be generated in site root folder. Plugin JavaScript will then match for posts based on user input. More info and `search.json` customization documentation can be found in plugin repository.
-
-**Base URL**  
-You can specify a custom base URL (eg. example.com/blog/) by adding the following line to `_config.yaml`. Note that there is no trailing slash on the URL.
-```yaml
-baseurl: "/blog"
-```
-
-**Language**  
-You can set the `lang` attribute of the `<html>` tag on your pages by changing the following line in `_config.yml`:
-```yaml
-plainwhite:
-  html_lang: "en"
-```
-[See here for a full list of available language codes](https://www.w3schools.com/tags/ref_country_codes.asp)
-
-<!-- ## License  
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). -->
+The theme is available as open source under the terms of the [MIT License](LICENSE.txt).

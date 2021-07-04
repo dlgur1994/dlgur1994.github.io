@@ -1,3 +1,0 @@
-\User-agent: *
-Allow: /
-Sitemap: http://dlgur1994.github.io/sitemap.xml
