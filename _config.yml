@@ -3,6 +3,8 @@ description: My Eager
 author: Brian Hyuk Lee
 avatar: /images/portfolio.png
 email: sydbne17@gmail.com
+location: Seoul, South Korea
+lang: en
 
 plugins:
   - jekyll-seo-tag
