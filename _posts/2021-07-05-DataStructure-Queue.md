@@ -1,7 +1,7 @@
 ---
 title: "Queue"
 categories: DataStructure
-tags: [DataStructure Queue]
+tags: [DataStructure, Queue]
 date: 2021-07-05 22:31:28 -0400
 comments: true
 ---
