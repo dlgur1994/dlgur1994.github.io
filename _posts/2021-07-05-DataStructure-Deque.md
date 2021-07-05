@@ -8,7 +8,7 @@ comments: true
 
 ## 1. Descriptions
 ### &nbsp;&nbsp;&nbsp;&nbsp;What is Linked List?  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Selection Sort** "Queue" is a FIFO data structure that follows a particular order.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Selection Sort** "Deque" is a double ended queue, allowing data to be added and deleted at both ends.   
 
 ## 2. Code
 ```cpp
