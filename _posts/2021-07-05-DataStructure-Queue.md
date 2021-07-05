@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Queue"
 categories: DataStructure
 tags: [DataStructure, Queue]

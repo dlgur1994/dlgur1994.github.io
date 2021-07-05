@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Deque"
 categories: DataStructure
 tags: [DataStructure, Deque]
