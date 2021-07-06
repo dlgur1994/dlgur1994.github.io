@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0885 Spiral Matrix III"
-categories: LeetCode Math
 date: 2021-01-19 22:24:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Math]
 comments: true
 ---
 

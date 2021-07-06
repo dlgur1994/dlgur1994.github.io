@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 1637 Widest Vertical Area Between Two Points Containing No Points"
-categories: LeetCode Sort
 date: 2021-01-03 13:42:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Sort]
 comments: true
 ---
 

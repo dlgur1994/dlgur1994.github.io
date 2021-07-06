@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 1379 Find a Corresponding Node of a Binary Tree in a Clone of That Tree"
-categories: LeetCode Tree BFS DFS Recursion
 date: 2021-01-11 23:04:28 -0400
+categories: SolveProblem
+tags: [LeetCode, BFS, DFS, Recursion, Tree]
 comments: true
 ---
 

@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 1302 Deepest Leaves Sum"
-categories: LeetCode Tree DFS
 date: 2021-01-08 12:37:28 -0400
+categories: SolveProblem
+tags: [LeetCode, DFS, Tree]
 comments: true
 ---
 

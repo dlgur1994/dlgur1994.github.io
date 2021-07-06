@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0654 Maximum Binary Tree"
-categories: LeetCode Tree
 date: 2021-01-07 13:16:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Tree]
 comments: true
 ---
 
