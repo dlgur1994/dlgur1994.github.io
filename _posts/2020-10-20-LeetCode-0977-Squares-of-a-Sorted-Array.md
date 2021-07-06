@@ -1,8 +1,12 @@
 ---
+layout: post
 title: "LeetCode 0977 Squares of a Sorted Array.py"
-categories: LeetCode Array TwoPointers
 date: 2020-10-20 17:48:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Array, TwoPointers]
+comments: true
 ---
+
 #### 1. How I sloved
 &nbsp;&nbsp;&nbsp;&nbsp;I squared each number and put it in a sorted list.
 

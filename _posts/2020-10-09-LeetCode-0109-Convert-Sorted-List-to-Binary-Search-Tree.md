@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 0109 Convert Sorted List to Binary Search Tree.py"
 date: 2020-10-09 10:47:28 -0400
-categories: LeetCode LinkedList DFS
+categories: SolveProblem
+tags: [LeetCode, DFS, LinkedList]
+comments: true
 ---
 
 ## 1. What I learned

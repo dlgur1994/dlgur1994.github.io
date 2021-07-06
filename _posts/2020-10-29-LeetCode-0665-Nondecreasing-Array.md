@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0665 Non-decreasing Array.py"
-categories: LeetCode Array
 date: 2020-10-29 17:29:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Array]
 comments: true
 ---
 

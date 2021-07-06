@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 0509 Fibonacci Number.py"
-categories: LeetCode Array
 date: 2020-10-21 11:02:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Array]
+comments: true
 ---
 
 ### 1. What I learned

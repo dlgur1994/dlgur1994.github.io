@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0811 Subdomain Visit Count.py"
-categories: LeetCode HashTable
 date: 2020-10-25 14:04:28 -0400
+categories: SolveProblem
+tags: [LeetCode, HashTable]
 comments: true
 ---
 

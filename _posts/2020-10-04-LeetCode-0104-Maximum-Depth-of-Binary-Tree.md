@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 0104 Maximum Depth of Binary Tree.py"
 date: 2020-10-04 14:18:28 -0400
-categories: LeetCode Tree DFS
+categories: SolveProblem
+tags: [LeetCode, DFS, Tree]
+comments: true
 ---
 
 ## 1. What I learned

@@ -1,8 +1,12 @@
 ---
+layout: post
 title: "LeetCode 0001 Two Sum.py"
-categories: LeetCode Array HashTable
 date: 2020-10-25 15:00:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Array, HashTable]
+comments: true
 ---
+
 ### 1. How I sloved
 &nbsp;&nbsp;&nbsp;&nbsp;I had to find a pair of numbers with a sum of the target. I looked in turn from the beginning. If (target-number) were in num_dict, I returned the indexes, otherwise (number: index) was added to num_dict.
 
