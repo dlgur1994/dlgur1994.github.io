@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Linked List"
-categories: DataStructure LinkedList
 date: 2021-07-03 12:00:28 -0400
+categories: DataStructure
+tags: [DataStructure, C++, LinkedList]
 comments: true
 ---
 

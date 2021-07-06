@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "Selection Sort"
-categories: Algorithm Sort
 date: 2021-07-01 11:52:28 -0400
+categories: Algorithm
+tags: [Algorithm, C++, Sort]
 comments: true
 ---
 

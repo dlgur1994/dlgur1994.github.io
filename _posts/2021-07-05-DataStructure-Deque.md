@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Deque"
-categories: DataStructure
-tags: [DataStructure, Deque]
+title: "Stack"
 date: 2021-07-05 22:35:28 -0400
+categories: DataStructure
+tags: [DataStructure, C++, Deque]
 comments: true
 ---
 
