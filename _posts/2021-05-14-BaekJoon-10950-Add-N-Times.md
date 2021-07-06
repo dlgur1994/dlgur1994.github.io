@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 10950 Add N Times"
-categories: BaekJoon C++ Implementation Math
+layout: post
+title: "백준 10950 Add N Times"
 date: 2021-05-14 13:45:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, Math]
 comments: true
 ---
 

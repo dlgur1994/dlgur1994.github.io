@@ -1,9 +1,11 @@
 ---
-title: "BaekJoon 01546 Average"
-categories: BaekJoon C++ Implementation Math
+layout: post
+title: "백준 01546 Average"
 date: 2021-05-14 19:30:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, Math]
 comments: true
----  
+---
 
 ### 1. Code
 ```cpp

@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 03052 Remainder"
-categories: BaekJoon C++ Implementation Math
+layout: post
+title: "백준 03052 Remainder"
 date: 2021-05-17 19:28:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, Math]
 comments: true
 ---
 

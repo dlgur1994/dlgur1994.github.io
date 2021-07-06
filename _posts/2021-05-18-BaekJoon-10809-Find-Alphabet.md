@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 10809 Find Alphabet"
-categories: BaekJoon C++ Implementation String
+layout: post
+title: "백준 10809 Find Alphabet"
 date: 2021-05-18 23:07:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, String]
 comments: true
 ---
 

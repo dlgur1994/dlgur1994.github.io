@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 01065 Count Arithmetic Progression"
-categories: BaekJoon C++ BruteForce
+layout: post
+title: "백준 01065 Count Arithmetic Progression"
 date: 2021-05-18 14:40:28 -0400
+categories: SolveProblem
+tags: [백준, C++, BruteForce]
 comments: true
 ---
 

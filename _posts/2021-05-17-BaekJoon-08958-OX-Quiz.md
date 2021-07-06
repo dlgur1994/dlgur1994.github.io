@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 08958 OX Quiz"
-categories: BaekJoon C++ Implementation String
+layout: post
+title: "백준 08958 OX Quiz"
 date: 2021-05-17 19:32:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, String]
 comments: true
 ---
 

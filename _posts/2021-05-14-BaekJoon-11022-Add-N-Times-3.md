@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 11022 Add N Times 3"
-categories: BaekJoon C++ Implementation Math
+layout: post
+title: "백준 11022 Add N Times 3"
 date: 2021-05-14 13:48:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, Math]
 comments: true
 ---
 

@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "BaekJoon 04673 Self Number"
-categories: BaekJoon C++ Implementation Math
 date: 2021-05-18 14:38:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, Math]
 comments: true
 ---
 

@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 11654 Ascii Code"
-categories: BaekJoon C++ Implementation
+layout: post
+title: "백준 11654 Ascii Code"
 date: 2021-05-18 22:58:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation]
 comments: true
 ---
 

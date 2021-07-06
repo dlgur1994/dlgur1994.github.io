@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 02675 Repeat String"
-categories: BaekJoon C++ Implementation
+layout: post
+title: "백준 02675 Repeat String"
 date: 2021-05-20 22:58:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation]
 comments: true
 ---
 

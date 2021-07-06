@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 02577 Number of Numbers"
-categories: BaekJoon C++ Implementation Math String
+layout: post
+title: "백준 02577 Number of Numbers"
 date: 2021-05-17 19:27:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, Math, String]
 comments: true
 ---
 
