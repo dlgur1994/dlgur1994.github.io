@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 0905 Sort Array By Parity.py"
 date: 2020-09-25 17:21:28 -0400
-categories: LeetCode Array
+categories: SolveProblem
+tags: [LeetCode, Array]
+comments: true
 ---
 
 ## 1. What I learned

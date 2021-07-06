@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 1290 Convert Binary Number in a Linked List to Integer.py"
 date: 2020-04-03 16:32:28 -0400
-categories: LeetCode LinkedList BitManipulation
+categories: SolveProblem
+tags: [LeetCode, BitManipulation, LinkedList]
+comments: true
 ---
 
 ## 1. What I learned

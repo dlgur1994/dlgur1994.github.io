@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 0709 To Lower Case.py"
 date: 2020-03-18 23:26:28 -0400
-categories: LeetCode String
+categories: SolveProblem
+tags: [LeetCode, String]
+comments: true
 ---
 
 ## 1. What I learned

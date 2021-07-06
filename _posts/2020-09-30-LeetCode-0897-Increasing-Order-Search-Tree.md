@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 0897 Increasing Order Search Tree.py"
 date: 2020-09-30 22:14:28 -0400
-categories: LeetCode Tree DFS
+categories: SolveProblem
+tags: [LeetCode, DFS, Tree]
+comments: true
 ---
 
 ## 1. What I learned

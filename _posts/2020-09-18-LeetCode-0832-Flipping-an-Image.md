@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 0832 Flipping an Image.py"
 date: 2020-09-18 17:03:28 -0400
-categories: LeetCode Array
+categories: SolveProblem
+tags: [LeetCode, Array]
+comments: true
 ---
 
 ## 1. What I learned

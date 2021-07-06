@@ -1,8 +1,12 @@
 ---
+layout: post
 title: "LeetCode 1299 Replace Elements with Greatest Element on Right Side.py"
 date: 2020-09-22 17:09:28 -0400
-categories: LeetCode Array
+categories: SolveProblem
+tags: [LeetCode, Array]
+comments: true
 ---
+
 ## 1. How I sloved
 &nbsp;&nbsp;&nbsp;&nbsp;Because I had to find the biggest number after the designated element, I found the biggest number from the back. Then it was much easier because all I had to do was just compare the designated element with the very next. I started the comparing from 'len(arr)-2' and returned the second to last element of 'arr' and attached '-1' to the end.  
 

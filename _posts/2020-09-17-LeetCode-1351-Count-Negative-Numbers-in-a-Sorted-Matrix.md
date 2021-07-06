@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 1351 Count Negative Numbers in a Sorted Matrix.py"
 date: 2020-09-17 22:52:28 -0400
-categories: LeetCode Array BinarySearch
+categories: SolveProblem
+tags: [LeetCode, Array, BinarySearch]
+comments: true
 ---
 
 ## 1. What I learned

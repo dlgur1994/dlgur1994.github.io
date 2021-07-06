@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 1374 Generate a String With Characters That Have Odd Counts.py"
 date: 2020-09-20 14:49:28 -0400
-categories: LeetCode String
+categories: SolveProblem
+tags: [LeetCode, String]
+comments: true
 ---
 
 ## 1. How I sloved

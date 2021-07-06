@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 1431 Kids With the Greatest Number of Candies.py"
 date: 2020-09-11 17:29:28 -0400
-categories: LeetCode Array
+categories: SolveProblem
+tags: [LeetCode, Array]
+comments: true
 ---
 
 ## 1. What I learned
