@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0703 Kth Largest Element in a Stream.py"
-categories: LeetCode Heap Design
 date: 2020-11-29 12:07:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Design, Heap]
 comments: true
 ---
 

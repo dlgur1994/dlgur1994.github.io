@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0169 Majority Element.py"
-categories: LeetCode Array Divide&Conquer BitManipulation
 date: 2020-11-13 10:30:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Array, BitManipulation, DivideAndConquer]
 comments: true
 ---
 

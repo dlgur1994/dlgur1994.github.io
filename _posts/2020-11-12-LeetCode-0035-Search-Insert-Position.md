@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0035 Search Insert Position.py"
-categories: LeetCode Array BinarySearch
 date: 2020-11-12 17:06:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Array, BinarySearch]
 comments: true
 ---
 

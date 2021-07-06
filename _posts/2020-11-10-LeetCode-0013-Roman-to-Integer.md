@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0013 Roman to Integer.py"
-categories: LeetCode Math String
 date: 2020-11-10 17:30:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Math, String]
 comments: true
 ---
 

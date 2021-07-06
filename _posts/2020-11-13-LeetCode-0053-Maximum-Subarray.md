@@ -1,7 +1,10 @@
 ---
+layout: post
 title: "LeetCode 0053 Maximum Subarray.py"
-categories: LeetCode Array Divide&Conquer DynamicProgramming
 date: 2020-11-13 17:30:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Array, DivideAndConquer, DynamicProgramming]
+comments: true
 ---
 
 #### 1. How I sloved

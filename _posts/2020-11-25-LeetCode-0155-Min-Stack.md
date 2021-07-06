@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0155 Min Stack.py"
-categories: LeetCode Stack Design
 date: 2020-11-25 13:38:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Design, Stack]
 comments: true
 ---
 

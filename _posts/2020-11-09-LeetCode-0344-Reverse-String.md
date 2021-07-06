@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0344 Reverse String.py"
-categories: LeetCode String TwoPointers
 date: 2020-11-09 15:21:28 -0400
+categories: SolveProblem
+tags: [LeetCode, String, TwoPointers]
 comments: true
 ---
 

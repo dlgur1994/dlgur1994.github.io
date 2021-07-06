@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0859 Buddy Strings.py"
-categories: LeetCode String
 date: 2020-11-12 11:10:28 -0400
+categories: SolveProblem
+tags: [LeetCode, String]
 comments: true
 ---
 

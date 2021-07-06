@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0083 Remove Duplicates from Sorted List.py"
-categories: LeetCode LinkedList
 date: 2020-11-03 17:30:28 -0400
+categories: SolveProblem
+tags: [LeetCode, LinkedList]
 comments: true
 ---
 
