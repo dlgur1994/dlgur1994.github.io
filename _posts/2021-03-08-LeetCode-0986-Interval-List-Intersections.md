@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0986 Interval List Intersections"
-categories: LeetCode Python TwoPointers
 date: 2021-03-08 23:57:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Python, TwoPointers]
 comments: true
 ---
 

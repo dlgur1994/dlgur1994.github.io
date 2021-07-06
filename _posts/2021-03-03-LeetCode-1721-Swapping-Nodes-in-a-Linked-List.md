@@ -1,7 +1,14 @@
 ---
+layout: post
 title: "LeetCode 1721 Swapping Nodes in a Linked List"
-categories: LeetCode Python LinkedList
 date: 2021-03-03 15:19:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Python, LinkedList]
+comments: true
+---
+
+---
+
 comments: true
 ---
 

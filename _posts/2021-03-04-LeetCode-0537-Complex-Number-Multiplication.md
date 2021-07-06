@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0537 Complex Number Multiplication"
-categories: LeetCode Python Math String
 date: 2021-03-04 23:50:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Python, Math, String]
 comments: true
 ---
 

@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0647 Palindromic Substrings"
-categories: LeetCode Python String DynamicProgramming
 date: 2021-03-16 15:57:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Python, DynamicProgramming, String]
 comments: true
 ---
 
