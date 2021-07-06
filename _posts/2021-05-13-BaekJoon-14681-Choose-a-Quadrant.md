@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 14681 Choose a Quadrant"
-categories: BaekJoon C++ Geometry Implementation Math
+layout: post
+title: "백준 14681 Choose a Quadrant"
 date: 2021-05-13 22:53:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Geometry, Implementation, Math]
 comments: true
 ---
 

@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 10998 A Times B"
-categories: BaekJoon C++ Implementation Math
+layout: post
+title: "백준 10998 A Times B"
 date: 2021-05-11 11:08:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, Math]
 comments: true
 ---
 

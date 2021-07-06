@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 02588 Multiplication"
-categories: BaekJoon C++ Math
+layout: post
+title: "백준 02588 Multiplication"
 date: 2021-05-12 22:47:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Math]
 comments: true
 ---
 

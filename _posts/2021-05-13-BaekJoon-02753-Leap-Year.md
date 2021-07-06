@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 02753 Leap Year"
-categories: BaekJoon C++ Implementation Math
+layout: post
+title: "백준 02753 Leap Year"
 date: 2021-05-13 22:51:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, Math]
 comments: true
 ---
 

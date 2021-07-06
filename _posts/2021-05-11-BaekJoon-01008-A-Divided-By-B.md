@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 01008 A Devided By B"
-categories: BaekJoon C++ Implementation Math
+layout: post
+title: "백준 01008 A Devided By B"
 date: 2021-05-11 11:44:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, Math]
 comments: true
 ---
 
