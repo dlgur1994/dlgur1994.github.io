@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0938 Range Sum of BST.py"
-categories: LeetCode Tree DFS Recursion
 date: 2020-12-09 17:16:28 -0400
+categories: SolveProblem
+tags: [LeetCode, DFS, Recursion, Tree]
 comments: true
 ---
 

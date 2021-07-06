@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0461 Hamming Distance.py"
-categories: LeetCode BitManipulation
 date: 2020-12-08 11:48:28 -0400
+categories: SolveProblem
+tags: [LeetCode, BitManipulation]
 comments: true
 ---
 

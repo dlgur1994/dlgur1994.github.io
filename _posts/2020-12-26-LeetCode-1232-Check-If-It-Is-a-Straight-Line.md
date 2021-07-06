@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 1232 Check If It Is a Straight Line"
-categories: LeetCode Array Math Geometry
 date: 2020-12-26 14:58:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Array, Geometry, Math]
 comments: true
 ---
 

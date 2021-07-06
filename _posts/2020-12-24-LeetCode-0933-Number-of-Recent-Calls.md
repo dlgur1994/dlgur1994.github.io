@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0933 Number of Recent Calls"
-categories: LeetCode Queue
 date: 2020-12-24 10:46:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Queue]
 comments: true
 ---
 

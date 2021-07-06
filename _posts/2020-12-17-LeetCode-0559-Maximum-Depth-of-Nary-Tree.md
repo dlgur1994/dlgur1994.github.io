@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0559 Maximum Depth of N-ary Tree.py"
-categories: LeetCode DFS BFS
 date: 2020-12-17 16:58:28 -0400
+categories: SolveProblem
+tags: [LeetCode, BFS, DFS, Tree]
 comments: true
 ---
 

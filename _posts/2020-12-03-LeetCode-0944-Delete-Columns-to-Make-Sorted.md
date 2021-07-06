@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0944 Delete Columns to Make Sorted.py"
-categories: LeetCode Greedy
 date: 2020-12-03 10:16:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Greedy]
 comments: true
 ---
 

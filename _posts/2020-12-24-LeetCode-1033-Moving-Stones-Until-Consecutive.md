@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 1033 Moving Stones Until Consecutive"
-categories: LeetCode Brainteaser
 date: 2020-12-24 00:22:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Brainteaser]
 comments: true
 ---
 

@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0997 Find the Town Judge"
-categories: LeetCode Graph
 date: 2020-12-18 11:27:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Graph]
 comments: true
 ---
 

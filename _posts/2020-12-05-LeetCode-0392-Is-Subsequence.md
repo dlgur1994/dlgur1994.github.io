@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0392 Is Subsequence.py"
-categories: LeetCode BinarySearch DynamicProgramming Greedy
 date: 2020-12-05 15:37:28 -0400
+categories: SolveProblem
+tags: [LeetCode, BinarySearch, DynamicProgramming, Greedy]
 comments: true
 ---
 

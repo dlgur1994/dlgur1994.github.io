@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0101 Symmetric Tree.py"
-categories: LeetCode Tree BFS DFS
 date: 2020-12-10 17:01:28 -0400
+categories: SolveProblem
+tags: [LeetCode, BFS, DFS, Tree]
 comments: true
 ---
 
