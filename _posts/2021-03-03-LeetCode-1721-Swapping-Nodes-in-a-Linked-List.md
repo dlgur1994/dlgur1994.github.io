@@ -7,11 +7,6 @@ tags: [LeetCode, Python, LinkedList]
 comments: true
 ---
 
----
-
-comments: true
----
-
 ### 1. Code
 ```python
 class Solution:
