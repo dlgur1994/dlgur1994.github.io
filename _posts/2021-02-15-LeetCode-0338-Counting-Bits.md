@@ -1,7 +1,9 @@
 ---
-title: "LeetCode 0338 Counting Bits"
-categories: LeetCode Python DynamicProgramming BitManipulation
+layout: post
+title: "LeetCode 0338 Counting Bits" 
 date: 2021-02-15 00:24:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Python, BitManipulation, DynamicProgramming]
 comments: true
 ---
 

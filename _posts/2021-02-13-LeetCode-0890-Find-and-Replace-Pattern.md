@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0890 Find and Replace Pattern"
-categories: LeetCode Python String
 date: 2021-02-13 21:56:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Python, String]
 comments: true
 ---
 

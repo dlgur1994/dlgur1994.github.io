@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 1382 Balance a Binary Search Tree"
-categories: LeetCode Python BinarySearchTree
 date: 2021-02-20 23:34:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Python, BinarySearchTree]
 comments: true
 ---
 

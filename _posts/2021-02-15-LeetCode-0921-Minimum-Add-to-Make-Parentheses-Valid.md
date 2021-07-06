@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "LeetCode 0921 Minimum Add to Make Parentheses Valid"
-categories: LeetCode Python Stack Greedy
 date: 2021-02-15 21:54:28 -0400
+categories: SolveProblem
+tags: [LeetCode, Python, Greedy, Stack]
 comments: true
 ---
 
