@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 11650 Sort Coordinate"
-categories: BaekJoon C++ Sort
+layout: post
+title: "백준 11650 Sort Coordinate"
 date: 2021-06-30 18:07:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Sort]
 comments: true
 ---
 

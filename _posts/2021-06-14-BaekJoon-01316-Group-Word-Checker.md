@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 01316 Group Word Checker"
-categories: BaekJoon C++ Implementation String
+layout: post
+title: "백준 01316 Group Word Checker"
 date: 2021-06-14 00:07:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, String]
 comments: true
 ---
 

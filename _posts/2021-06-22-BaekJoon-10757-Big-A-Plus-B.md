@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 10757 Big A Plus B"
-categories: BaekJoon C++ Math Implementation
+layout: post
+title: "백준 10757 Big A Plus B"
 date: 2021-06-22 13:53:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Math, Implementation]
 comments: true
 ---
 

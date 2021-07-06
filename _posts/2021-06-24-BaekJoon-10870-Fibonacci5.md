@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 10870 Fibonacci5"
-categories: BaekJoon C++ Math DynamicProgramming
+layout: post
+title: "백준 10870 Fibonacci5"
 date: 2021-06-22 13:53:28 -0400
+categories: SolveProblem
+tags: [백준, C++, DynamicProgramming, Math]
 comments: true
 ---
 

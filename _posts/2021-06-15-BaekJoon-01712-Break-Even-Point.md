@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 01712 Break Even Point"
-categories: BaekJoon C++ Math
+layout: post
+title: "백준 01712 Break Even Point"
 date: 2021-06-15 22:42:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Math]
 comments: true
 ---
 

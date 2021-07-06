@@ -1,7 +1,9 @@
 ---
-title: "BaekJoon 02562 Maximum"
-categories: BaekJoon C++ Implementation Math
+layout: post
+title: "백준 02562 Maximum"
 date: 2021-05-16 13:47:28 -0400
+categories: SolveProblem
+tags: [백준, C++, Implementation, Math]
 comments: true
 ---
 
