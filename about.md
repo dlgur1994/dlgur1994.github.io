@@ -47,7 +47,7 @@ permalink: /about/
     > Jun 2019 - Aub 2019  
     > Machine Learning Researcher (Internship)  
     > Developed a text cleansing code to extract the necessary information from news articles  
-    > Preprocessed training data for machine learning training
+    > Preprocessed data for machine learning
 
 ## Skill
 - Programming
