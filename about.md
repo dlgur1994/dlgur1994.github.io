@@ -42,12 +42,11 @@ permalink: /about/
 - **OneSoftdigm** , Pohang, Republic of Korea
     > Sep 2020 - Dec 2020  
     > Machine Learning Developer (Internship)  
-    > Developed a machine learning model to predict a person's body fat rate and the possibility of metabolic syndrome with simple biometric data  
-    > Body fat certification model is used to improve the performance of the company's products  
+    > Developed a machine learning model to predict a person's body fat rate and the possibility of metabolic syndrome with body data  
 - **Konnan Technology**, Seoul, Republic of Korea
     > Jun 2019 - Aub 2019  
     > Machine Learning Researcher (Internship)  
-    > Developed a text cleansing code to extract the necessary information from news articles
+    > Developed a text cleansing code to extract the necessary information from news articles  
     > Preprocessed training data for machine learning training
 
 ## Skill
