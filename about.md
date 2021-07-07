@@ -49,8 +49,8 @@ permalink: /about/
 - Keras, Numpy, Pandas, Tensorflow
 - Anaconda, Colab, Git, LaTex, Linux, Jupyter
 - **English**: fluent
-    - TOEFL Best Score 102/120 (Reading:30, Listening:28, Speaking:23, Writing:21)
-    - TOEFL 99/120 (Reading:28, Listening:28, Speaking:23, Writing:20)
+    - TOEFL Best Score 102 (R 30, L 28, Sp 23, Wr 21)
+    - TOEFL 99 (R 28, L 28, Sp 23, Wr 20)
 - Korean: native
 
 ## Publication
