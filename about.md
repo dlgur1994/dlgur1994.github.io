@@ -12,39 +12,37 @@ permalink: /about/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_sponsored by Korean Government_
 
 ## Project
-**Classify Words of a Person with Articulation Disorder**   
-- Developed CNN model classified 9 words of a person with an articulation disorder   
-- Used Python, Tensorflow, Keras, Google Colab   
-- [github](https://github.com/dlgur1994/Classify-Words-of-a-Person-with-Articulation-Disorder-using-Deep-Learning)
+- **Classify Words of a Person with Articulation Disorder**   
+    - Developed CNN model classified 9 words of a person with an articulation disorder   
+    - Used Python, Tensorflow, Keras, Google Colab   
+    - [github](https://github.com/dlgur1994/Classify-Words-of-a-Person-with-Articulation-Disorder-using-Deep-Learning)
 
-**Predict Body Fat Percentage using Machine Learning**   
-- Developed a regressor using a machine learning model based on physical data that returned predictions when entering physical data   
-- Used Python, Machine Learning, Jupyter, Git, Flask   
-- [github](https://github.com/dlgur1994/Predict-Body-Fat-Percentage-using-Machine-Learning)
+- **Predict Body Fat Percentage using Machine Learning**   
+    - Developed a regressor using a machine learning model based on physical data that returned predictions when entering physical data   
+    - Used Python, Machine Learning, Jupyter, Git, Flask   
+    - [github](https://github.com/dlgur1994/Predict-Body-Fat-Percentage-using-Machine-Learning)
 
-**Compare LoRa and APRS for Smart Farm**   
-- Compared LoRa and APRS to find out which was more suitable for long-distance communication on Smart Farm   
-- Calculated expecting networking distances by the Friis Transmission formula 
-- Explained the reason for the actual network communication distance shorter than the expected network distance of APRS with the application of Fresnel Zone   
-- Wrote a paper and approved by IEEE International Conference on Omni-layer Intelligent Systems   
-- Used: Arduino, Antennas, Bread board, HX1 chip, LoRa shield, Spectrum analyzer
-- [github](https://github.com/dlgur1994/Compare-LoRa-and-APRS-for-Smart-Farm)
+- **Compare LoRa and APRS for Smart Farm**   
+    - Compared LoRa and APRS to find out which was more suitable for long-distance communication on Smart Farm   
+    - Calculated expecting networking distances by the Friis Transmission formula 
+    - Explained the reason for the actual network communication distance shorter than the expected network distance of APRS with the application of Fresnel Zone   
+    - Wrote a paper and approved by IEEE International Conference on Omni-layer Intelligent Systems   
+    - Used: Arduino, Antennas, Bread board, HX1 chip, LoRa shield, Spectrum analyzer
+    - [github](https://github.com/dlgur1994/Compare-LoRa-and-APRS-for-Smart-Farm)
 
 ## Experience
-**CN Solution**, 2021 Mar - 2021 May, Seoul, Republic of Korea
-- Software Engineer (Internship)
-- Planned a database for the online shopping mall
-- Developed login function for the online shopping mall   
-**OneSoftdigm** , 2020 Sep - 2020 Dec, Pohang, Republic of Korea
-- Machine Learning Developer (Internship)
-- Developed a machine learning model to predict a person's body fat rate and the possibility of metabolic syndrome with simple biometric data
-- Body fat certification model is used to improve the performance of the company's products
-- Metabolic syndrome prediction model will be used in a hospital   
-**Konnan Technology**, 2019 Jun - 2019 Aug, Seoul, Republic of Korea
-- Machine Learning Researcher (Internship)
-- Developed a text cleansing code to extract the necessary information from news articles
-- Preprocessed training data for machine learning training
-- Used K language (Konnan's programming language similar to C and Python)
+- **CN Solution**, 2021 Mar - 2021 May, Seoul, Republic of Korea
+    - Software Engineer (Internship)
+    - Planned a database for the online shopping mall
+    - Developed login function for the online shopping mall
+- **OneSoftdigm** , 2020 Sep - 2020 Dec, Pohang, Republic of Korea
+    - Machine Learning Developer (Internship)
+    - Developed a machine learning model to predict a person's body fat rate and the possibility of metabolic syndrome with simple biometric data
+    - Body fat certification model is used to improve the performance of the company's products
+- **Konnan Technology**, 2019 Jun - 2019 Aug, Seoul, Republic of Korea
+    - Machine Learning Researcher (Internship)
+    - Developed a text cleansing code to extract the necessary information from news articles
+    - Preprocessed training data for machine learning training
 
 ## Skill
 - **Python**, C++
@@ -60,6 +58,6 @@ permalink: /about/
 - “An AI Speech Recognition Application for the Articulation Disorder,”2019 Korea Computer Congress (KCC), Jeju, Korea, 2019, pp.1854-1856." (J. Jeon, **H. Lee**, and S. Hwang)
 
 ## Certification, Award, and Scholarship
-**CCNA** (Cisco Certified Network Associate)   
-**Handong Capstone Design Competition Encouragement Prize** (An AI Speech Recognition Application for the Articulation Disorder)   
-**Academic Excellent** (Spring & Fall, 2018)
+- **CCNA** (Cisco Certified Network Associate)
+- **Handong Capstone Design Competition Encouragement Prize** (An AI Speech Recognition Application for the Articulation Disorder)
+- **Academic Excellent** (Spring & Fall, 2018)
