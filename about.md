@@ -34,12 +34,12 @@ permalink: /about/
 **CN Solution**, 2021 Mar - 2021 May, Seoul, Republic of Korea
 - Software Engineer (Internship)
 - Planned a database for the online shopping mall
-- Developed login function for the online shopping mall
+- Developed login function for the online shopping mall   
 **OneSoftdigm** , 2020 Sep - 2020 Dec, Pohang, Republic of Korea
 - Machine Learning Developer (Internship)
 - Developed a machine learning model to predict a person's body fat rate and the possibility of metabolic syndrome with simple biometric data
 - Body fat certification model is used to improve the performance of the company's products
-- Metabolic syndrome prediction model will be used in a hospital
+- Metabolic syndrome prediction model will be used in a hospital   
 **Konnan Technology**, 2019 Jun - 2019 Aug, Seoul, Republic of Korea
 - Machine Learning Researcher (Internship)
 - Developed a text cleansing code to extract the necessary information from news articles
