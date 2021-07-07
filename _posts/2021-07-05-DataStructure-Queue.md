@@ -9,7 +9,7 @@ comments: true
 
 ## 1. Descriptions
 ### &nbsp;&nbsp;&nbsp;&nbsp;What is Linked List?  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Selection Sort** "Queue" is a FIFO data structure that follows a particular order.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Queue" is a FIFO data structure that follows a particular order.   
 
 ## 2. Code
 ```cpp
@@ -90,5 +90,4 @@ int main(void) {
 ```
 
 #### Check out the [my GitHub repo][hyuk-gh] for more info on the code. If you have questions, you can leave a reply on this post.
-
-[hyuk-gh]:   https://github.com/dlgur1994/StudyAlgorithms/DataStructure
+[hyuk-gh]:   https://github.com/dlgur1994/Algorithms/tree/master/DataStructure

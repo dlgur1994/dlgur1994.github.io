@@ -114,5 +114,4 @@ int main(void) {
 ```
 
 #### Check out the [my GitHub repo][hyuk-gh] for more info on the code. If you have questions, you can leave a reply on this post.
-
-[hyuk-gh]:   https://github.com/dlgur1994/StudyAlgorithms/DataStructure
+[hyuk-gh]:   https://github.com/dlgur1994/Algorithms/tree/master/DataStructure
