@@ -23,12 +23,12 @@ permalink: /about/
     > [github](https://github.com/dlgur1994/Predict-Body-Fat-Percentage-using-Machine-Learning)
 
 - **Compare LoRa and APRS for Smart Farm**   
-    > Compared LoRa and APRS to find out which was more suitable for long-distance communication on Smart Farm   
-    > Calculated expecting networking distances by the Friis Transmission formula 
-    > Explained the reason for the actual network communication distance shorter than the expected network distance of APRS with the application of Fresnel Zone   
-    > Wrote a paper and approved by IEEE International Conference on Omni-layer Intelligent Systems   
-    > Used: Arduino, Antennas, Bread board, HX1 chip, LoRa shield, Spectrum analyzer
-    > [github](https://github.com/dlgur1994/Compare-LoRa-and-APRS-for-Smart-Farm)
+> Compared LoRa and APRS to find out which was more suitable for long-distance communication on Smart Farm   
+> Calculated expecting networking distances by the Friis Transmission formula 
+> Explained the reason for the actual network communication distance shorter than the expected network distance of APRS with the application of Fresnel Zone   
+> Wrote a paper and approved by IEEE International Conference on Omni-layer Intelligent Systems   
+> Used: Arduino, Antennas, Bread board, HX1 chip, LoRa shield, Spectrum analyzer
+> [github](https://github.com/dlgur1994/Compare-LoRa-and-APRS-for-Smart-Farm)
 
 ## Experience
 - **CN Solution**, 2021 Mar - 2021 May, Seoul, Republic of Korea
