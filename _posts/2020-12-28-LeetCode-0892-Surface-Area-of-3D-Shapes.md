@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0892 Surface Area of 3D Shapes"
 date: 2020-12-28 16:13:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Geometry, Math]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Geometry, Math]
 comments: true
 ---
 

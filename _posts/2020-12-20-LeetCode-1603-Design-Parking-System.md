@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 1603 Design Parking System"
 date: 2020-12-20 15:50:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Design]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Design]
 comments: true
 ---
 

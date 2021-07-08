@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 1046 Last Stone Weight.py"
 date: 2020-11-27 13:03:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Greedy, Heap]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Greedy, Heap]
 comments: true
 ---
 

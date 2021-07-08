@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0167 Two Sum II - Input array is sorted.py" 
 date: 2020-11-09 15:21:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Array, BinarySearch, TwoPointers]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Array, BinarySearch, TwoPointers]
 comments: true
 ---
 

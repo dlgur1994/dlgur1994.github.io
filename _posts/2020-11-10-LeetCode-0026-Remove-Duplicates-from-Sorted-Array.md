@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0026 Remove Duplicates from Sorted Array.py"
 date: 2020-11-10 16:36:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Array, TwoPointers]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Array, TwoPointers]
 comments: true
 ---
 

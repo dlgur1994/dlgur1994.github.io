@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0088 Merge Sorted Array.py"
 date: 2020-10-22 23:33:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Array, TwoPointers]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Array, TwoPointers]
 comments: true
 ---
 

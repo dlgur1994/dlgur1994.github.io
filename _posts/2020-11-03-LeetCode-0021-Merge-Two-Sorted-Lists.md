@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0021 Merge Two Sorted Lists.py"
 date: 2020-11-03 16:18:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, LinkedList]
+categories: [Problem Solving]
+tags: [LeetCode, Python, LinkedList]
 comments: true
 ---
 

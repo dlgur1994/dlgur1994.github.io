@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0905 Sort Array By Parity.py"
 date: 2020-09-25 17:21:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Array]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Array]
 comments: true
 ---
 

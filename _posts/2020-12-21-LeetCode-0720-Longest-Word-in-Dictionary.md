@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0720 Longest Word in Dictionary"
 date: 2020-12-21 17:06:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, HashTable, Trie]
+categories: [Problem Solving]
+tags: [LeetCode, Python, HashTable, Trie]
 comments: true
 ---
 

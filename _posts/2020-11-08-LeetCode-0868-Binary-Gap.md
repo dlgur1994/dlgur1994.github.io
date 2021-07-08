@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0868 Binary Gap.py"
 date: 2020-11-08 16:45:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Math]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Math]
 comments: true
 ---
 

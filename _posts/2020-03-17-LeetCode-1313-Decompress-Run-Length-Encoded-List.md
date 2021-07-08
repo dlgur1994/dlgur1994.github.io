@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 1313 Decompress Run-Length Encoded List.py"
 date: 2020-03-17 23:26:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Array]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Array]
 comments: true
 ---
 

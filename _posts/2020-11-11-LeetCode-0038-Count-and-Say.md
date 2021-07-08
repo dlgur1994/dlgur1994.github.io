@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0038 Count and Say.py"
 date: 2020-11-11 10:58:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, String]
+categories: [Problem Solving]
+tags: [LeetCode, Python, String]
 comments: true
 ---
 

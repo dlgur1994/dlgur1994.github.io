@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0014 Longest Common Prefix.py"
 date: 2020-11-11 16:24:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, String]
+categories: [Problem Solving]
+tags: [LeetCode, Python, String]
 comments: true
 ---
 

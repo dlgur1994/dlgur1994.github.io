@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0605 Can Place Flowers.py"
 date: 2020-12-06 21:45:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Array, Greedy]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Array, Greedy]
 comments: true
 ---
 

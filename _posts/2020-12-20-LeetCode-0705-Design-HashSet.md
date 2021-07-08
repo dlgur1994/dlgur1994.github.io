@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0705 Design HashSet"
 date: 2020-12-20 16:25:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Design, HashTable]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Design, HashTable]
 comments: true
 ---
 

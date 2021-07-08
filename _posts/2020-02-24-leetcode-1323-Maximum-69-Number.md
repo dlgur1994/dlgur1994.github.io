@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 1323 Maximum 69 Number.py"
 date: 2020-02-24 22:52:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Math]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Math]
 comments: true
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0563 Binary Tree Tilt"
 date: 2020-12-22 14:16:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, DFS, Recursion, Tree]
+categories: [Problem Solving]
+tags: [LeetCode, Python, DFS, Recursion, Tree]
 comments: true
 ---
 

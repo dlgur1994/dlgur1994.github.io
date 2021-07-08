@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0771 Jewels and Stones.py"
 date: 2020-01-16 18:59:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, HashTable]
+categories: [Problem Solving]
+tags: [LeetCode, Python, HashTable]
 comments: true
 ---
 

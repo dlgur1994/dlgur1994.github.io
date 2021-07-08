@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0509 Fibonacci Number.py"
 date: 2020-10-21 11:02:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Array]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Array]
 comments: true
 ---
 

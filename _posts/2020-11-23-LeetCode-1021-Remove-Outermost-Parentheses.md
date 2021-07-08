@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 1021 Remove Outermost Parentheses.py"
 date: 2020-11-23 10:53:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Stack]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Stack]
 comments: true
 ---
 

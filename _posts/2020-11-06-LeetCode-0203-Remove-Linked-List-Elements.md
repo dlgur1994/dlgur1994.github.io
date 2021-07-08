@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0203 Remove Linked List Elements.py"
 date: 2020-11-06 22:12:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, LinkedList]
+categories: [Problem Solving]
+tags: [LeetCode, Python, LinkedList]
 comments: true
 ---
 

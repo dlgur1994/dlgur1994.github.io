@@ -3,7 +3,7 @@ layout: post
 title: "Recursion (Tower of Hanoi).py"
 date: 2020-08-09 22:27:28 -0400
 categories: Algorithm
-tags: [Algorithm, Recursion]
+tags: [Algorithm, Python, Recursion]
 comments: true
 ---
 

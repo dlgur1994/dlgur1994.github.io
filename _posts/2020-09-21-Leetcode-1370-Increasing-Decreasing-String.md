@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 1370 Increasing Decreasing String.py"
 date: 2020-09-21 17:17:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Sort, String]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Sort, String]
 comments: true
 ---
 

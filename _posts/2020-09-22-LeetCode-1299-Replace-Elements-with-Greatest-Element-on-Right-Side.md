@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 1299 Replace Elements with Greatest Element on Right Side.py"
 date: 2020-09-22 17:09:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Array]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Array]
 comments: true
 ---
 

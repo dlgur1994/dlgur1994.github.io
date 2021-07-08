@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0107 Binary Tree Level Order Traversal II.py"
 date: 2020-10-14 15:48:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, BFS, Tree]
+categories: [Problem Solving]
+tags: [LeetCode, Python, BFS, Tree]
 comments: true
 ---
 

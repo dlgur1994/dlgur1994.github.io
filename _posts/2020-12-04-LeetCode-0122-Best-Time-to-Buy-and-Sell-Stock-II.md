@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0122 Best Time to Buy and Sell Stock II.py"
 date: 2020-12-04 11:54:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Array, Greedy]
+categories: [Problem Solving]
+tags: [LeetCode, Python, rray, Greedy]
 comments: true
 ---
 

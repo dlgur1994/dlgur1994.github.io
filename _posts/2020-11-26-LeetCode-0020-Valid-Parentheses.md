@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0020 Valid Parentheses.py"
 date: 2020-11-26 10:42:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Stack, String]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Stack, String]
 comments: true
 ---
 

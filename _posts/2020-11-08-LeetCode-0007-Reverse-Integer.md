@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0007 Reverse Integer.py"
 date: 2020-11-08 16:18:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Math]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Math]
 comments: true
 ---
 

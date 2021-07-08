@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0401 Binary Watch.py"
 date: 2020-12-02 11:44:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, BackTracking, BitManipulation]
+categories: [Problem Solving]
+tags: [LeetCode, Python, BackTracking, BitManipulation]
 comments: true
 ---
 

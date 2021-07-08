@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 1304 Find N Unique Integers Sum up to Zero.py"
 date: 2020-09-20 00:30:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, Array]
+categories: [Problem Solving]
+tags: [LeetCode, Python, Array]
 comments: true
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 0204 Count Primes.py"
 date: 2020-11-01 15:43:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, HashTable]
+categories: [Problem Solving]
+tags: [LeetCode, Python, HashTable]
 comments: true
 ---
 
