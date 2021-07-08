@@ -2,7 +2,7 @@
 layout: post
 title: "Queue"
 date: 2021-07-05 22:31:28 -0400
-categories: DataStructure
+categories: [Data Structure]
 tags: [DataStructure, C++, Queue]
 comments: true
 ---

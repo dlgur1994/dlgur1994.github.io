@@ -2,7 +2,7 @@
 layout: post
 title: "Binary Tree"
 date: 2021-07-07 14:50:28 -0400
-categories: DataStructure
+categories: [Data Structure]
 tags: [DataStructure, C++, BinaryTree]
 comments: true
 ---

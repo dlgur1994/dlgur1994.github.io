@@ -2,7 +2,7 @@
 layout: post
 title: "Stack"
 date: 2021-07-03 14:56:28 -0400
-categories: DataStructure
+categories: [Data Structure]
 tags: [DataStructure, C++, Stack]
 comments: true
 ---
