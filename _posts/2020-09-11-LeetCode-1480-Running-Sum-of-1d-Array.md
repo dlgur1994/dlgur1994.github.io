@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1480 Running Sum of 1d Array.py"
 date: 2020-09-11 17:49:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Array]
 comments: true
 ---

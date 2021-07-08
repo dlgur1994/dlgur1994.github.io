@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0100 Same Tree11 Minimum Depth of Binary Tree.py"
 date: 2020-12-12 16:58:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, DFS, Tree]
 comments: true
 ---

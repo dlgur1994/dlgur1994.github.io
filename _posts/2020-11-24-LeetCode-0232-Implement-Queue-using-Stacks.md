@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0232 Implement Queue using Stacks.py"
 date: 2020-11-24 10:57:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Design, Stack]
 comments: true
 ---

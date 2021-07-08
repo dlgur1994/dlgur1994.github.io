@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0349 Intersection of Two Arrays.py"
 date: 2020-11-12 16:46:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, BinarySearch, HashTable, Sort, TwoPointers]
 comments: true
 ---

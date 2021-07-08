@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0118 Pascal's Triangle.py"
 date: 2020-10-22 16:18:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Array]
 comments: true
 ---

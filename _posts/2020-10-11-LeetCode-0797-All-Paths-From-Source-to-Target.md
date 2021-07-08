@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0797 All Paths From Source to Target.py"
 date: 2020-10-11 14:21:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, BackTracking, DFS, Graph]
 comments: true
 ---

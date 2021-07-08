@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0136 Single Number.py"
 date: 2020-10-26 09:45:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, BitManipulation, HashTable]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1025 Divisor Game.py"
 date: 2020-11-22 14:12:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, DynamicProgramming, Math]
 comments: true
 ---

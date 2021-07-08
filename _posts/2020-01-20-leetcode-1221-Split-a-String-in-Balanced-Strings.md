@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1221 Split a String in Balanced Strings.py"
 date: 2020-01-20 23:55:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Greedy, String]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1281 Subtract the Product and Sum of Digits of an Integer.py"
 date: 2020-01-12 14:53:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Math]
 comments: true
 ---

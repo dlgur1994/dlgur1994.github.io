@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1266 Minimum Time Visiting All Points"
 date: 2020-12-24 11:41:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Array, Geometry]
 comments: true
 ---

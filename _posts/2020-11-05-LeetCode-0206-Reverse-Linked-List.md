@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0206 Reverse Linked List.py"
 date: 2020-11-05 17:42:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, LinkedList]
 comments: true
 ---

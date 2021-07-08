@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0121 Best Time to Buy and Sell Stock.py"
 date: 2020-11-16 17:11:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Array, DynamicProgramming]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0977 Squares of a Sorted Array.py"
 date: 2020-10-20 17:48:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Array, TwoPointers]
 comments: true
 ---

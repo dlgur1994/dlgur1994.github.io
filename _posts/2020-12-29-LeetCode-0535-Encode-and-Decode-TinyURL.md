@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0535 Encode and Decode TinyURL"
 date: 2020-12-29 10:45:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, HashTable, Math]
 comments: true
 ---

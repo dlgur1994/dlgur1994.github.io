@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0242 Valid Anagram.py"
 date: 2020-12-07 9:59:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, HashTable, Sort]
 comments: true
 ---

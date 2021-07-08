@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1528 Shuffle String.py"
 date: 2020-12-01 13:19:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Sort]
 comments: true
 ---

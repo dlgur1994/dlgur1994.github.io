@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0292 Nim Game"
 date: 2020-12-23 23:30:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Brainteaser, Minimax]
 comments: true
 ---

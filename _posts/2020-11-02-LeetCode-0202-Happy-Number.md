@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0202 Happy Number.py"
 date: 2020-11-02 16:31:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, HashTable]
 comments: true
 ---

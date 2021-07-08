@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0001 Two Sum.py"
 date: 2020-10-25 15:00:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Array, HashTable]
 comments: true
 ---

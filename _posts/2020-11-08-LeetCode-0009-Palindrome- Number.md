@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0009 Palindrome Number.py"
 date: 2020-11-08 15:34:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Math]
 comments: true
 ---

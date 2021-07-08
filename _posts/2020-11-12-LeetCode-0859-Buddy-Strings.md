@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0859 Buddy Strings.py"
 date: 2020-11-12 11:10:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, String]
 comments: true
 ---

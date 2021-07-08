@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0110 Balanced Binary Tree"
 date: 2020-12-23 17:47:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, DFS, Recursion, Tree]
 comments: true
 ---

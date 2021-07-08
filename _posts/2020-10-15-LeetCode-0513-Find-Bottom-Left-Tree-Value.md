@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0513 Find Bottom Left Tree Value.py"
 date: 2020-10-15 16:52:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, BFS, DFS]
 comments: true
 ---
