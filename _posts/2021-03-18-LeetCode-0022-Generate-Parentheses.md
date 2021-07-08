@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0022 Generate Parentheses"
 date: 2021-03-18 16:24:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [LeetCode, Python, BackTracking, String]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0230 Kth Smallest Element in a BST" 
 date: 2021-03-10 00:21:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [LeetCode, Python, BinarySearch, Tree]
 comments: true
 ---

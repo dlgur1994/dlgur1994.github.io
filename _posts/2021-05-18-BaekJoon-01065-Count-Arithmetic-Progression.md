@@ -2,7 +2,7 @@
 layout: post
 title: "백준 01065 Count Arithmetic Progression"
 date: 2021-05-18 14:40:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [백준, C++, BruteForce]
 comments: true
 ---

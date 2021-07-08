@@ -2,7 +2,7 @@
 layout: post
 title: "백준 01316 Group Word Checker"
 date: 2021-06-14 00:07:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [백준, C++, Implementation, String]
 comments: true
 ---

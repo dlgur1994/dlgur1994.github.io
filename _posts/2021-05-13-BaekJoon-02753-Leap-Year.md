@@ -2,7 +2,7 @@
 layout: post
 title: "백준 02753 Leap Year"
 date: 2021-05-13 22:51:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [백준, C++, Implementation, Math]
 comments: true
 ---

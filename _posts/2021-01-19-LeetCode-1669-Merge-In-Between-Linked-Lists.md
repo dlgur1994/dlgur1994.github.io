@@ -2,8 +2,8 @@
 layout: post
 title: "LeetCode 1669 Merge In Between Linked Lists"
 date: 2021-01-19 00:05:28 -0400
-categories: ProblemSolving
-tags: [LeetCode, LinkedList]
+categories: [Problem Solving]
+tags: [LeetCode, Python, LinkedList]
 comments: true
 ---
 

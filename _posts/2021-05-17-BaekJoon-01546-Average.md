@@ -2,7 +2,7 @@
 layout: post
 title: "백준 01546 Average"
 date: 2021-05-14 19:30:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [백준, C++, Implementation, Math]
 comments: true
 ---

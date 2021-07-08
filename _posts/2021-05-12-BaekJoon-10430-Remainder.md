@@ -2,7 +2,7 @@
 layout: post
 title: "백준 10430 Remainder"
 date: 2021-05-12 22:49:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [백준, C++, Implementation, Math]
 comments: true
 ---

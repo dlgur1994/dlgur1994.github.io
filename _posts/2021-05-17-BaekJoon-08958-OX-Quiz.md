@@ -2,7 +2,7 @@
 layout: post
 title: "백준 08958 OX Quiz"
 date: 2021-05-17 19:32:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [백준, C++, Implementation, String]
 comments: true
 ---

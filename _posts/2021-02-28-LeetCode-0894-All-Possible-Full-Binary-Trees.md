@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0894 All Possible Full Binary Trees"
 date: 2021-02-28 19:41:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [LeetCode, Python, Recursion, Tree]
 comments: true
 ---

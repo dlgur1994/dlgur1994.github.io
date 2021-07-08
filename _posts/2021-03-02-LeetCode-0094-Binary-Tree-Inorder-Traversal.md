@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0094 Binary Tree Inorder Traversal"
 date: 2021-03-02 15:18:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [LeetCode, Python, HashTable, Stack, Tree]
 comments: true
 ---

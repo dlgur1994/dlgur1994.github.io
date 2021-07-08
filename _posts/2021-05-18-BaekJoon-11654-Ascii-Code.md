@@ -2,7 +2,7 @@
 layout: post
 title: "백준 11654 Ascii Code"
 date: 2021-05-18 22:58:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [백준, C++, Implementation]
 comments: true
 ---

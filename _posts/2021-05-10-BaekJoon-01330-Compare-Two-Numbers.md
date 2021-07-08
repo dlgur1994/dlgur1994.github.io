@@ -2,7 +2,7 @@
 layout: post
 title: "백준 01330 Compare Two Numbers"
 date: 2021-05-10 19:56:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [백준, C++, Implementation, Math]
 comments: true
 ---

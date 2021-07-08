@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0973 K Closest Points to Origin"
 date: 2021-03-12 15:32:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [LeetCode, Python, DivideAndConquer, Heap, Sort]
 comments: true
 ---

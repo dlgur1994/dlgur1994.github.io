@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0763 Partition Labels"
 date: 2021-02-02 23:28:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [LeetCode, Python, Greedy, TwoPointers]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0647 Palindromic Substrings"
 date: 2021-03-16 15:57:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [LeetCode, Python, DynamicProgramming, String]
 comments: true
 ---

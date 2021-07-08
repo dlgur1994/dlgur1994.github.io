@@ -2,7 +2,7 @@
 layout: post
 title: "백준 01712 Break Even Point"
 date: 2021-06-15 22:42:28 -0400
-categories: ProblemSolving
+categories: [Problem Solving]
 tags: [백준, C++, Math]
 comments: true
 ---
