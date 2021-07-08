@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1108 Defanging an IP Address.py"
 date: 2020-01-07 23:55:28 -0400
-categories: Problem Solving
+categories: [Problem Solving]
 tags: [LeetCode, String]
 comments: true
 ---
