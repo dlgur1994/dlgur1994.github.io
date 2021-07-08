@@ -8,8 +8,8 @@ comments: true
 ---
 
 ## 1. Descriptions
-### &nbsp;&nbsp;&nbsp;&nbsp;What is Linked List?  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Selection Sort** "Stack" is a LIFO data structure that builds data step by step from the bottom.   
+### &nbsp;&nbsp;&nbsp;&nbsp;What is Stack?  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Stack" is a LIFO data structure that builds data step by step from the bottom.   
 
 ## 2. Code
 ```cpp
