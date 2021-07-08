@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stack"
+title: "Deque"
 date: 2021-07-05 22:35:28 -0400
 categories: [Data Structure]
 tags: [DataStructure, C++, Deque]
