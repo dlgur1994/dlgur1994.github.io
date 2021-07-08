@@ -2,7 +2,7 @@
 layout: post
 title: "백준 15552 Add N Times 4"
 date: 2021-05-14 13:53:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [백준, C++, Implementation, Math]
 comments: true
 ---

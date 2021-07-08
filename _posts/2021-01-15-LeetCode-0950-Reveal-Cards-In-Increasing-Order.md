@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0950 Reveal Cards In Increasing Order"
 date: 2021-01-15 23:02:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Array, Simulation]
 comments: true
 ---

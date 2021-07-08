@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1305 All Elements in Two Binary Search Trees"
 date: 2021-02-16 14:48:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Python, Sort, Tree]
 comments: true
 ---

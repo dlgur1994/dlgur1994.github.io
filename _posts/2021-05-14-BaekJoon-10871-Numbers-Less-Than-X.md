@@ -2,7 +2,7 @@
 layout: post
 title: "백준 10871 Numbers Less Than X"
 date: 2021-05-14 13:50:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [백준, C++, Implementation, Math]
 comments: true
 ---

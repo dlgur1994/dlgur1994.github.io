@@ -2,7 +2,7 @@
 layout: post
 title: "백준 10809 Find Alphabet"
 date: 2021-05-18 23:07:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [백준, C++, Implementation, String]
 comments: true
 ---

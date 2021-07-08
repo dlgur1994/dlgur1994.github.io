@@ -2,7 +2,7 @@
 layout: post
 title: "백준 10757 Big A Plus B"
 date: 2021-06-22 13:53:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [백준, C++, Math, Implementation]
 comments: true
 ---

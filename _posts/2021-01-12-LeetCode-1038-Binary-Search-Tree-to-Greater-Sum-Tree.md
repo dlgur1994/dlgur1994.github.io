@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1038 Binary Search Tree to Greater Sum Tree"
 date: 2021-01-12 18:04:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, BST]
 comments: true
 ---

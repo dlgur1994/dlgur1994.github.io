@@ -2,7 +2,7 @@
 layout: post
 title: "백준 11651 Sort Coordinate2"
 date: 2021-06-29 21:47:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [백준, C++, Sort]
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1395 Count Number of Teams"
 date: 2021-01-01 10:13:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Array]
 comments: true
 ---

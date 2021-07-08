@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1261 Find Elements in a Contaminated Binary Tree"
 date: 2021-01-17 16:54:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, HashTable, Tree]
 comments: true
 ---

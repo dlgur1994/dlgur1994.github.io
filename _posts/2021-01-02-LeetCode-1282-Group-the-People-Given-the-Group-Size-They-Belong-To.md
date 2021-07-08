@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1282 Group the People Given the Group Size They Belong To"
 date: 2021-01-02 15:05:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Greedy]
 comments: true
 ---

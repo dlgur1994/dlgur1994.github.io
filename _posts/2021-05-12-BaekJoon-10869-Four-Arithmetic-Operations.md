@@ -2,7 +2,7 @@
 layout: post
 title: "백준 10869 Four Arithmetic Operations"
 date: 2021-05-12 22:50:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [백준, C++, Implementation, Math]
 comments: true
 ---

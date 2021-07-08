@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 1286 Iterator for Combination"
 date: 2021-02-17 21:36:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Python, BackTracking, Design]
 comments: true
 ---

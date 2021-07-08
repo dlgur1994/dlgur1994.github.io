@@ -2,7 +2,7 @@
 layout: post
 title: "백준 10718 We love kriii"
 date: 2021-05-10 12:44:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [백준, C++, Implementation]
 comments: true
 ---

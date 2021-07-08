@@ -2,7 +2,7 @@
 layout: post
 title: "LeetCode 0048 Rotate Image"
 date: 2021-03-01 23:44:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [LeetCode, Python, Array]
 comments: true
 ---

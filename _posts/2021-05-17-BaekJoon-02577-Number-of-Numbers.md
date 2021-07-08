@@ -2,7 +2,7 @@
 layout: post
 title: "백준 02577 Number of Numbers"
 date: 2021-05-17 19:27:28 -0400
-categories: SolveProblem
+categories: ProblemSolving
 tags: [백준, C++, Implementation, Math, String]
 comments: true
 ---
