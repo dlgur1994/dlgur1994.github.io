@@ -44,7 +44,7 @@ permalink: /about/
     > Machine Learning Developer (Internship)  
     > Developed a machine learning model to predict a person's body fat rate and the possibility of metabolic syndrome with body data  
 - **Konnan Technology**, Seoul, Republic of Korea
-    > Jun 2019 - Aub 2019  
+    > Jun 2019 - Aug 2019  
     > Machine Learning Researcher (Internship)  
     > Developed a text cleansing code to extract the necessary information from news articles  
     > Preprocessed data for machine learning
