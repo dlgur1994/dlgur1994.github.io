@@ -65,4 +65,4 @@ permalink: /about/
 ## Certification, Award, and Scholarship
 - **CCNA** (Cisco Certified Network Associate)
 - **Handong Capstone Design Competition Encouragement Prize** (An AI Speech Recognition Application for the Articulation Disorder)
-- **Academic Excellent** (Spring & Fall, 2018)
+- **Academic Excellent** (Spring 2018, Fall 2018)
