@@ -9,7 +9,7 @@ comments: true
 
 ## 1. Description
 ### What is Binary Search Tree?  
-"Binary Search Tree" is a data structure in a tree structure determined by the size of the value. If the value is greater than the value of a node, it moves to the right of the node; if the opposite, it moves to the left of the node. Input values must be unique, and the subtrees should have binary search tree structures. These binary search tree features are used to add, search, and delete values.  
+"Binary Search Tree" is a data structure in a tree structure determined by the size of the value. If the value is greater than the value of a node, it moves to the right of the node; if the opposite, it moves to the left of the node. Input values must be unique, and the subtrees should have binary search tree structures. These binary search tree features are used to add, search, and delete values.
 
 ## 2. Code
 ```cpp
