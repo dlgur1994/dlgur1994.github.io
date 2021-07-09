@@ -22,7 +22,7 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h2>
-        {% comment %} <p class="post-meta">
+        <p class="post-meta">
           <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ post.date | date: date_format }}
           </time>
@@ -31,10 +31,10 @@ layout: default
                 <span class="disqus-comment-count" data-disqus-url="{{ post.url | absolute_url }}"></span>
               </a>
           {%- endif -%}
-        </p> {% endcomment %}
-        {%- if post.show_excerpts != false -%}
+        </p>
+        {% comment %} {%- if post.show_excerpts != false -%}
           <div class="post-excerpt">{{ post.excerpt | strip_html }}</div>
-        {%- endif -%}
+        {%- endif -%} {% endcomment %}
       </li>
       {%- endfor -%}
     </ul>
