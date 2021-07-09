@@ -7,9 +7,9 @@ tags: [DataStructure, C++, Queue]
 comments: true
 ---
 
-## 1. Descriptions
-### &nbsp;&nbsp;&nbsp;&nbsp;What is Linked List?  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Queue" is a FIFO data structure that follows a particular order.   
+## 1. Description
+**What is Linked List?**  
+"Queue" is a FIFO data structure that follows a particular order. 
 
 ## 2. Code
 ```cpp

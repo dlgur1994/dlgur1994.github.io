@@ -7,9 +7,9 @@ tags: [DataStructure, C++, Stack]
 comments: true
 ---
 
-## 1. Descriptions
-### &nbsp;&nbsp;&nbsp;&nbsp;What is Stack?  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Stack" is a LIFO data structure that builds data step by step from the bottom.   
+## 1. Description
+**What is Stack?**  
+"Stack" is a LIFO data structure that builds data step by step from the bottom.   
 
 ## 2. Code
 ```cpp

@@ -7,9 +7,9 @@ tags: [DataStructure, C++, LinkedList]
 comments: true
 ---
 
-## 1. Descriptions
-### &nbsp;&nbsp;&nbsp;&nbsp;What is Linked List?  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Selection Sort** "Linked List" is a data structure that stores data and a pointer in a node and uses the pointer from each node to connect to another node, ultimately a long connected data structure. At this point, nodes are dynamically allocated to memory.   
+## 1. Description
+**What is Linked List?**  
+**Selection Sort** "Linked List" is a data structure that stores data and a pointer in a node and uses the pointer from each node to connect to another node, ultimately a long connected data structure. At this point, nodes are dynamically allocated to memory.   
 
 ## 2. Code
 ```cpp

@@ -7,9 +7,9 @@ tags: [DataStructure, C++, BinaryTree]
 comments: true
 ---
 
-## 1. Descriptions
-### &nbsp;&nbsp;&nbsp;&nbsp;What is Binary Tree?  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Binary Tree" is a tree data structure in which each node has up to two child nodes, each of which is referred to as a left child node and a right child node.   
+## 1. Description
+**What is Binary Tree?**  
+"Binary Tree" is a tree data structure in which each node has up to two child nodes, each of which is referred to as a left child node and a right child node.
 
 ## 2. Code
 ```cpp
