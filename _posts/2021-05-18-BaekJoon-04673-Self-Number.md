@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BaekJoon 04673 Self Number"
+title: "백준 04673 셀프 넘버"
 date: 2021-05-18 14:38:28 -0400
 categories: [Problem Solving]
 tags: [백준, C++, Implementation, Math]
