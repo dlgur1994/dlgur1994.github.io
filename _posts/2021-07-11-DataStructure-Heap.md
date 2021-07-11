@@ -16,7 +16,7 @@ result = (A>B)? A : B -> If A is greater than B, A is assigned to result, and vi
 2 Initializing and using Vector  
 vector<int> v(5,2): Declare and initialize vectors v with five 2s as elements<br/>   
 v.size(): Returns the size of vector v<br/>  
-v.pop_back(): pop the last element of vector v  
+v.pop_back(): pop the last element of vector v
 
 ## 2. Code
 ```cpp
