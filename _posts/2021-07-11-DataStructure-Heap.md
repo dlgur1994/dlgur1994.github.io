@@ -11,9 +11,9 @@ comments: true
 **What is Binary Search Tree?**  
 "Heap" is a type of complete binary tree and is a data structure that always has a large-scale relation between parent and child nodes. If the parent node is always larger than the child node, then it is called Max Heap, and vice versa, it is called Min Heap. Only the relationship between parent and child nodes is important, and the relationship with sibling nodes is irrelevant. Because of the large-scale relation between parents and children, the root, which is the top parent, always has the largest or smallest value, which can be used to implement Priority Queue.  
 **What I learned?**  
-1 Trinomial operator  
+1. Trinomial operator  
 result = (A>B)? A : B -> If A is greater than B, A is assigned to result, and vice versa, B is assigned to result  
-2 Initializing and using Vector  
+2. Initializing and using Vector  
 vector<int> v(5,2): Declare and initialize vectors v with five 2s as elements  
 v.size(): Returns the size of vector v  
 v.pop_back(): pop the last element of vector v  
