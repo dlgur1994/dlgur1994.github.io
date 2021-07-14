@@ -38,7 +38,7 @@ ex) $$\prod_{x \in X, x \neq 0} x$$<br/>
 ### 연습문제
 - 1.2.1
     - (1) 
-        - ![1](/images/linearalgebra/1_2/1.png)
+        - ![1](/images/linearalgebra/1_2/1.png){: width="120%" height="120%"}
     - (2)
         - ![2](/images/linearalgebra/1_2/2.png){: width="50%" height="50%"}
     - (3)
