@@ -5,6 +5,7 @@ date: 2021-07-13 21:19:28 -0400
 categories: [선형대수학]
 tags: [선형대수학]
 comments: true
+use_math: true
 ---
 
 ### 수열

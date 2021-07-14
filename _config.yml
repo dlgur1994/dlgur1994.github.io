@@ -27,6 +27,13 @@ exclude:
   - README.md
   - jekyll-theme-hamilton.gemspec
 
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 # Jekyll SEO Tag (Optional)
 # =========================
 # twitter:
