@@ -38,13 +38,13 @@ ex) $$\prod_{x \in X, x \neq 0} x$$<br/>
 ### 연습문제
 - 1.2.1
     - (1) 
-        - ![1](/images/linearalgebra/1_2/1.png){: width="100%" height="100%"}
+        - ![1](/images/linearalgebra/1_2/1.png){: width="90%" height="90%"}
     - (2)
-        - ![2](/images/linearalgebra/1_2/2.png){: width="100%" height="100%"}
+        - ![2](/images/linearalgebra/1_2/2.png){: width="80%" height="80%"}
     - (3)
-        - ![3](/images/linearalgebra/1_2/3.png){: width="100%" height="100%"}
+        - ![3](/images/linearalgebra/1_2/3.png){: width="70%" height="70%"}
     - (4)
-        - ![4](/images/linearalgebra/1_2/4.png){: width="100%" height="100%"}
+        - ![4](/images/linearalgebra/1_2/4.png){: width="60%" height="60%"}
 - 1.2.2
     - (1)
         - ![5](/images/linearalgebra/1_2/5.png){: width="100%" height="100%"}
