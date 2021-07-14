@@ -36,16 +36,24 @@ ex) $$\prod_{x \in X, x \neq 0} x$$
 
 ### 연습문제
 - 1.2.1
-    - (1) ![1](/images/linearalgebra/1_2/1.png){: width="50%" height="50%"}
-    - (2) ![2](/images/linearalgebra/1_2/2.png){: width="50%" height="50%"}
-    - (3) ![3](/images/linearalgebra/1_2/3.png){: width="50%" height="50%"}
-    - (4) ![4](/images/linearalgebra/1_2/4.png){: width="50%" height="50%"}
+    - (1) 
+        - ![1](/images/linearalgebra/1_2/1.png){: width="50%" height="50%"}
+    - (2)
+        - ![2](/images/linearalgebra/1_2/2.png){: width="50%" height="50%"}
+    - (3)
+        - ![3](/images/linearalgebra/1_2/3.png){: width="50%" height="50%"}
+    - (4)
+        - ![4](/images/linearalgebra/1_2/4.png){: width="50%" height="50%"}
 - 1.2.2
-    - (1) ![5](/images/linearalgebra/1_2/5.png){: width="50%" height="50%"}
-    - (2) ![6](/images/linearalgebra/1_2/6.png){: width="50%" height="50%"}
+    - (1)
+        - ![5](/images/linearalgebra/1_2/5.png){: width="50%" height="50%"}
+    - (2)
+        - ![6](/images/linearalgebra/1_2/6.png){: width="50%" height="50%"}
 - 1.2.3
-    - (1) ![7](/images/linearalgebra/1_2/7.png){: width="50%" height="50%"}
-    - (2) ![8](/images/linearalgebra/1_2/8.png){: width="50%" height="50%"}
+    - (1)
+        - ![7](/images/linearalgebra/1_2/7.png){: width="50%" height="50%"}
+    - (2)
+        - ![8](/images/linearalgebra/1_2/8.png){: width="50%" height="50%"}
 - 1.2.4 
     - ![9](/images/linearalgebra/1_2/9.png){: width="50%" height="50%"}
 
