@@ -10,12 +10,8 @@
   {% include google-analytics.html %}
 {% endif %}
 
-{% comment %} {% if page.math %}
+{% if page.math %}
   {% include mathjax.html %}
-{% endif %} {% endcomment %}
-
-{% if page.use_math %}
-  {% include mathjax_support.html %}
 {% endif %}
 
 <!-- Google Fonts -->
