@@ -44,21 +44,21 @@ import matplotlib.pylab as plt
 
 **행렬(matrix)**
 - 여러개의 벡터로 이루어진 데이터
-- $$X = \begin{bmatrix}x_{1,1} && x_{1,2} && \cdots && x_{1,N}\\x_{2,1} && x_{2,2} && \cdots && x_{2,N}\\\vdots && \vdots && \cdots && \vdots\\x_{N,1} && x_{N,2} && \cdots && x_{N,N}\end{bmatrix}$$
+- X = $$\begin{bmatrix}x_{1,1} && x_{1,2} && \cdots && x_{1,N}\\x_{2,1} && x_{2,2} && \cdots && x_{2,N}\\\vdots && \vdots && \cdots && \vdots\\x_{N,1} && x_{N,2} && \cdots && x_{N,N}\end{bmatrix}$$
 - 원소: $$x_{i,j}$$ or $$x_{ij}$$
 - 여러 개의 데이터 레코드를 행렬로 나타날 때는 하나의 데이터 레코드가 하나의 행
-- $$X \in R^{row \times col}$$
+- X $$\in R^{row \times col}$$
 - 하나의 벡터는 열의 갯수가 1인 행렬이기도 하므로 열벡터라고도 부른다. (스칼라와 벡터 모두 행렬에 속한다)
     - 스칼라: $$a \in R^{1 \times 1}$$
     - 벡터: $$x \in R^{4 \times 1}$$
-    ```python
-    # ndarray 객체 사용
-    A = np.array([[11,12,13], [21,22,23]])
-    A
-    >>>
-    array([[11, 12, 13],
-           [21, 22,23]])
-    ```
+```python
+# ndarray 객체 사용
+A = np.array([[11,12,13], [21,22,23]])
+A
+>>>
+array([[11, 12, 13],
+        [21, 22,23]])
+```
 
 ## 텐서
 같은 크기의 행렬 여러 개로 이루어진 데이터 (엄격한 수학적 정의로는 다르다)<br/>
@@ -107,13 +107,13 @@ $$1 \in R^{N \times 1}$$ (N이 파악가능하면 생략 가능)
     ```
 
 **정방행렬**
-: 행의 갯수와 열의 갯수가 같은 행렬
+: 행의 갯수와 열의 갯수가 같은 행렬<br/>
 
 **대각행렬**
 : 모든 비대각 요소가 0인 행렬 (정방행렬이 아니여도 됨)<br/>
 (주)대각: 행과 열이 같은 위치<br/>
 비대각: 나머지<br/>
-$$D = \begin{bmatrix}d_1 && 0 && \cdots && 0\\0 && d_2 && \cdots && 0\\\vdots && \vdots && \dots && \vdots\\0 && 0 && \cdots && d_N\end{bmatrix}$$
+$$D = \begin{bmatrix}d_1 && 0 && \cdots && 0\\0 && d_2 && \cdots && 0\\\vdots && \vdots && \dots && \vdots\\0 && 0 && \cdots && d_N\end{bmatrix}$$<br/>
 
 **항등행렬**
 : 대각 행렬 중에서 모든 대각성분이 1인 대각행렬<br/>
