@@ -65,8 +65,8 @@ import matplotlib.pylab as plt
 컬러 이미지인 경우 빨강, 초록, 파랑을 표현하는 3개의 채널이 있다. (= 3차원 텐서)
 
 ### 전치 연산
-행렬의 행과 열을 바꾸는 연산
-$$x \rightarrow x^T$$ 또는 $$x \rightarrow x^\prime$$
+행렬의 행과 열을 바꾸는 연산<br/>
+$$x \rightarrow x^T$$ 또는 $$x \rightarrow x^\prime$$<br/>
 $$x = \begin{bmatrix}x_1\\x_2\\\vdots\\x_N\end{bmatrix} \rightarrow x^T = \begin{bmatrix}x_1 x_2 \cdots x_N\end{bmatrix}$$
 ```python
 # 1차원 ndarray는 전치 연산이 정의되지 않는다
@@ -82,7 +82,7 @@ array([[11, 21],
 행렬은 행 벡터 또는 열 벡터를 합친 형태로 표기할 수도 있다.
 
 ### 특수한 벡터와 행렬
-영벡터
+#### 영벡터
 : 모든 원소가 0인 N차원 벡터
 $$0_N = 0 = \begin{bmatrix}0\\0\\\vdots\\0\end{bmatrix}$$
 $$0 \in R^{N \times 1}$$ (N이 파악가능하면 생략 가능)
@@ -94,7 +94,7 @@ $$0 \in R^{N \times 1}$$ (N이 파악가능하면 생략 가능)
            [0.]])
     ```
 
-일벡터
+##### 일벡터
 : 모든 원소가 1인 N차원 벡터
 $$1_N = 1 = \begin{bmatrix}1\\1\\\vdots\\1\end{bmatrix}$$
 $$1 \in R^{N \times 1}$$ (N이 파악가능하면 생략 가능)
