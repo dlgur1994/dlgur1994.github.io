@@ -13,7 +13,7 @@ math: true
 ```python
 # 파이썬으로 선형대수를 사용하기 위한 기본 패키지
 import numpy as np 
-import matplotlib.pylab as plt
+import matplotlib.pyplot as plt
 ```
 
 ## 데이터의 유형
@@ -117,7 +117,7 @@ $$1 \in R^{N \times 1}$$ (N이 파악가능하면 생략 가능)
 $$D = \begin{bmatrix}d_1 && 0 && \cdots && 0\\0 && d_2 && \cdots && 0\\\vdots && \vdots && \dots && \vdots\\0 && 0 && \cdots && d_N\end{bmatrix}$$<br/><br/>
 
 **항등행렬**
-: 대각 행렬 중에서 모든 대각성분이 1인 대각행렬<br/>
+: 정방행렬이고 대각행렬이면서 모든 대각성분이 1인 대각행렬<br/>
 $$I = \begin{bmatrix}1 && 0 && \cdots && 0\\0 && 1 && \cdots && 0\\\vdots && \vdots && \dots && \vdots\\0 && 0 && \cdots && 1\end{bmatrix}$$
     ```python
     np.identity(3)
@@ -137,6 +137,92 @@ $$I = \begin{bmatrix}1 && 0 && \cdots && 0\\0 && 1 && \cdots && 0\\\vdots && \vd
 : 행렬의 전치연산 후에도 원래 행렬과 같은 행렬 (정방행렬만 대칭행렬이 될 수 있음)<br/>
 $$S^T = S$$<br/>
 $$S \in R^{N \times N}$$
+
+## 연습문제
+- 2.1.3
+    - (1)
+    ```python
+    iris = load_iris()
+    iris_data = iris.data
+    iris_data.T
+    ```
+    - (2)
+    ```python
+    iris_data.T.T == iris_data
+    ```
+- 2.1.4 
+    - (1) 
+        - 영벡터
+        $$\begin{bmatrix}0 \\0 \\ 0 \end{bmatrix}$$
+        - 일벡터
+        $$\begin{bmatrix}1 \\1\\ 1 \end{bmatrix}$$
+        - 정방행렬
+        $$\begin{bmatrix}1 && 2 && 3 \\4 && 5 && 6 \\ 7 && 8 && 9 \end{bmatrix}$$
+        - 대각행렬
+        $$\begin{bmatrix}1 && 0 && 0 \\0 && 2 && 0 \\ 0 && 0 && 3 \\ 0 && 0 && 0 \end{bmatrix}$$
+        - 항등행렬
+        $$\begin{bmatrix}1 && 0 && 0 \\0 && 1 && 0 \\ 0 && 0 && 1 \end{bmatrix}$$
+        - 대칭행렬
+        $$\begin{bmatrix}1 && 2 && 0 \\2 && 0 && 0 \\ 0 && 0 && 3 \end{bmatrix}$$
+    - (2)
+        - 영벡터
+            ```python
+            np.zeros((3, 1))
+            >>>
+            array([[0.],
+                   [0.],
+                   [0.]])
+            ```
+        - 일벡터
+            ```python
+            np.ones((3, 1))
+            >>>
+            array([[1.],
+                   [1.],
+                   [1.]])
+            ```
+        - 정방행렬
+            ```python
+            np.array([[1, 2, 3],
+                      [4, 5, 6],
+                      [7, 8, 9]])
+            >>>
+            array([[1, 2, 3],
+                   [4, 5, 6],
+                   [7, 8, 9]])
+            ```
+        - 대각행렬
+            ```python
+            np.array([[1, 0, 0],
+                      [0, 2, 0],
+                      [0, 0, 3],
+                      [0, 0, 0]])
+            >>>
+            array([[1, 0, 0],
+                   [0, 2, 0],
+                   [0, 0, 3],
+                   [0, 0, 0]])
+            ```
+        - 항등행렬
+            ```python
+            np.array([[1, 0, 0],
+                   [0, 1, 0],
+                   [0, 0, 1]])
+            >>>
+            array([[1, 0, 0],
+                   [0, 1, 0],
+                   [0, 0, 1]])
+            ```
+        - 대칭행렬
+            ```python
+            np.array([[1, 2, 0],
+                      [2, 0, 0],
+                      [0, 0, 3]])
+            >>>
+            array([[1, 2, 0],
+                   [2, 0, 0],
+                   [0, 0, 3]])
+            ```
 
 <br/>
 <br/>
