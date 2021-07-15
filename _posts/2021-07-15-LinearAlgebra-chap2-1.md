@@ -8,7 +8,7 @@ comments: true
 math: true
 ---
 
-### 선형대수
+## 선형대수
 선형대수를 통해 많은 양의 데이터가 있는 경우에도 간단한 계산식으로 표현 할 수 있다.
 ```python
 # 파이썬으로 선형대수를 사용하기 위한 기본 패키지
@@ -16,12 +16,12 @@ import numpy as np
 import matplotlib.pylab as plt
 ```
 
-### 데이터의 유형
-스칼라(scalar)
+## 데이터의 유형
+**스칼라(scalar)**
 - 숫자 하나로 이루어진 데이터
 - $$x \in R$$ (R: 실수)
 
-벡터(vector)
+**벡터(vector)**
 - 여러 숫자로 이루어진 데이터 (= data record)
 - 복수의 행과 하나의 열
 - 벡터의 차원: 데이터 갯수
@@ -42,7 +42,7 @@ import matplotlib.pylab as plt
            [0.2]])
     ```
 
-행렬(matrix)
+**행렬(matrix)**
 - 여러개의 벡터로 이루어진 데이터
 - $$X = \begin{bmatrix}x_{1,1} && x_{1,2} && \cdots && x_{1,N}\\x_{2,1} && x_{2,2} && \cdots && x_{2,N}\\\vdots && \vdots && \cdots && \vdots\\x_{N,1} && x_{N,2} && \cdots && x_{N,N}\end{bmatrix}$$
 - 원소: $$x_{i,j}$$ or $$x_{ij}$$
@@ -60,11 +60,11 @@ import matplotlib.pylab as plt
            [21, 22,23]])
     ```
 
-### 텐서
-같은 크기의 행렬 여러 개로 이루어진 데이터 (엄격한 수학적 정의로는 다르다)
+## 텐서
+같은 크기의 행렬 여러 개로 이루어진 데이터 (엄격한 수학적 정의로는 다르다)<br/>
 컬러 이미지인 경우 빨강, 초록, 파랑을 표현하는 3개의 채널이 있다. (= 3차원 텐서)
 
-### 전치 연산
+## 전치 연산
 행렬의 행과 열을 바꾸는 연산<br/>
 $$x \rightarrow x^T$$ 또는 $$x \rightarrow x^\prime$$<br/>
 $$x = \begin{bmatrix}x_1\\x_2\\\vdots\\x_N\end{bmatrix} \rightarrow x^T = \begin{bmatrix}x_1 x_2 \cdots x_N\end{bmatrix}$$
@@ -78,10 +78,10 @@ array([[11, 21],
        [13, 23]])
 ```
 
-### 행렬의 행 표기법과 열 표기법
+## 행렬의 행 표기법과 열 표기법
 행렬은 행 벡터 또는 열 벡터를 합친 형태로 표기할 수도 있다.
 
-### 특수한 벡터와 행렬
+## 특수한 벡터와 행렬
 **영벡터**
 : 모든 원소가 0인 N차원 벡터
 $$0_N = 0 = \begin{bmatrix}0\\0\\\vdots\\0\end{bmatrix}$$
@@ -139,5 +139,5 @@ $$S \in R^{N \times N}$$
 
 <br/>
 <br/>
-이 글은 ['데이터 사이언스 스쿨'](https://datascienceschool.net/02%20mathematics/00.00%20소개의%20글.html)의 수학편을 정리한 것입니다.
+이 글은 ['데이터 사이언스 스쿨 수학편'](https://datascienceschool.net/02%20mathematics/00.00%20소개의%20글.html)을 정리한 것입니다.
 질문이나 오류가 있다면 댓글 남겨주세요.
