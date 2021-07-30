@@ -197,8 +197,8 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         >>>
         array([32, 50])
         ```
-        ```python
         - ![4_4](/images/linearalgebra/2_2/4_4.png){: width="30%" height="30%"} 
+        ```python
         B @ A
         # 에러 발생
         >>>
@@ -254,11 +254,11 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         ```
 - 2.2.5
     - (1)
-        - ![5_1](/images/linearalgebra/2_2/5_1.png){: width="30%" height="30%"}
+        - ![5_1](/images/linearalgebra/2_2/5_1.png){: width="40%" height="40%"}
     - (2)
-        - ![5_2](/images/linearalgebra/2_2/5_2.png){: width="30%" height="30%"}
+        - ![5_2](/images/linearalgebra/2_2/5_2.png){: width="40%" height="40%"}
     - (3)
-        - ![5_3](/images/linearalgebra/2_2/5_3.png){: width="30%" height="30%"}
+        - ![5_3](/images/linearalgebra/2_2/5_3.png){: width="40%" height="40%"}
     - (4)
         ```python
         from sklearn.datasets import load_iris
@@ -287,7 +287,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
 - 2.2.12
     - ![12](/images/linearalgebra/2_2/12.png){: width="30%" height="30%"}
 - 2.2.13
-    - ![13](/images/linearalgebra/2_2/13.png){: width="40%" height="40%"}
+    - ![13](/images/linearalgebra/2_2/13.png){: width="40%" height="50%"}
 - 2.2.14
     - ![14](/images/linearalgebra/2_2/14.png){: width="40%" height="40%"}
 
