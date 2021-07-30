@@ -248,11 +248,11 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         ```
 - 2.2.5
     - (1)
-        - ![5_1](/images/linearalgebra/2_2/5_1.png){: width="40%" height="40%"}
+        - ![5_1](/images/linearalgebra/2_2/5_1.png){: width="50%" height="50%"}
     - (2)
-        - ![5_2](/images/linearalgebra/2_2/5_2.png){: width="40%" height="40%"}
+        - ![5_2](/images/linearalgebra/2_2/5_2.png){: width="50%" height="50%"}
     - (3)
-        - ![5_3](/images/linearalgebra/2_2/5_3.png){: width="40%" height="40%"}
+        - ![5_3](/images/linearalgebra/2_2/5_3.png){: width="50%" height="50%"}
     - (4)
         ```python
         from sklearn.datasets import load_iris
@@ -279,9 +279,9 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
 - 2.2.11
     - ![11](/images/linearalgebra/2_2/11.png){: width="50%" height="50%"}
 - 2.2.12
-    - ![12](/images/linearalgebra/2_2/12.png){: width="30%" height="30%"}
+    - ![12](/images/linearalgebra/2_2/12.png){: width="40%" height="40%"}
 - 2.2.13
-    - ![13](/images/linearalgebra/2_2/13.png){: width="40%" height="50%"}
+    - ![13](/images/linearalgebra/2_2/13.png){: width="50%" height="50%"}
 - 2.2.14
     - ![14](/images/linearalgebra/2_2/14.png){: width="40%" height="40%"}
 
