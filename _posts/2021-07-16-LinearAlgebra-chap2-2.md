@@ -146,7 +146,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
     [[870]]
     ```
 - 2.2.2
-   - ![2](/images/linearalgebra/2_2/2.png){: width="70%" height="70%"} 
+   - ![2](/images/linearalgebra/2_2/2.png){: width="50%" height="50%"} 
 - 2.2.3
     ```python
     from sklearn.datasets import load_digits
@@ -169,7 +169,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
     ```
 - 2.2.4 
     - (1)
-        - ![4_1](/images/linearalgebra/2_2/4_1.png){: width="70%" height="70%"}  
+        - ![4_1](/images/linearalgebra/2_2/4_1.png){: width="50%" height="50%"}  
         ```python
         A = np.array([[1,2,3], [4,5,6]])
         B = np.array([[1,2], [3,4], [5,6]])
@@ -179,7 +179,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
                [49, 64]])
         ```
     - (2)
-        - ![4_2](/images/linearalgebra/2_2/4_2.png){: width="70%" height="70%"} 
+        - ![4_2](/images/linearalgebra/2_2/4_2.png){: width="50%" height="50%"} 
         ```python
         B @ A
         >>>
@@ -189,7 +189,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         # A @ B 와 B @ A는 다르다
         ```
     - (3)
-        - ![4_3](/images/linearalgebra/2_2/4_3.png){: width="70%" height="70%"}
+        - ![4_3](/images/linearalgebra/2_2/4_3.png){: width="50%" height="50%"} 
         ```python
         A = np.array([1, 2, 3])
         B = np.array([[4,7], [5,8], [6,9]])
@@ -197,7 +197,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         >>>
         array([32, 50])
         
-        - ![4_4](/images/linearalgebra/2_2/4_4.png){: width="70%" height="70%"}
+        - ![4_4](/images/linearalgebra/2_2/4_4.png){: width="50%" height="50%"} 
         B @ A
         # 에러 발생
         >>>
@@ -223,7 +223,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         # A @ B 와 B @ A는 다르다
         ```
     - (5)
-        - ![4_5](/images/linearalgebra/2_2/4_5.png){: width="70%" height="70%"}
+        - ![4_5](/images/linearalgebra/2_2/4_5.png){: width="60%" height="60%"} 
         ```python
         A = np.array([[1,2], [3,4], [5,6]])
         A @ A.T
@@ -240,7 +240,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         # 2x2 정방행렬
         ```
     - (6)
-        - ![4_6](/images/linearalgebra/2_2/4_6.png){: width="70%" height="70%"}
+        - ![4_6](/images/linearalgebra/2_2/4_6.png){: width="60%" height="60%"} 
         ```python
         X = np.array([[1], [2], [3]])
         X.T @ X
@@ -276,23 +276,23 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
                [5.84333333, 3.05733333, 3.758     , 1.19933333]])
         ```
 - 2.2.6
-    - ![6](/images/linearalgebra/2_2/6.png){: width="70%" height="70%"}
+    - ![6](/images/linearalgebra/2_2/6.png){: width="50%" height="50%"}
 - 2.2.7
-    - ![7](/images/linearalgebra/2_2/7.png){: width="70%" height="70%"}
+    - ![7](/images/linearalgebra/2_2/7.png){: width="50%" height="50%"}
 - 2.2.8
-    - ![8](/images/linearalgebra/2_2/8.png){: width="70%" height="70%"}
+    - ![8](/images/linearalgebra/2_2/8.png){: width="50%" height="50%"}
 - 2.2.9
-    - ![9](/images/linearalgebra/2_2/9.png){: width="70%" height="70%"}
+    - ![9](/images/linearalgebra/2_2/9.png){: width="50%" height="50%"}
 - 2.2.10
-    - ![10](/images/linearalgebra/2_2/10.png){: width="70%" height="70%"}
+    - ![10](/images/linearalgebra/2_2/10.png){: width="50%" height="50%"}
 - 2.2.11
-    - ![11](/images/linearalgebra/2_2/11.png){: width="70%" height="70%"}
+    - ![11](/images/linearalgebra/2_2/11.png){: width="50%" height="50%"}
 - 2.2.12
-    - ![12](/images/linearalgebra/2_2/12.png){: width="70%" height="70%"}
+    - ![12](/images/linearalgebra/2_2/12.png){: width="50%" height="50%"}
 - 2.2.13
-    - ![13](/images/linearalgebra/2_2/13.png){: width="70%" height="70%"}
+    - ![13](/images/linearalgebra/2_2/13.png){: width="50%" height="50%"}
 - 2.2.14
-    - ![14](/images/linearalgebra/2_2/14.png){: width="70%" height="70%"}
+    - ![14](/images/linearalgebra/2_2/14.png){: width="50%" height="50%"}
 
 
 <br/>
