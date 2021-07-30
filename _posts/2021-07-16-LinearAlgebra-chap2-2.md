@@ -169,7 +169,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
     ```
 - 2.2.4 
     - (1)
-        - ![4_1](/images/linearalgebra/2_2/4_1.png){: width="50%" height="50%"}  
+        - ![4_1](/images/linearalgebra/2_2/4_1.png){: width="30%" height="30%"}  
         ```python
         A = np.array([[1,2,3], [4,5,6]])
         B = np.array([[1,2], [3,4], [5,6]])
@@ -179,7 +179,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
                [49, 64]])
         ```
     - (2)
-        - ![4_2](/images/linearalgebra/2_2/4_2.png){: width="50%" height="50%"} 
+        - ![4_2](/images/linearalgebra/2_2/4_2.png){: width="30%" height="30%"} 
         ```python
         B @ A
         >>>
@@ -189,15 +189,16 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         # A @ B 와 B @ A는 다르다
         ```
     - (3)
-        - ![4_3](/images/linearalgebra/2_2/4_3.png){: width="50%" height="50%"} 
+        - ![4_3](/images/linearalgebra/2_2/4_3.png){: width="30%" height="30%"} 
         ```python
         A = np.array([1, 2, 3])
         B = np.array([[4,7], [5,8], [6,9]])
         A @ B
         >>>
         array([32, 50])
-        
-        - ![4_4](/images/linearalgebra/2_2/4_4.png){: width="50%" height="50%"} 
+        ```
+        ```python
+        - ![4_4](/images/linearalgebra/2_2/4_4.png){: width="30%" height="30%"} 
         B @ A
         # 에러 발생
         >>>
@@ -223,7 +224,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         # A @ B 와 B @ A는 다르다
         ```
     - (5)
-        - ![4_5](/images/linearalgebra/2_2/4_5.png){: width="60%" height="60%"} 
+        - ![4_5](/images/linearalgebra/2_2/4_5.png){: width="50%" height="50%"} 
         ```python
         A = np.array([[1,2], [3,4], [5,6]])
         A @ A.T
@@ -232,7 +233,6 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
                [11, 25, 39],
                [17, 39, 61]])
         # 3x3 정방행렬
-        
         A.T @ A
         >>>
         array([[35, 44],
@@ -240,14 +240,12 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         # 2x2 정방행렬
         ```
     - (6)
-        - ![4_6](/images/linearalgebra/2_2/4_6.png){: width="60%" height="60%"} 
+        - ![4_6](/images/linearalgebra/2_2/4_6.png){: width="50%" height="50%"} 
         ```python
         X = np.array([[1], [2], [3]])
         X.T @ X
         >>>
-        array([[14]])
-        # 스칼라
-        
+        array([[14]]) # 스칼라
         X @ X.T
         >>>
         array([[1, 2, 3],
@@ -257,11 +255,11 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         ```
 - 2.2.5
     - (1)
-        - ![5_1](/images/linearalgebra/2_2/5_1.png){: width="70%" height="70%"}
+        - ![5_1](/images/linearalgebra/2_2/5_1.png){: width="50%" height="50%"}
     - (2)
-        - ![5_2](/images/linearalgebra/2_2/5_2.png){: width="70%" height="70%"}
+        - ![5_2](/images/linearalgebra/2_2/5_2.png){: width="50%" height="50%"}
     - (3)
-        - ![5_3](/images/linearalgebra/2_2/5_3.png){: width="70%" height="70%"}
+        - ![5_3](/images/linearalgebra/2_2/5_3.png){: width="50%" height="50%"}
     - (4)
         ```python
         from sklearn.datasets import load_iris
@@ -276,11 +274,11 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
                [5.84333333, 3.05733333, 3.758     , 1.19933333]])
         ```
 - 2.2.6
-    - ![6](/images/linearalgebra/2_2/6.png){: width="50%" height="50%"}
+    - ![6](/images/linearalgebra/2_2/6.png){: width="30%" height="30%"}
 - 2.2.7
-    - ![7](/images/linearalgebra/2_2/7.png){: width="50%" height="50%"}
+    - ![7](/images/linearalgebra/2_2/7.png){: width="30%" height="30%"}
 - 2.2.8
-    - ![8](/images/linearalgebra/2_2/8.png){: width="50%" height="50%"}
+    - ![8](/images/linearalgebra/2_2/8.png){: width="30%" height="30%"}
 - 2.2.9
     - ![9](/images/linearalgebra/2_2/9.png){: width="50%" height="50%"}
 - 2.2.10
@@ -290,9 +288,9 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
 - 2.2.12
     - ![12](/images/linearalgebra/2_2/12.png){: width="50%" height="50%"}
 - 2.2.13
-    - ![13](/images/linearalgebra/2_2/13.png){: width="50%" height="50%"}
+    - ![13](/images/linearalgebra/2_2/13.png){: width="40%" height="40%"}
 - 2.2.14
-    - ![14](/images/linearalgebra/2_2/14.png){: width="50%" height="50%"}
+    - ![14](/images/linearalgebra/2_2/14.png){: width="40%" height="40%"}
 
 
 <br/>
