@@ -113,9 +113,10 @@ $$(AB)^T = B^TA^T$$<br/>
 $$(ABC)^T =C^TB^TA^T$$
 
 ## 행렬과 벡터의 곱
-: 행렬과 벡터의 곱은 행렬의 열벡터와 벡터의 선형조합을 한 벡터와 같다<br/>
+: 행렬과 벡터의 곱은 행렬의 행벡터와 벡터의 선형조합을 한 벡터와 같다<br/>
 <br/>
-$$\begin{bmatrix}x_{1,1} && x_{1,2} && \cdots && x_{1,N}\\x_{2,1} && x_{2,2} && \cdots && x_{2,N}\\ \vdots && \vdots && \vdots && \vdots\\x_{M,1} && x_{M,2} && \cdots && x_{M,N}\end{bmatrix} \begin{bmatrix}w_1 \\ w_2 \\ \vdots \\ w_N\end{bmatrix} = \begin{bmatrix}w_1x_{1,1} + w_2x_{1,2} + \cdots + w_Nx_{1,N} \\ w_1x_{2,1} + w_2x_{2,2} + \cdots + w_Nx_{2,N} \\ \vdots \\ w_1x_{M,1} + w_2x_{M,2} + \cdots + w_Nx_{M,N}\end{bmatrix} = \hat y$$
+$$\begin{bmatrix}x_{1,1} && x_{1,2} && \cdots && x_{1,N}\\x_{2,1} && x_{2,2} && \cdots && x_{2,N}\\ \vdots && \vdots && \vdots && \vdots\\x_{M,1} && x_{M,2} && \cdots && x_{M,N}\end{bmatrix} \begin{bmatrix}w_1 \\ w_2 \\ \vdots \\ w_N\end{bmatrix} = \begin{bmatrix}w_1x_{1,1} + w_2x_{1,2} + \cdots + w_Nx_{1,N} \\ w_1x_{2,1} + w_2x_{2,2} + \cdots + w_Nx_{2,N} \\ \vdots \\ w_1x_{M,1} + w_2x_{M,2} + \cdots + w_Nx_{M,N}\end{bmatrix}$$
+즉 $$\hat y =Xw$$<br/>
 
 ## 잔차
 : 실제값과 예측치의 차이 (=오차)<br/>
@@ -144,6 +145,8 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
     >>>
     [[870]]
     ```
+- 2.2.2
+   - ![2](/images/linearalgebra/2_2/2.png){: width="70%" height="70%"} 
 - 2.2.3
     ```python
     from sklearn.datasets import load_digits
@@ -165,7 +168,8 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
            [2898., 3307., 3697., ..., 4598., 3850., 4938.]])
     ```
 - 2.2.4 
-    - (1) 
+    - (1)
+        - ![4_1](/images/linearalgebra/2_2/4_1.png){: width="70%" height="70%"}  
         ```python
         A = np.array([[1,2,3], [4,5,6]])
         B = np.array([[1,2], [3,4], [5,6]])
@@ -175,6 +179,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
                [49, 64]])
         ```
     - (2)
+        - ![4_2](/images/linearalgebra/2_2/4_2.png){: width="70%" height="70%"} 
         ```python
         B @ A
         >>>
@@ -184,6 +189,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         # A @ B 와 B @ A는 다르다
         ```
     - (3)
+        - ![4_3](/images/linearalgebra/2_2/4_3.png){: width="70%" height="70%"}
         ```python
         A = np.array([1, 2, 3])
         B = np.array([[4,7], [5,8], [6,9]])
@@ -191,6 +197,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         >>>
         array([32, 50])
         
+        - ![4_4](/images/linearalgebra/2_2/4_4.png){: width="70%" height="70%"}
         B @ A
         # 에러 발생
         >>>
@@ -216,6 +223,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         # A @ B 와 B @ A는 다르다
         ```
     - (5)
+        - ![4_5](/images/linearalgebra/2_2/4_5.png){: width="70%" height="70%"}
         ```python
         A = np.array([[1,2], [3,4], [5,6]])
         A @ A.T
@@ -232,6 +240,7 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         # 2x2 정방행렬
         ```
     - (6)
+        - ![4_6](/images/linearalgebra/2_2/4_6.png){: width="70%" height="70%"}
         ```python
         X = np.array([[1], [2], [3]])
         X.T @ X
@@ -246,6 +255,45 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
                [3, 6, 9]])
         # 정방행렬
         ```
+- 2.2.5
+    - (1)
+        - ![5_1](/images/linearalgebra/2_2/5_1.png){: width="70%" height="70%"}
+    - (2)
+        - ![5_2](/images/linearalgebra/2_2/5_2.png){: width="70%" height="70%"}
+    - (3)
+        - ![5_3](/images/linearalgebra/2_2/5_3.png){: width="70%" height="70%"}
+    - (4)
+        ```python
+        from sklearn.datasets import load_iris
+        X = load_iris().data
+        N = X.shape[0]
+        ones = np.ones(N).reshape(-1, 1)
+        ((ones @ ones.T) @ X) / N
+        >>>
+        array([[5.84333333, 3.05733333, 3.758     , 1.19933333],
+               [5.84333333, 3.05733333, 3.758     , 1.19933333],
+                          ...
+               [5.84333333, 3.05733333, 3.758     , 1.19933333]])
+        ```
+- 2.2.6
+    - ![6](/images/linearalgebra/2_2/6.png){: width="70%" height="70%"}
+- 2.2.7
+    - ![7](/images/linearalgebra/2_2/7.png){: width="70%" height="70%"}
+- 2.2.8
+    - ![8](/images/linearalgebra/2_2/8.png){: width="70%" height="70%"}
+- 2.2.9
+    - ![9](/images/linearalgebra/2_2/9.png){: width="70%" height="70%"}
+- 2.2.10
+    - ![10](/images/linearalgebra/2_2/10.png){: width="70%" height="70%"}
+- 2.2.11
+    - ![11](/images/linearalgebra/2_2/11.png){: width="70%" height="70%"}
+- 2.2.12
+    - ![12](/images/linearalgebra/2_2/12.png){: width="70%" height="70%"}
+- 2.2.13
+    - ![13](/images/linearalgebra/2_2/13.png){: width="70%" height="70%"}
+- 2.2.14
+    - ![14](/images/linearalgebra/2_2/14.png){: width="70%" height="70%"}
+
 
 <br/>
 <br/>
