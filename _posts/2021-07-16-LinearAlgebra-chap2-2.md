@@ -200,10 +200,6 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         B @ A
         # 에러 발생
         >>>
-        ---------------------------------------------------------------------------
-        ValueError                                Traceback (most recent call last)
-        <ipython-input-21-c9046335e71f> in <module>
-        ----> 1 B @ A
         ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 3 is different from 2)
         ```
     - (4)
