@@ -189,16 +189,14 @@ $$A = \begin{bmatrix} a_{11} && a_{12} \\ a_{21} && a_{22}\end{bmatrix} = \begin
         # A @ B 와 B @ A는 다르다
         ```
     - (3)
-        - ![4_3](/images/linearalgebra/2_2/4_3.png){: width="30%" height="30%"} 
+        - ![4_3](/images/linearalgebra/2_2/4_3.png){: width="30%" height="30%"}
+        - ![4_4](/images/linearalgebra/2_2/4_4.png){: width="30%" height="30%"}
         ```python
         A = np.array([1, 2, 3])
         B = np.array([[4,7], [5,8], [6,9]])
         A @ B
         >>>
         array([32, 50])
-        ```
-        - ![4_4](/images/linearalgebra/2_2/4_4.png){: width="30%" height="30%"} 
-        ```python
         B @ A
         # 에러 발생
         >>>
