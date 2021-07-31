@@ -26,12 +26,16 @@ $$x_1 = x_2 = x_3 = 0$$인 경우를 제외하고는 항상 $$0$$보다 크다<b
 프로베니우스 놈(Frobenius norm)<br/>
 : p가 2인 놈<br/>
 $$\|A\| = \|A\|_2 = \|A\|_F = \sqrt{\sum_i^N\sum_j^Ma_{ij}^2}$$<br/>
-놈은 항상 0보다 같거나 크다<br/>
 놈을 최소화하는 것은 벡터의 제곱합을 최소화하는 것과 같다<br/>
 $$\|x\|^2 = \sum_{i=1}^Nx_i^2 = x^Tx$$<br/>
+성질
+- $$\|A\| \geq 0$$ ($$A$$: 행렬, 영행렬일 때만 놈의 값이 0)
+- $$\|\alpha A\| = |\alpha|\|A\|$$ ($$\alpha$$: 스칼라)
+- $$\|A+B\| \leq \|A\| + \|B\|$$
+- $$\|AB\| \leq \|A\|\|B\|$$ (A,B: 정방행렬)
 
 ## 대각합
-정방행렬에 대해서만 정의되며 대각원소의 합<br/>
+정방행렬의 대각원소 합<br/>
 $$tr(A) = a_{11} + a_{22} + \cdots + a_{NN} = \sum_{i=1}^Na_{ii}$$<br/>
 음수가 될 수도 있음<br/>
 성질 (c:스칼라, A,B,C: 행렬)
@@ -40,30 +44,46 @@ $$tr(A) = a_{11} + a_{22} + \cdots + a_{NN} = \sum_{i=1}^Na_{ii}$$<br/>
 - $$tr(A+B) = tr(A) + tr(B)$$
 - $$tr(AB) = tr(BA)$$
 - $$tr(ABC) = tr(BCA) = tr(CAB)$$ &nbsp;&nbsp;-> trace trick
+(아래 두 식에서는 최종값이 정방행렬이기만 하면 됨)
 
 ## 행렬식
 : $$det(A), det A, |A|$$ &nbsp; (A: 정방행렬)<>
 $$det([a]) = a$$<br/>
-여인수 전개<br/>
-: $$det(A) = \sum_{i=1}^N\{(-1)^{i+j_0}M_{ij_0\}a_{ij_0}}$$
+스칼라가 아닐시 여인수 전개 이용 (재귀적)<br/>
+: $$det(A) = \sum_{i=1}^N\{(-1)^{i+j_0}M_{i,j_0\}a_{ij_0}} = \sum_{i=1}^N\{(-1)^{i_0+j}M_{i_0,j\}a_{i_0j}}$$ ($$i_0, j_0$$: 임의의 행/열 번호)<br/>
+$$M_{i,j}$$: 정방행렬 A에서 i행과 j행을 지워서 얻은 행렬의 행렬식<br/>
+여인수<br/>
+: $$C_{i,j} = (-1)^{i+j}M_{i,j}$$<br/>
+det(A) = $$\sum_{i=1}^NC_{i,j_0}a_{i,j_0} = \sum_{j=1}^NC_{i_0,j}a_{i_0,j}$$<br/>
+- 2 X 2 행렬의 행렬식
+    - $$det(\begin{bmatrix}a & b \\ c & d\end{bmatrix}) = ad - bc$$
+- 3 X 3 행렬의 행렬식
+    - $$det(\begin{bmatrix}a & b & c \\ d & e & f \\ g & h & i\end{bmatrix}) = aei + bfg +cdh - ceg -bdi - afh$$
+
+성질
+- $$det(A^T) = det(A)$$
+- $$det(I) = 1$$
+- $$det(AB) = det(A)det(B)$$
+- $$A^-1A = AA^-1 = I$$
+- $$det(A^-1) = \dfrac 1 {det(A)}$$
+- $$det(A)det(A^-1) = det(I) = I$$
 
 ## 연습문제
 - 2.2.1
-    ```python
-    import numpy as np
-    p = np.array([[100], [80], [50]])
-    n = np.array([[3], [4], [5]])
-    p.T @ n
-    >>>
-    [[870]]
-    ```
+    - ![1](/images/linearalgebra/2_3/1.png){: width="50%" height="50%"} 
 - 2.2.2
-    - ![2](/images/linearalgebra/2_2/2.png){: width="50%" height="50%"} 
+    - ![2](/images/linearalgebra/2_3/2.png){: width="50%" height="40%"} 
 - 2.2.3
+    - ![3](/images/linearalgebra/2_3/3.png){: width="50%" height="100%"} 
 - 2.2.4 
+    - ![4](/images/linearalgebra/2_3/4.png){: width="50%" height="50%"} 
 - 2.2.5
+    - ![5](/images/linearalgebra/2_3/5.png){: width="50%" height="50%"} 
 - 2.2.6
+    - ![6](/images/linearalgebra/2_3/6.png){: width="50%" height="70%"} 
 - 2.2.7
+    - (1) ![7_1](/images/linearalgebra/2_3/7_1.png){: width="50%" height="80%"}
+    - (2) ![7_2](/images/linearalgebra/2_3/7-2.png){: width="50%" height="70%"}  
 
 
 <br/>
