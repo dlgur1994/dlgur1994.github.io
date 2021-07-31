@@ -12,6 +12,7 @@ math: true
 대칭 행렬 $$A$$가 영벡터가 아닌 모든 벡터 x에 대해,
 - 양의 정부호: &nbsp;&nbsp;$$x^TAx > 0$$<br/>
 - 양의 준정부호: &nbsp;&nbsp;$$x^TAx \geq 0$$<br/>
+
 $$x^TAx = \begin{bmatrix}x_1 & x_2 & x_3\end{bmatrix} \begin{bmatrix}2 & -1 & 0 \\ -1 & 2 & -1 \\ 0 & -1 & 2\end{bmatrix} \begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}$$
 <br/>
 $$= x_1^2 + (x_1 - x_2)^2 + (x_2 - x_3)^2 + x_3^2$$ 이므로<br/> 
