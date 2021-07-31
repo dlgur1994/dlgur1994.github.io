@@ -9,11 +9,9 @@ math: true
 ---
 
 ## 정부호와 준정부호
-행렬 $$A$$가 영벡터가 아닌 모든 벡터 x에 대해,
-양의 정부호: &nbsp;&nbsp;$$x^TAx > 0$$<br/>
-양의 준정부호: &nbsp;&nbsp;$$x^TAx \geq 0$$<br/>
-이는 대칭 행렬인 경우에만 주로 사용한다<br/>
-<br/>
+대칭 행렬 $$A$$가 영벡터가 아닌 모든 벡터 x에 대해,
+- 양의 정부호: &nbsp;&nbsp;$$x^TAx > 0$$<br/>
+- 양의 준정부호: &nbsp;&nbsp;$$x^TAx \geq 0$$<br/>
 $$x^TAx = \begin{bmatrix}x_1 & x_2 & x_3\end{bmatrix} \begin{bmatrix}2 & -1 & 0 \\ -1 & 2 & -1 \\ 0 & -1 & 2\end{bmatrix} \begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}$$
 <br/>
 $$= x_1^2 + (x_1 - x_2)^2 + (x_2 - x_3)^2 + x_3^2$$ 이므로<br/> 
@@ -49,7 +47,7 @@ $$tr(ABC) = tr(BCA) = tr(CAB)$$ &nbsp;&nbsp;-> trace trick
 (아래 두 식에서는 최종값이 정방행렬이기만 하면 됨)
 
 ## 행렬식
-$$det(A), det A, |A|$$ &nbsp; (A: 정방행렬)<br/>
+- $$det(A), det A, |A|$$ &nbsp; (A: 정방행렬)<br/>
 $$det([a]) = a$$<br/>
 
 - 스칼라가 아닐시 여인수 전개 이용 (재귀적)<br/>
@@ -59,14 +57,14 @@ $$M_{i,j}$$: 정방행렬 A에서 i행과 j행을 지워서 얻은 행렬의 행
 - 여인수<br/>
 $$C_{i,j} = (-1)^{i+j}M_{i,j}$$<br/>
 
-det(A) = $$\sum_{i=1}^NC_{i,j_0}a_{i,j_0} = \sum_{j=1}^NC_{i_0,j}a_{i_0,j}$$<br/>
+- det(A) = $$\sum_{i=1}^NC_{i,j_0}a_{i,j_0} = \sum_{j=1}^NC_{i_0,j}a_{i_0,j}$$<br/>
 
-- 2 X 2 행렬의 행렬식
+- 2 X 2 행렬의 행렬식<br/>
 $$det(\begin{bmatrix}a & b \\ c & d\end{bmatrix}) = ad - bc$$
-- 3 X 3 행렬의 행렬식
+- 3 X 3 행렬의 행렬식<br/>
 $$det(\begin{bmatrix}a & b & c \\ d & e & f \\ g & h & i\end{bmatrix}) = aei + bfg +cdh - ceg -bdi - afh$$
 
-- 성질
+- 성질<br/>
 $$det(A^T) = det(A)$$<br/>
 $$det(I) = 1$$<br/>
 $$det(AB) = det(A)det(B)$$<br/>
