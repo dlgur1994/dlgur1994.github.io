@@ -14,7 +14,7 @@ math: true
 $$a_{21}x_1 + a_{22}x_2 + \cdots + a_{2M}x_M = b_2$$<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;$$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$<br/>
 $$a_{N1}x_1 + a_{N2}x_2 + \cdots + a_{NM}x_M = b_N$$
-- $$\begin{bmatrix}a_{11} & a_{12} & \cdots & a_{1M} \\ a_{11} & a_{12} & \cdots & a_{1M} \\ \vdots & \vdots & \vdots & \vdots\\ a_{N1} & a_{N2} & \cdots & a_{NM}\end{bmatrix} \begin{bmatrix}x_1 \\ x_2 \\ \vdots \\ x_M\end{bmatrix} = \begin{bmatrix}b_1 \\ b_2 \\ \vdots \\ b_M\end{bmatrix}$$
+- <div style="text-align: left"> $$\begin{bmatrix}a_{11} & a_{12} & \cdots & a_{1M} \\ a_{11} & a_{12} & \cdots & a_{1M} \\ \vdots & \vdots & \vdots & \vdots\\ a_{N1} & a_{N2} & \cdots & a_{NM}\end{bmatrix} \begin{bmatrix}x_1 \\ x_2 \\ \vdots \\ x_M\end{bmatrix} = \begin{bmatrix}b_1 \\ b_2 \\ \vdots \\ b_M\end{bmatrix}$$ </div>
 - $$A = \begin{bmatrix}a_{11} & a_{12} & \cdots & a_{1M} \\ a_{11} & a_{12} & \cdots & a_{1M} \\ \vdots & \vdots & \vdots & \vdots\\ a_{N1} & a_{N2} & \cdots & a_{NM}\end{bmatrix}$$, $$x = \begin{bmatrix}x_1 \\ x_2 \\ \vdots \\ x_M\end{bmatrix}$$, $$b = \begin{bmatrix}b_1 \\ b_2 \\ \vdots \\ b_M\end{bmatrix}$$
 - $$A$$: 계수행렬(coefficient matrix), $$x$$: 미지수벡터(unknown vector), $$b$$: 상수벡터(constant vector)
 - $$Ax = b$$ ($$x \neq {b \over A}$$, 스칼라가 아니기 때문에 역행렬 이용해야 함)
