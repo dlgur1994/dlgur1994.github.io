@@ -12,7 +12,7 @@ math: true
 - 복수의 미지수를 포함하는 복수의 선형 방정식 (= 연립일차방정식)
 - $$a_{11}x_1 + a_{12}x_2 + \cdots + a_{1M}x_M = b_1$$<br/>
 $$a_{21}x_1 + a_{22}x_2 + \cdots + a_{2M}x_M = b_2$$<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;$$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;$$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$<br/>
 $$a_{N1}x_1 + a_{N2}x_2 + \cdots + a_{NM}x_M = b_N$$
 - $$\begin{bmatrix}a_{11} & a_{12} & \cdots & a_{1M} \\ a_{11} & a_{12} & \cdots & a_{1M} \\ \vdots & \vdots & \vdots & \vdots\\ a_{N1} & a_{N2} & \cdots & a_{NM}\end{bmatrix} \begin{bmatrix}x_1 \\ x_2 \\ \vdots \\ x_M\end{bmatrix} = \begin{bmatrix}b_1 \\ b_2 \\ \vdots \\ b_M\end{bmatrix}$$
 - $$A = \begin{bmatrix}a_{11} & a_{12} & \cdots & a_{1M} \\ a_{11} & a_{12} & \cdots & a_{1M} \\ \vdots & \vdots & \vdots & \vdots\\ a_{N1} & a_{N2} & \cdots & a_{NM}\end{bmatrix}$$, $$x = \begin{bmatrix}x_1 \\ x_2 \\ \vdots \\ x_M\end{bmatrix}$$, $$b = \begin{bmatrix}b_1 \\ b_2 \\ \vdots \\ b_M\end{bmatrix}$$
@@ -20,8 +20,8 @@ $$a_{N1}x_1 + a_{N2}x_2 + \cdots + a_{NM}x_M = b_N$$
 - $$Ax = b$$ ($$x \neq {b \over A}$$, 스칼라가 아니기 때문에 역행렬 이용해야 함)
 
 ## 역행렬
-- $$A^{-1}$$
-- $$A^{-1}A = AA^{-1} = I$$
+- 표현: $$A^{-1}$$
+- $$I = A^{-1}A = AA^{-1}$$
 - 행렬 A에 따라서 존재하지 않을 수도 있다.
 - 가역행렬(invertible matrix): 역행렬이 존재하는 행렬
 - 비가역행렬(non-invertible matrix): 역행렬이 존재하지 않는 행렬
@@ -57,7 +57,7 @@ $$x = A^{-1}b$$
 ## 선형 연립방정식과 선형 예측모형
 - $$x_{11}w_1 + x_{12}w_2 + \cdots + x_{1N}w_N = y_1$$<br/>
 $$x_{21}w_1 + x_{22}w_2 + \cdots + x_{2N}w_N = y_2$$<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;$$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;$$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$<br/>
 $$x_{N1}w_1 + x_{N2}w_2 + \cdots + x_{NN}w_N = y_N$$
 - $$Xw = y$$ ($$X$$: 계수행렬, $$w$$: 미지수벡터, $$y$$: 상수벡터)
 - 역행렬이 있다면,<br/>
@@ -79,7 +79,9 @@ $$x_1 + x_2 + x_3 = 3$$<br/>
 $$x_1 + x_2 + 2x_3 = 4 \approx 4.1$$<br/>
 - $$e = Ax - b$$ ($$e$$: 잔차)<br/> 
 $$e^Te = \|e\|^2 = (Ax - b)^T(Ax - b)$$ = 벡터 $$e$$의 놈을 최소화 하는 문제<br/>
-$$x = argmin_x e^Te = arg min_x (Ax - b)^T(Ax - b)$$ ($$arg min_xf(x)$$: f(X)를 가장 작게 만드는 $$x$$) => **최소자승문제(least square problem)**
+$$x = argmin_x e^Te = arg min_x (Ax - b)^T(Ax - b)$$<br/> 
+$$arg min_xf(x)$$: f(X)를 가장 작게 만드는 $$x$$<br/> 
+=> **최소자승문제(least square problem)**
 - $$Ax \approx b$$<br/>
 두 벡터가 같다고 가정한다면,<br/>
 $$A^TAx = A^Tb$$<br/>
@@ -94,7 +96,7 @@ $$x = A^+b$$
 - 2.4.1
     - ![1](/images/linearalgebra/2_4/1.png){: width="40%" height="40%"} 
 - 2.4.2
-    - ![2](/images/linearalgebra/2_4/2.png){: width="60%" height="40%"} 
+    - ![2](/images/linearalgebra/2_4/2.png){: width="60%" height="50%"} 
 - 2.4.3
     - ![3](/images/linearalgebra/2_4/3.png){: width="60%" height="100%"} 
 - 2.4.4
