@@ -90,7 +90,7 @@ N 차원 벡터 a는 N 차원의 공간에서
 - 벡터 $$w$$에 대한 벡터 $$x\prime$$의 투영성분<br/>
 $$\|x \prime ^{\|w}\| = {w^Tx \prime \over \|w\|}$$
 - 직선과 점 $$x\prime$$ 사이의 거리
-$$|{\|x\prime^{\|w} -\|w\|}| = |{{w^Tx\prime \over \|w\|} -\|w\|}| = {|w^Tx\prime - \|w\|^2 \over \|w\|} = {|w^Tx\prime - w_0| \over \|w\|}$$
+$$|{\|x\prime^{\|w} -\|w\|}| = |{{w^Tx\prime\over\|w\|}-\|w\|}| = {|w^Tx\prime - \|w\|^2 \over \|w\|} = {|w^Tx\prime - w_0| \over \|w\|}$$
 
 ## 연습문제
 - 3.1.1
