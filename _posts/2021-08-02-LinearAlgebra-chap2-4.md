@@ -93,24 +93,24 @@ $$\|x \prime ^{\|w}\| = {w^Tx \prime \over \|w\|}$$
 
 ## 연습문제
 - 3.1.1
-    - ![1](/images/linearalgebra/3_1/1.png){: width="40%" height="70%"} 
+    - ![1](/images/linearalgebra/3_1/1.png){: width="50%" height="80%"} 
 - 3.1.2
     - 남자배우 = 여자배우 + (남자 - 여자)
 - 3.1.3
-    - ![3](/images/linearalgebra/3_1/3.png){: width="40%" height="80%"} 
+    - ![3](/images/linearalgebra/3_1/3.png){: width="50%" height="100%"} 
 - 3.1.4
-    - ![4](/images/linearalgebra/3_1/4.png){: width="40%" height="30%"} 
+    - ![4](/images/linearalgebra/3_1/4.png){: width="50%" height="40%"} 
 - 3.1.5
-    - ![5](/images/linearalgebra/3_1/5.png){: width="40%" height="80%"} 
+    - ![5](/images/linearalgebra/3_1/5.png){: width="50%" height="100%"} 
 - 3.1.6
-    - ![6_1](/images/linearalgebra/3_1/6_1.png){: width="40%" height="50%"}
-    - ![6_2](/images/linearalgebra/3_1/6_2.png){: width="40%" height="80%"}  
+    - ![6_1](/images/linearalgebra/3_1/6_1.png){: width="50%" height="60%"}
+    - ![6_2](/images/linearalgebra/3_1/6_2.png){: width="50%" height="100%"}  
 - 3.1.7
-    - ![7](/images/linearalgebra/3_1/7.png){: width="40%" height="40%"} 
+    - ![7](/images/linearalgebra/3_1/7.png){: width="50%" height="50%"} 
 - 3.1.8
-    - ![8](/images/linearalgebra/3_1/8.png){: width="40%" height="50%"} 
+    - ![8](/images/linearalgebra/3_1/8.png){: width="40%" height="40%"} 
 - 3.1.9
-    - ![9](/images/linearalgebra/3_1/9.png){: width="40%" height="50%"} 
+    - ![9](/images/linearalgebra/3_1/9.png){: width="50%" height="60%"} 
 - 3.1.10
 - 3.1.11
 
