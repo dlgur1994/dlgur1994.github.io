@@ -1,138 +1,119 @@
 ---
 layout: post
-title: "2.4 선형 연립방정식과 역행렬"
-date: 2021-08-02 17:43:28 -0400
+title: "3.1 선형대수와 해석기하의 기초"
+date: 2021-08-03 22:57:28 -0400
 categories: [선형대수학]
 tags: [선형대수학]
 comments: true
 math: true
 ---
 
-## 선형 연립방정식
-- 복수의 미지수를 포함하는 복수의 선형 방정식 (= 연립일차방정식)
-- $$a_{11}x_1 + a_{12}x_2 + \cdots + a_{1M}x_M = b_1$$<br/>
-$$a_{21}x_1 + a_{22}x_2 + \cdots + a_{2M}x_M = b_2$$<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;$$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$<br/>
-$$a_{N1}x_1 + a_{N2}x_2 + \cdots + a_{NM}x_M = b_N$$
-- $$\begin{bmatrix}a_{11} & a_{12} & \cdots & a_{1M} \\ a_{11} & a_{12} & \cdots & a_{1M} \\ \vdots & \vdots & \vdots & \vdots\\ a_{N1} & a_{N2} & \cdots & a_{NM}\end{bmatrix} \begin{bmatrix}x_1 \\ x_2 \\ \vdots \\ x_M\end{bmatrix} = \begin{bmatrix}b_1 \\ b_2 \\ \vdots \\ b_M\end{bmatrix}$$
-- $$A = \begin{bmatrix}a_{11} & a_{12} & \cdots & a_{1M} \\ a_{11} & a_{12} & \cdots & a_{1M} \\ \vdots & \vdots & \vdots & \vdots\\ a_{N1} & a_{N2} & \cdots & a_{NM}\end{bmatrix}$$, $$x = \begin{bmatrix}x_1 \\ x_2 \\ \vdots \\ x_M\end{bmatrix}$$, $$b = \begin{bmatrix}b_1 \\ b_2 \\ \vdots \\ b_M\end{bmatrix}$$
-- $$A$$: 계수행렬(coefficient matrix), $$x$$: 미지수벡터(unknown vector), $$b$$: 상수벡터(constant vector)
-- $$Ax = b$$ ($$x \neq {b \over A}$$, 스칼라가 아니기 때문에 역행렬 이용해야 함)
+## 벡터의 기하학적 의미
+N 차원 벡터 a는 N 차원의 공간에서
+- 벡터 a의 값으로 표시되는 점
+- 원점과 벡터 a의 값으로 표시되는 점을 연결한 화살표(길이와 방향을 고정시킨 평행이동가능)
 
-## 역행렬
-- $$A^{-1}$$
-- $$A^{-1}A = AA^{-1} = I$$
-- 행렬 A에 따라서 존재하지 않을 수도 있다.
-- 가역행렬(invertible matrix): 역행렬이 존재하는 행렬
-- 비가역행렬(non-invertible matrix): 역행렬이 존재하지 않는 행렬
+## 벡터의 길이
+- 벡터 a의 길이 = $$\|a\| = \sqrt{a^Ta} = \sqrt{a_1^2 + \cdots + a_N^2}$$
 
-## 역행렬의 성질
-$$A^{-1}, B^{-1}, C^{-1}$$ 이 존재하면,
-- $$(A^T)^{-1} = (A^{-1})^T$$
-- $$(AB)^{-1} = B^{-1}A^{-1}$$
-- $$(ABC)^{-1} = C^{-1}B^{-1}A^{-1}$$
+## 스칼라와 벡터의 곱
+- 양의 스칼라 x 벡터: 방향은 바뀌지 않고, 스칼라 크기만큼 벡터의 길이가 커짐
+- 음의 스칼라 x 벡터: 방향이 반대가 되고, 스칼라 크기만큼 벡터의 길이가 커짐
 
-## 역행렬의 계산
-- $$A^{-1} = {1 \over {det(A)}}C^T = {1 \over {det(A)}}\begin{bmatrix}C_{1,1} & \cdots & C_{N,1} \\ \vdots & \vdots & \vdots \\ C_{1,N} & \cdots & C_{N,N}\end{bmatrix}$$
-- $$C_{i,j}$$: A의 i, j번째 원소에 대해 정의한 cofactor
-- $$C$$: 여인수행렬(matrix of cofactors)
-- $$C^T$$: 수반행렬(adjoint matrix, adjugate matrix) (=$$adj(A)$$)
-- $$det(A) = 0$$ 이면 역행렬이 존재하지 않는다
+## 단위벡터
+- 길이가 1인 벡터 (unit vector)
+- ex) $$\begin{bmatrix}1 \\ 0\end{bmatrix}, \begin{bmatrix}0 \\ 1\end{bmatrix}, \begin{bmatrix}1 \over \sqrt2 \\ 1 \over \sqrt2 \end{bmatrix}, \cdots$$
+- $$x \over \|x\|$$: 벡터 x가 가리키는 단위벡터 (영벡터 제외)
 
-## 역행렬에 대한 정리
-- Sherman-Morrison 공식
-    - 정방행렬 $$A$$, 벡터 $$u, v$$에 대해<br/>
-    $$(A + uv^T)^{-1} = A^{-1} - { {A^{-1}uv^TA^{-1}} \over {1 + v^TA^{-1}u} }$$
-    
-- Woodbury 공식
-    - $$\begin{bmatrix}A_{11} & A_{12} \\ A_{21} & A_{22} \end{bmatrix}^{-1} = \begin{bmatrix}A_{11}^{-1}(I + A_{12}FA_{11}^{-1}) & -A_{11}^{-1}A_{12}F \\ -FA_{21}A_{11}^{-1} & F\end{bmatrix}$$
-    - $$F = (A_{22} - A_{21}A_{11}^{-1}A_{12})^{-1}$$ or $$(A_{11} - A_{12}A_{22}^{-1}A_{21})^{-1}$$
+## 벡터의 합
+- 두 벡터를 이웃하는 변으로 가지는 평생사변형의 대각선 벡터
+- 한 벡터를 평행이동하여 다른 벡터의 끝점과 이은 벡터
 
-## 역행렬과 선형 연립방정식의 해
-- 행렬 A의 역행렬이 존재한다면,<br/>
-$$Ax = b$$<br/>
-$$A^{-1}Ax = A^{-1}b$$<br/>
-$$Ix = A^{-1}b$$<br/>
-$$x = A^{-1}b$$
+## 벡터의 선형조합
+- $$c_1x_1 + c_2x_2 + \cdots + c_Nx_N$$ ($$c$$: 스칼라, $$x$$: 벡터)
 
-## 선형 연립방정식과 선형 예측모형
-- $$x_{11}w_1 + x_{12}w_2 + \cdots + x_{1N}w_N = y_1$$<br/>
-$$x_{21}w_1 + x_{22}w_2 + \cdots + x_{2N}w_N = y_2$$<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;$$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $$\vdots$$<br/>
-$$x_{N1}w_1 + x_{N2}w_2 + \cdots + x_{NN}w_N = y_N$$
-- $$Xw = y$$ ($$X$$: 계수행렬, $$w$$: 미지수벡터, $$y$$: 상수벡터)
-- 역행렬이 있다면,<br/>
-$$w = X^{-1}y$$
+## 벡터의 차
+- 한 벡터가 가리키는 점으로부터 다른 벡터가 가리키는 점을 연결하는 벡터
 
-## 미지수의 수와 방정식의 수
-1. 방정식의 수가 미지수의 수와 같다 (N = M)
-    - 한 개의 해 존재 
-2. 방정식의 수가 미지수의 수보다 적다 (N < M)
-    - 무수히 많은 해가 존재
-3. 방정식의 수가 미지수의 수보다 많다 (N > M)
-    - 모든 조건을 만족하는 해가 하나도 존재할 수 없다 
+## Word2Vec
+- 단어들 사이의 관계로 벡터로 표현
+- ex) 일본 = 도쿄 + (한국 - 서울)
+    - (한국 - 서울): 서울에서 한국으로 향하는 벡터 = 수도 이름을 나라 이름으로 바꾸는 벡터 
 
-## 최소자승문제
-- 선형 연립방정식의 해가 존재하지 않을 때, 해가 정확하게 떨어지지 않아도 된다면<br/>
-$$x_1 + x_2 = 2$$<br/>
-$$x_2 + x_3 = 2$$<br/>
-$$x_1 + x_2 + x_3 = 3$$<br/>
-$$x_1 + x_2 + 2x_3 = 4 \approx 4.1$$<br/>
-- $$e = Ax - b$$ ($$e$$: 잔차)<br/> 
-$$e^Te = \|e\|^2 = (Ax - b)^T(Ax - b)$$ = 벡터 $$e$$의 놈을 최소화 하는 문제<br/>
-$$x = argmin_x e^Te = arg min_x (Ax - b)^T(Ax - b)$$<br/> 
-$$arg min_xf(x)$$: f(X)를 가장 작게 만드는 $$x$$<br/> 
-=> **최소자승문제(least square problem)**
-- $$Ax \approx b$$<br/>
-두 벡터가 같다고 가정한다면,<br/>
-$$A^TAx = A^Tb$$<br/>
-$$(A^TA)^{-1}$$ 이 존재한다면,<br/>
-$$(A^TA)^{-1}(A^TA)x = (A^TA)^{-1}A^Tb$$<br/>
-$$x = ((A^TA)^{-1}A^T)b$$
-- 행렬 A의 의사역행렬(pseudo inverse)<br/> 
-$$A^+ = (A^TA)^{-1})A^T$$<br/>
-$$x = A^+b$$
+## 유클리드 거리
+- 두 벡터가 가리키는 점 사이의 거리 (Euclidean distance)
+- 유클리드 거리 = 두 벡터의 차의 길이
+- $$\|a-b\| = \sqrt{\sum_{i=1}(a_i - b_i)^2} = \sqrt{\|a\|^2 + \|b\|^2 - 2a^Tb}$$
+- $$\|a-b\|^2 = \|a\|^2 + \|b\|^2 - 2a^Tb$$
+
+## 벡터의 내적과 삼각함수
+- $$a^Tb = \|a\|\|b\|cos \theta$$
+
+## 직교
+- 두 벡터 a와 b가 이루는 각이 90도이면 서로 직교, $$a \bot b$$
+- $$a^Tb = b^Ta = 0 \leftrightarrow a \bot b$$
+
+## 정규직교
+- N 개의 단위벡터 $$v_1, v_2, \cdots, v_N$$가 서로 직교할 때 (orthonormal)
+- $$\|v_i\| = 1 \leftrightarrow v_i^Tv_i = 1$$
+- $$v_i^Tv_J = 0 (i \neq j)$$
+
+## 코사인 유사도
+- 두 벡터 사이의 각의 코사인값
+- 두 벡터가 같은 방향을 가리킬수록 코사인 유사도가 높아진다. (최대값 1)
+- cosine similarity = $$cos \theta = {x^Ty \over \|x\|\|y\|}$$
+- cosine distance = 1 - cosine similarity = $$1 - {x^Ty \over \|x\|\|y\|}$$ 
+
+## 벡터의 분해와 성분
+- 어떤 두 벡터 a, b의 합이 다른 벡터 c가 될 때, c가 두 벡터 성분 a, b로 분해된다
+
+## 투영성분과 직교성분
+- 벡터 a를 다른 벡터 b에 직교하는 성분과 벡터 b에 평행한 성분으로 분해할 때, 평행한 선분은 벡터 b에 대한 투영성분(projection), 벡터 b에 직교하는 성분을 벡터 b에 대한 직교성분(rejection)
+- Projection: $$a^{\|b}$$
+- Rejection: $$a^{\bot b}$$
+- ![0](/images/linearalgebra/3_1/0.png){: width="70%" height="40%"} 
+- 투영성분의 길이: $$\|a^{\|b}\| = \|a\|cos \theta = {\|a\|\|b\| cos \theta \over \|b\|} = {a^Tb \over \|b\|} = {b^Ta \over \|b\|} = a^T {b \over \|b\|}$$
+- 벡터 b가 단위벡터라면, $$\|a^{\|b}\| = a^Tb$$, $$a^{\|b} = {a^Tb \over \|b\|}{b \over \|b\|} = {a^Tb \over \|b\|^2}b, a^{\bot b} = a - a^{\|b}$$
+
+## 직선의 방정식
+- 어떤 벡터 w가 있을 때, 원점에서 출발한 벡터 w가 가리키는 점을 지나면서 벡터 w에 수직인 직선의 방정식
+    - $$w^T(x-w) = 0$$ ($$x$$: 위의 임의의 점을 가리키는 벡터)
+    - $$=> w^Tx - \|w\|^2 = 0$$
+    - 이 직선과 원점 사이의 거리: $$\|w\|$$
+- 벡터 w에 수직인 직선의 방정식
+    - $$w$$와 방향이 같고 길이가 다른 벡터 $$w^\prime = cw$$을 지남
+    - $$w^{\prime T}x = \|w \prime \|^2 = cw^Tx - c^2\|w\|^2 = 0$$
+    - $$c\|w\|^2$$는 스칼라이므로, $$w^Tx - w_0 = 0$$ ($$w_0$$: 임의의 수)
+    - 이 직선과 원점 사이의 거리: $$c\|w\| = {w_0 \over \|w\|}$$
+
+## 직선과 점의 거리
+- 벡터 $$w$$에 대한 벡터 $$x\prime$$의 투영성분<br/>
+$$\|x \prime ^{\|w}\| = {w^Tx \prime \over \|w\|}$$
+- 직선과 점 $$x\prime$$ 사이의 거리
+$$|{\|x\prime^{\|w} -\|w\|}| = |{{w^Tx\prime \over \|w\|} -\|w\|}| = {|w^Tx\prime - \|w\|^2 \over \|w\|} = {|w^Tx\prime - w_0| \over \|w\|}$$
 
 ## 연습문제
-- 2.4.1
-    - ![1](/images/linearalgebra/2_4/1.png){: width="40%" height="40%"} 
-- 2.4.2
-    - ![2](/images/linearalgebra/2_4/2.png){: width="70%" height="60%"} 
-- 2.4.3
-    - ![3](/images/linearalgebra/2_4/3.png){: width="60%" height="100%"} 
-- 2.4.4
-    - ![4](/images/linearalgebra/2_4/4.png){: width="60%" height="60%"}
-- 2.4.5
-    ```python
-    from sklearn.datasets import load_boston
-    import numpy as np
-
-    boston = load_boston()
-    X = boston.data
-    y = boston.target
-    A = X[:4, [0, 4, 5, 6]]
-    b = y[:4]
-
-    np.linalg.inv(A) @ b
-    >>>
-    array([-3.12710043e+02, -1.15193942e+02,  1.44996465e+01, -1.13259317e-01])
-    ```
-- 2.4.6
-    ```python
-    from sklearn.datasets import load_boston
-    import numpy as np
-
-    boston = load_boston()
-    X = boston.data
-    y = boston.target
-
-    (np.linalg.inv(X.T@X) @ X.T) @ y
-    >>>
-    array([-9.28965170e-02,  4.87149552e-02, -4.05997958e-03,  2.85399882e+00,
-           -2.86843637e+00,  5.92814778e+00, -7.26933458e-03, -9.68514157e-01,
-           1.71151128e-01, -9.39621540e-03, -3.92190926e-01,  1.49056102e-02,
-           -4.16304471e-01])
-    ```
+- 3.1.1
+    - ![1](/images/linearalgebra/3_1/1.png){: width="40%" height="70%"} 
+- 3.1.2
+    - 남자배우 = 여자배우 + (남자 - 여자)
+- 3.1.3
+    - ![3](/images/linearalgebra/3_1/3.png){: width="40%" height="80%"} 
+- 3.1.4
+    - ![4](/images/linearalgebra/3_1/4.png){: width="40%" height="30%"} 
+- 3.1.5
+    - ![5](/images/linearalgebra/3_1/5.png){: width="40%" height="80%"} 
+- 3.1.6
+    - ![6_1](/images/linearalgebra/3_1/6_1.png){: width="40%" height="50%"}
+    - ![6_2](/images/linearalgebra/3_1/6_2.png){: width="40%" height="80%"}  
+- 3.1.7
+    - ![7](/images/linearalgebra/3_1/7.png){: width="40%" height="40%"} 
+- 3.1.8
+    - ![8](/images/linearalgebra/3_1/8.png){: width="40%" height="50%"} 
+- 3.1.9
+    - ![9](/images/linearalgebra/3_1/9.png){: width="40%" height="50%"} 
+- 3.1.10
+- 3.1.11
 
 <br/>
 <br/>
