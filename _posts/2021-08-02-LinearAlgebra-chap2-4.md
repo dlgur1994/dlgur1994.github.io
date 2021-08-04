@@ -113,7 +113,9 @@ $$|{\|x\prime^{\|w} -\|w\|}| = |{w^Tx\prime\over\|w\|}-\|w\|| = {|w^Tx\prime - \
 - 3.1.9
     - ![9](/images/linearalgebra/3_1/9.png){: width="50%" height="60%"} 
 - 3.1.10
+    - ![10](/images/linearalgebra/3_1/10.png){: width="50%" height="80%"} 
 - 3.1.11
+    - ![11](/images/linearalgebra/3_1/11.png){: width="50%" height="50%"} 
 
 <br/>
 <br/>
