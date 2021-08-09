@@ -14,10 +14,11 @@ math: true
 - 예시
     - $$x \in A$$
     - $$x \notin A$$
-    - $$A = {1, 2, 3} \rightarrow 1 \in A, 4 \notin A$$ 
+    - $$A = \{1, 2, 3\} \rightarrow 1 \in A, 4 \notin A$$ 
 
 ## 집합의 크기
 - $$|A| = card(A)$$
+- 집합의 원소의 갯수
 - 실수 구간 집합은 무한개의 원소를 가진 집합이다.
 
 ## 합집합과 교집합
@@ -61,6 +62,16 @@ math: true
     3. ```python
         A = frozenset(['HH', 'HT', 'TH', 'TT'])
         B = set([{}, 'HH', 'HT', 'TH', 'TT', ('HH', 'HT'), ('HH', 'TH'), ('HH', 'TT'), ('HT', 'TH'), ('HT', 'TT'), ('TH', 'TT'), ('HH', 'HT', 'TH'), ('HH', 'HT', 'TT'), ('HH', 'TH', 'TT'), ('HT', 'TH', 'TT'), ('HH', 'HT', 'TH', 'TT')])
+        print(A)
+        pinrt(type(A))
+        print(B)
+        print(type(B))
+
+        >>>
+        frozenset({'TH', 'HH', 'TT', 'HT'})
+        <class 'frozenset'>
+        set([{}, 'HH', 'HT', 'TH', 'TT', ('HH', 'HT'), ('HH', 'TH'), ('HH', 'TT'), ('HT', 'TH'), ('HT', 'TT'), ('TH', 'TT'), ('HH', 'HT', 'TH'), ('HH', 'HT', 'TT'), ('HH', 'TH', 'TT'), ('HT', 'TH', 'TT'), ('HH', 'HT', 'TH', 'TT')])
+        <class 'set'>
         ```
 - 6.1.2<br/>
     ```python
@@ -71,6 +82,12 @@ math: true
     print((A | B) & (A | C))
     print(A & (B | C))
     print((A & B) | (A & C))
+    
+    >>>
+    {1, 2, 3, 5}
+    {1, 2, 3, 5}
+    {1, 3}
+    {1, 3}
     ```
 
 
