@@ -58,6 +58,7 @@ math: true
     
     result = sp.optimize.linprog(c, A, b)
     result
+    
     >>>
     con: array([], dtype=float64)
     fun: -1400.0
@@ -70,6 +71,8 @@ math: true
     ```
 
 ## CVXPY를 이용한 선형계획법 문제 계산
+- 사이파이보다 더 직관적
+- 변수나 조건의 수가 아주 많을 경우에는 심볼릭 연산으로 인해 속도가 느려질 수 있다. (심볼릭 연산:  숫자를 다루지 않고 변수 상태에서 바로 처리를 하는 것)
 - ```python
     import cvxpy as cp
 
