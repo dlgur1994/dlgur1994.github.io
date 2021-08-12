@@ -39,7 +39,7 @@ math: true
 - 여집합(complement)
     - $$A^C$$
     - 집합 A에 속하지 않는 원소로만 이루어진 부분집합
-    - $$A^C = U - A$$
+    - $$A^C = \Omega - A$$
 
 ## 공집합
 - 공집합(null set): $$\emptyset$$
