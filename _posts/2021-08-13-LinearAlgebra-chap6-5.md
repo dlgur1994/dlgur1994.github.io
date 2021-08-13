@@ -25,7 +25,7 @@ math: true
 
 ## 독립
 - $$P(A, B) = P(A)P(B)$$ 가 성립하면 두 사건 A와 B는 서로 독립
-- A와 B가 독립이라면 $$P(A\|B) = {P(A,B) \over P(B)} = {P(A)P(B) \over P(B)} = P(A)$$
+- A와 B가 독립이라면 $$P(A | B) = {P(A,B) \over P(B)} = {P(A)P(B) \over P(B)} = P(A)$$
 
 ## 원인과 결과, 근거와 추론, 가정과 조건부 결론
 - $$P(A, B) = P(A\|B)P(B)$$ (결합확률의 정의 이용)
