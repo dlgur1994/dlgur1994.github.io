@@ -39,7 +39,7 @@ $$= P(A|B, C)P(B,C)$$
 ## 사슬 법칙
 - $$P(X_1, X_2) = P(X_1)P(X_2|X_1)$$
 - $$P(X_1, X_2, X_3) = P(X_3|X_1, X_2)P(X_1, X_2) = P(X_1)P(X_2|X_1)P(X_3|X_1, X_2)$$
-$$\vdots$$
+- $$\vdots$$
 - $$P(X_1, \cdots, X_N) = P(X_1) \prod_{i=2}^N P(X_i|X_1, \cdots, X_{i-1})$$
 
 ## 확률변수
