@@ -14,8 +14,8 @@ math: true
 - 새로운  데이터가 들어왓을 때 이전 데이터에 대한 분석을 할 필요 없음
 - $$P(A|B) = {P(B|A)P(A) \over P(B)}$$
     - $$P(A)$$: 사전확률(prior)
-    - $$P(A|B)$$: 사후확률(posterior)
-    - $$P(B|A)$$: 가능도(likelihood)
+    - $$P(A \vert B)$$: 사후확률(posterior)
+    - $$P(B \vert A)$$: 가능도(likelihood)
     - $$P(B)$$: 정규화 상수(normalizing constant, evidence)
 
 ## 베이즈 정리의 확장 1
@@ -27,7 +27,7 @@ math: true
 ## 검사 시약 문제
 - D: 병에 걸리는 경우
 - S: 양성 반응을 보이는 경우
-- $$P(S|D) = 0.99, P(D) = 0.002, P(S|D^C) = 0.05$$ 라면
+- $$P(S \vert D) = 0.99, P(D) = 0.002, P(S \vert D^C) = 0.05$$ 라면
 - $$P(D|S) = {P(S|D)P(D) \over P(S)} = {P(S|D)P(D) \over P(S,D)+P(S,D^C)} = {P(S|D)P(D) \over P(S|D)P(D)+P(S|D^C)(1-P(D))} = 0.038$$
 
 ## 베이즈 정리의 확장 2
