@@ -122,21 +122,21 @@ $$\rightarrow x_e = Ax_g, x_g = A^{-1}x_e = Tx_e$$ ($$T$$: 변환행렬)
 
 ### 연습문제
 - 3.2.1
-    - ![1](/images/linearalgebra/3_2/1.png){: width="40%" height="40%"} 
+    - ![1](/images/linearalgebra/3_2/1.png){: width="60%" height="100%"} 
 - 3.2.2
-    - ![2](/images/linearalgebra/3_2/2.png){: width="40%" height="40%"}
+    - ![2](/images/linearalgebra/3_2/2.png){: width="100%" height="100%"}
 - 3.2.3
-    - ![3](/images/linearalgebra/3_2/3.png){: width="40%" height="40%"}
+    - ![3](/images/linearalgebra/3_2/3.png){: width="100%" height="100%"}
 - 3.2.4
-    - ![4](/images/linearalgebra/3_2/4.png){: width="40%" height="40%"} 
+    - ![4](/images/linearalgebra/3_2/4.png){: width="60%" height="100%"} 
 - 3.2.5
-    - ![5](/images/linearalgebra/3_2/5.png){: width="40%" height="40%"}  
+    - ![5](/images/linearalgebra/3_2/5.png){: width="100%" height="100%"}  
 - 3.2.6
-    - ![6](/images/linearalgebra/3_2/6.png){: width="40%" height="40%"}   
+    - ![6](/images/linearalgebra/3_2/6.png){: width="70%" height="100%"}   
 - 3.2.7
-    - ![7](/images/linearalgebra/3_2/7.png){: width="40%" height="40%"}   
+    - ![7](/images/linearalgebra/3_2/7.png){: width="100%" height="100%"}   
 - 3.2.8
-    - ![8](/images/linearalgebra/3_2/8.png){: width="40%" height="40%"}    
+    - ![8](/images/linearalgebra/3_2/8.png){: width="60%" height="100%"}    
 
 <br/>
 <br/>
