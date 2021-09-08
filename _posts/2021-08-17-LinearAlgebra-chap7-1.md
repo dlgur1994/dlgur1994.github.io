@@ -2,8 +2,8 @@
 layout: post
 title: "7.1 확률적 데이터와 확률변수"
 date: 2021-08-17 23:00:28 -0400
-categories: [선형대수학]
-tags: [선형대수학]
+categories: [데이터 사이언스 수학]
+tags: [확률론]
 comments: true
 math: true
 ---

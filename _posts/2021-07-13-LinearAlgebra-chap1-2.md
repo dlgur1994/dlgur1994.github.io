@@ -2,7 +2,7 @@
 layout: post
 title: "1.2 수열과 집합의 합과 곱"
 date: 2021-07-13 21:19:28 -0400
-categories: [선형대수학]
+categories: [데이터 사이언스 수학]
 tags: [선형대수학]
 comments: true
 math: true

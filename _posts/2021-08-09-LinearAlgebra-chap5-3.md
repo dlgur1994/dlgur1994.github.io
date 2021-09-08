@@ -2,7 +2,7 @@
 layout: post
 title: "5.3 선형계획법 문제와 이차계획법 문제"
 date: 2021-08-09 13:50:28 -0400
-categories: [선형대수학]
+categories: [데이터 사이언스 수학]
 tags: [선형대수학]
 comments: true
 math: true

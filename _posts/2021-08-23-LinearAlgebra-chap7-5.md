@@ -1,14 +1,35 @@
 ---
 layout: post
-title: "7.2 기댓값과 확률변수의 변환"
-date: 2021-08-19 13:32:28 -0400
+title: "7.5 공분산과 상관계수"
+date: 2021-08-23 23:22:28 -0400
 categories: [데이터 사이언스 수학]
 tags: [확률론]
 comments: true
 math: true
 ---
 
-### 확률변수의 기댓값
+### 표본공분산
+- 표본공분산(sample covariance): 자료가 평균값으로부터 얼마나 떨어져 있는지를 나타냄
+- $$s_{xy} = {1 \over N} \sum_{i=1}^N (x_i - \bar x)(y_i - \bar y)$$ ($$x_i, y_i$$: i번째의 x 자료와 y자료의 값, $$\bar x \bar y$$: x자료와 y자료의 표본평균)
+- 평균값 위치와 표본 위치를 연결하는 사각형의 면적을 사용
+- 자료의 위치에 따라 값의 부호가 달라짐
+    - ![1](/images/linearalgebra/6_5/1.png){: width="100%" height="100%"}
+
+### 표본상관계수
+- 표본상관계수(sample correlation coeifficient): 
+- $$r_{xy} = {s_{xy} \over \sqrt{s_x^2 \cdot s_y^2}}$$ (공분산을 각각의 표본표준편차값으로 나누어 정규화) $$\rightarrow$$ 피어슨(Pearson) 상관계수
+
+### 확률변수의 공분산과 상관계수
+### 비선형 상관관계
+### 앤스콤 데이터
+### 다변수 확률변수의 표본공분산
+### 다변수 확률변수의 공분산
+### 연습문제
+- 7.5.1
+    - ```python
+        from sklearn.datasets import load_iris
+    ```
+
 - 기댓값(expectation)
     - 확률변수의 확률밀도함수를 통해 얻은 확률변수의 이론적 평균값 (= 평균)
     - $$E[X]$$ ($$X$$: 확률변수)

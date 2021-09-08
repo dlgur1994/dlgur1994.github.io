@@ -2,7 +2,7 @@
 layout: post
 title: "7.6 조건부기댓값과 예측 문제"
 date: 2021-08-23 23:22:28 -0400
-categories: [수학]
+categories: [데이터 사이언스 수학]
 tags: [확률론]
 comments: true
 math: true

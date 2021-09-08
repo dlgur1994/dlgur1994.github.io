@@ -2,7 +2,7 @@
 layout: post
 title: "6.6 베이즈 정리"
 date: 2021-08-13 15:56:28 -0400
-categories: [선형대수학]
+categories: [데이터 사이언스 수학]
 tags: [선형대수학]
 comments: true
 math: true
