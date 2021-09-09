@@ -2,7 +2,7 @@
 layout: post
 title: "3.3 고유값 분해"
 date: 2021-08-06 16:26:28 -0400
-categories: [데이터 사이언스 스쿨 수학]
+categories: [데이터 사이언스 수학]
 tags: [선형대수학]
 comments: true
 math: true
