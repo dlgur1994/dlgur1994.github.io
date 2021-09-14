@@ -60,6 +60,7 @@ math: true
 - $$standard \ deviation = \sqrt {variance}$$
 - $$v_{biased} = s_{biased}^2 = {1 \over N} \sum_{i=1}^N (x_i - \bar x)^2$$
 - $$v_{unbiased} = s_{unbiased}^2 = {1 \over N-1} \sum_{i=1}^N (x_i - \bar x)^2$$
+    - 표본 분산이 모집단 분산에 맞춰서 동일하게 보정된 것  
 
 ### 표본비대칭도
 - 표본비대칭도(sample skewness): 평균과의 거리의 세제곱을 이용하여 구한 특징값
