@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "7.3 분산과 표준편차"
-date: 2021-09-15 23:14:28 -0400
+date: 2021-08-20 23:14:28 -0400
 categories: [데이터 사이언스 수학]
 tags: [확률론]
 comments: true
