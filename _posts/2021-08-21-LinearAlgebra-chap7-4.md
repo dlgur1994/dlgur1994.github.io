@@ -28,9 +28,9 @@ math: true
     - $$p_{X \vert Y}(x \vert y) = {p_{XY}(x,y) \over P_Y(y)}$$
     - $$p_{Y \vert X}(y \vert x) = {p_{XY}(x,y) \over P_X(x)}$$
     - y=A 일 때의 결합확률질량함수의 단면
-        - ![1](/images/linearalgebra/7_4/1.png){: width="50%" height="100%"}
+        - ![1](/images/linearalgebra/7_4/1.png){: width="40%" height="80%"}
     - y=A 일 때의 확률의 합
-        - ![2](/images/linearalgebra/7_4/2.png){: width="50%" height="100%"}
+        - ![2](/images/linearalgebra/7_4/2.png){: width="40%" height="80%"}
 
 ### 다변수 연속확률변수
 - 연속확률분포에서는 이산확률분포와 같이 단순사건을 이용한 확률 정의가 불가하므로 단변수 연속확률변수같이 누적확률분포함수를 먼저 정의한 후 이를 미분하여 확률밀도함수를 정의
