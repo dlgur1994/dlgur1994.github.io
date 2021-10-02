@@ -44,6 +44,20 @@ math: true
 ### 연습문제
 - 9.1.1
     - ```python
+      # CRIM: 
+      # ZN: 
+      # INDUS: </br>
+      # CHAS: 베르누이분포 </br>
+      # NOX: 베터분포 </br>
+      # RM: </br>
+      # AGE: </br>
+      # DIS: </br>
+      # RAD: </br>
+      # TAX: </br>
+      # PTRATIO: </br>
+      # B: </br>
+      # LSTAT: </br>
+      # NEDV: </br>
       ```
 - 9.1.2
     - ```python
@@ -52,4 +66,4 @@ math: true
 <br/>
 <br/>
 이 글은 ['데이터 사이언스 스쿨 수학편'](https://datascienceschool.net/02%20mathematics/00.00%20소개의%20글.html)을 정리한 것입니다.
-질문이나 오류가 있다면 댓글 남겨주세요.
+질문이나 오류가 있다면 댓글 남겨주세요. 
