@@ -3,7 +3,7 @@ layout: post
 title: "LeetCode 0049 Group Anagrams"
 date: 2021-10-10 13:34:28 -0400
 categories: [Problem Solving]
-tags: [LeetCode, Python, Combinatorics, DynamicProgramming, Math]
+tags: [LeetCode, Python, HashTable, Sorting, String]
 comments: true
 ---
 
